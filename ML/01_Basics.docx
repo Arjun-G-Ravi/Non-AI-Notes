@@ -1,0 +1,16 @@
+﻿Machine Learning
+
+	Machine Learning (ML) is a field of artificial intelligence focused on the development of algorithms and models that enable computers to learn from data and improve their performance on specific tasks. Instead of being explicitly programmed, these algorithms use statistical techniques to identify patterns, relationships, and trends within the data.
+
+Types of ML
+	1. Supervised ML: 
+    • Labelled data for training
+    • Regression, Classification
+	2. Unsupervised ML: 
+    • Unlabelled data
+    • Clustering, Dimensionality reduction, Anomaly detection
+	3. Semi supervised ML: 
+    • Mixture of labelled and unlabelled data. The qty of unlabeled data will be small. But it will vastly enhance the model’s performance.
+    • The algorithm leverages the small amount of labeled data to guide its learning process, using the labeled examples to build a model and then extending its predictions to the unlabeled data.
+
+
