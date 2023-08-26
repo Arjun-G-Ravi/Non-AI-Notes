@@ -6,7 +6,7 @@ Types of ML
 
 	1. Supervised ML: 
   		  • Labelled data for training
-  		  • Regression, Classification
+  		  • Regression [Predict an exact value], Classification [Predicting 			the class]
 	2. Unsupervised ML: 
   		  • Unlabelled data
  		  • Clustering, Dimensionality reduction, Anomaly detection
@@ -19,15 +19,15 @@ Basic ML workflow
     1) Data collection
     2) Data preprocessing, splitting and feature engineering
     3) Model selection 
-    a) Linear regression, Polynomial regression, Regression trees -Regression 
-    b) Logistic regression, Decision trees, SVM, K-nearest neighbours – Classf
-    c) PCA – Dimensionality reduction
-    d) K-means – Clustering
-    e) NN, GANs, Transformer models – pretty much everything 
+    		a) Linear regression, Polynomial regression, Regression trees -				Regression 
+    		b) Logistic regression, Decision trees, SVM, K-nearest neighbours – 			Classfication
+   		c) PCA – Dimensionality reduction
+    		d) K-means – Clustering
+    		e) NN, GANs, Transformer models – pretty much everything 
     4) Model training
-    • Define loss function
-    • Define Optimisation algorithm (Gradient Descent, etc.)
-    • Update parameters – Backpropogation
+    		• Define loss function
+    		• Define Optimisation algorithm (Gradient Descent, etc.)
+    		• Update parameters – Backpropogation
     5) Model evaluation - accuracy, precision, recall, F1-score, MSE, etc.
     6) Model deployment/ monitoring/ maintainance
 
