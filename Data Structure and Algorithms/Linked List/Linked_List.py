@@ -48,10 +48,6 @@ class LinkedList:
             new_node = Node(data, prev_node.next)
             prev_node.next = new_node
 
-        
-
-
-    # insert at particular position
-    # delete at particular position
+            # delete at particular position
  
  
