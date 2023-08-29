@@ -67,8 +67,12 @@ class LinkedList:
                 prev_node = prev_node.next
 
             prev_node.next = prev_node.next.next
+    def insert_from_list(self,list):
+        for i in list:
+            self.insert_end(i)
+        return 
 
-
+# reverse
 
  
  
