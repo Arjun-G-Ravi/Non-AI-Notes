@@ -19,7 +19,7 @@ class LinkedList:
                 my_node = my_node.next
             my_node.next = new_node
 
-    def print(self):
+    def display(self):
         my_node = self.head
         print(my_node.data,end=' ')
         while my_node.next != None:
@@ -27,16 +27,18 @@ class LinkedList:
             print(f'-> {my_node.data}', end =' ')
         print()
 
-    def len(self):
+    def length(self):
         new_node = self.head
         if self.head.data == None:
-            print(0)
+            l = 0
+            # print(l)
         else:
             l = 1
             while new_node.next != None:
                 new_node = new_node.next
                 l += 1
-            print(l)
+            # print(l)
+        return l
 
     def insert(self, data, index):
         if self.head.data == None:
@@ -48,6 +50,22 @@ class LinkedList:
             new_node = Node(data, prev_node.next)
             prev_node.next = new_node
 
-            # delete at particular position
+    def delete(self, index):
+        # print(index, self.length())
+        if index >= self.length():
+            print("Index out of range")
+        elif index == 0:
+            if self.head.next:
+                self.head = self.head.next
+            else:
+                self.head.data = None
+        else:
+            prev_node = self.head
+            for _ in range(index -1):
+                prev_node = prev_node.next
+
+            prev_node.next = prev_node.next.next
+
+
  
  
