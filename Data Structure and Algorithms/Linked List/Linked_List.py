@@ -6,7 +6,10 @@ class Node:
                          
 class LinkedList:
     def __init__(self):
-        self.head = Node(None, None) 
+        self.head = Node(None, None)
+
+    def get_head(self):
+        return self.head.data        
 
 
     def insert_end(self, data):
@@ -64,6 +67,7 @@ class LinkedList:
                 prev_node = prev_node.next
 
             prev_node.next = prev_node.next.next
+
 
 
  
