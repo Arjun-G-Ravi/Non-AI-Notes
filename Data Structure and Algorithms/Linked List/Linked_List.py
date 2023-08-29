@@ -51,9 +51,8 @@ class LinkedList:
             prev_node.next = new_node
 
     def delete(self, index):
-        # print(index, self.length())
         if index >= self.length():
-            print("Index out of range")
+            raise Exception("Index out of range")
         elif index == 0:
             if self.head.next:
                 self.head = self.head.next
