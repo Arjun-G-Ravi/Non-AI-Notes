@@ -1,4 +1,4 @@
-# Most important Mathematics for ML
+# Most important Mathematics topics for ML
 
 1. Linear Algebra
     - Analytic Geometry
