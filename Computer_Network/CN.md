@@ -119,6 +119,7 @@ The TCP/IP model consists of four distinct layers, each with its own set of prot
 
 ### 2. Switch
  - A switch is a fundamental networking device that operates at the data link layer (Layer 2) of the OSI model. 
+ - Switches are more advanced, capable, and efficient devices that have largely replaced bridges in modern network environments. 
  - Switches are essential for efficiently and intelligently forwarding data packets between devices in a network. 
  - Used to join multiple computers together with  in one local area network (LAN).
  - Devices connected to switch will be on same subnet.
