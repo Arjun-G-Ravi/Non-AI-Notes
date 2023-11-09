@@ -111,6 +111,7 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
     3. tar -czf #EndFileName.tar# file1 file2 file3: To create and compress the archive all in one
  38. nano: It is an in-built text editor in linux
  39. alias: We can rename different keywords to be custom commands
+ 40. more
     
 
 
