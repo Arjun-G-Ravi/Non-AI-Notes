@@ -119,15 +119,27 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
         - ln #original# #link#
     2. Softlink/ Symbolic link: A softlink to a file is like a copy of that file, but if any change in one will be reflected in the other(same as hard link). If you delete one, the other WILL NOT persist, as the link is pointing to the file itself, not the memory location
         - ln -s #original# #link#
-42. su: Lets you switch to a different terminal just for that terminal instance.
-43. 
-
-
-
-gf
-
-
-
-
-
-
+42. su: Lets you switch users to a different terminal just for that terminal instance.
+43. sudo: Super user do - Lets you run commands as the root user, with elevated permissions if you have administrative permissions. This is generally required if you are making changes that affects multiple users.
+44. passwd: To change, expire, delete, etc. our or other user's (if you have root access) passwords.
+45. chown: Lets us change ownership of files and directories.
+46. chmod (Change mode): To Changing Permissions
+    - Format: chmod #mode# #file#
+    ```
+    Mode includes the following
+     - who
+        - u: User (owner) 
+        - g: Group
+        - o: Others
+        - a: all of this
+     - What
+        - minus sign(-): Removes permission
+        - plus sign(+): Adds permission
+        - equal to sign(=): Set a permission and removes others
+     - Which
+        - r
+        - w
+        - x
+    ```
+    Eg: chmod ug+rw file1.txt : This add read and write permission to the user and group for file1.txt
+47. ranger: Open ranger - a terminal file system manager
