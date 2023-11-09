@@ -109,11 +109,18 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
     1. tar -xf #EndFileName.tar# file1 file2 file3: To extract the archive
     2. tar -tf #ArchiveName#: To view contents of the archive
     3. tar -czf #EndFileName.tar# file1 file2 file3: To create and compress the archive all in one
- 38. nano: It is an in-built text editor in linux
- 39. alias: We can rename different keywords to be custom commands
- 40. more
-    
-
+38. nano: It is an in-built text editor in linux
+39. alias: We can rename different keywords to be custom commands. This has to be put on config file for fish, bashrc for bash in home directory.
+40. xargs: Some commands expect arguments for its functioning. xargs lets us pipe the output of another command (stdout) as the arguments of the command.
+    - cat file1|xargs touch: Creates all the filenames present in file1
+    - find . -size +1G | xargs rm: Remove all files in the current directory that is larger than 1 GB.
+41. ln: Links
+    1. Hardlink: A hardlink to a file is like a copy of that file, but if any change in one will be reflected in the other. If you delete one, the other WILL persist, as it is pointing to the same thing in memory.
+        - ln #original# #link#
+    2. Softlink/ Symbolic link: A softlink to a file is like a copy of that file, but if any change in one will be reflected in the other(same as hard link). If you delete one, the other WILL NOT persist, as the link is pointing to the file itself, not the memory location
+        - ln -s #original# #link#
+42. su: Lets you switch to a different terminal just for that terminal instance.
+43. 
 
 
 
