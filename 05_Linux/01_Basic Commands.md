@@ -143,3 +143,9 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
     ```
     Eg: chmod ug+rw file1.txt : This add read and write permission to the user and group for file1.txt
 47. ranger: Open ranger - a terminal file system manager
+48. source: To activate virtual environment
+    - source "/home/arjun/AI_ENV/bin/activate.fish"
+    - source "/home/arjun/AI_ENV/bin/activate"
+49. Open terminal
+    - bash: Open bash
+    - fish: Open fish
