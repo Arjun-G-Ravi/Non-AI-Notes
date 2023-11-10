@@ -18,7 +18,7 @@
    - git push --force: Force push the current repo to remote. This will overwrite commit history
 10. PULL: It is used to fetch and download content from a remote repository and immediately update the local repository to match that content.Conceptually, you can think of git pull as a combination of git fetch followed by git merge.
     - git pull: Fetch the specified remote’s copy of the current branch and immediately merge it into the local copy.
-    - 
+    - git pull --rebase: The --rebase option can be used to ensure a linear history by preventing unnecessary merge commits.
 11. BRANCHING THINGS
    1.  git branch: Lets you see all the branches.
    2.  git checkout -b #branchName#: Create a new branch
