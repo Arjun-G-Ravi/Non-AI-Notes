@@ -34,6 +34,7 @@
     4.  git reset --hard #CommitVal#: This not just undos the commit but also deletes the changes they have made
 13. GIT CONFIGURATION
     - git config pull.rebase false: You are calling for manual merge conflict
+    - git config --global credential.helper cache: Remember credentials
 
 
 # Local Git Workflow

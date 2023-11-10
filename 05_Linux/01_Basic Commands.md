@@ -149,3 +149,4 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
 49. Open terminal
     - bash: Open bash
     - fish: Open fish
+50. nvidia-smi: Details about NVIDIA graphics card
