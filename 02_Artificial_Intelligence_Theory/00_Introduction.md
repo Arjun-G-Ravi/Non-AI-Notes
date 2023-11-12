@@ -25,9 +25,3 @@ Another defenition of AI is the development of algorithms and software that enab
 6. Computer Egineering
 7. Control Theory
 8. Computational Linguistics
-   
-<!-- # Agent
-An agent is just something that operate autonomously, perceive their environment, persist over a prolonged time period, adapt to change, and create and pursue goals. 
-A rational agent is one that acts so as to achieve the best outcome or, when there is uncertainty, the best expected outcome. -->
-
-### History of AI
