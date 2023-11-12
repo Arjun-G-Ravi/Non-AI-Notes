@@ -1,4 +1,5 @@
 # Basic Terminologies 
+
 ## 1. Intelligent Agent
 - An agent is just something that operate autonomously, perceive their environment, persist over a prolonged time period, adapt to change, and create and pursue goals. An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.
 - Mathematically speaking, we say that an agent’s behavior is described by the agent function that maps any given percept sequence to an action.
@@ -32,6 +33,7 @@ A sequence of action that takes us from initial state to final state. The optima
 ## Percept Sequence
 - An agent’s percept sequence is the complete history of everything the agent has ever perceived.
 - An agent’s choice of action at any given instant can depend on the entire percept sequence observed to date, but not on anything it hasn’t perceived.
+
 
 
 # Search problem
