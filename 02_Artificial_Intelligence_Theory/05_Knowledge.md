@@ -24,5 +24,5 @@ A⊨B means that in every world where A is true, B is also true. We want our AI 
 Process of deriving new sentences from old ones. 
 Every inference is just: Does KnowledgeBase ⊨ P ?
 
-
+Logic Rules, discrete math stuff like modus ponens, 
 2.26
