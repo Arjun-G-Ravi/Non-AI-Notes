@@ -55,8 +55,6 @@ Eg:
     - **tmp**: Contains temperory files
     - **proc**: Illusionary file system that does't exist on the disk. It is created by the linux kernel on the memory, to keep track of running processes.
 
-
-
 # Terminal and Shell
 The terminal, also known as a command-line interface (CLI) or console, is a text-based interface that allows users to interact with the shell(and thus the OS) by typing commands. It serves as a user interface for entering and executing commands. 
 

@@ -151,3 +151,7 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
     - bash: Open bash
     - fish: Open fish
 51. nvidia-smi: Details about NVIDIA graphics card
+52. uname -a: Tells a lot about the user and the system you are using
+53. ifconfig, id, ip, netstat, ss: A lot of network stuff
+54. env: Environmental variables 
+55. apropos <words>: Identifies commands related to the words
