@@ -68,7 +68,18 @@ The various topologies are:
     - No security
     - As load increases, performance decreases
  3. Star: Every node is connected to each other with a central node, which generally is a hub or a switch
-    - 
+    - Centralised management
+    - All traffic pass though the central node
+    - Easy to design and implement
+    - Scalable
+    - Failure/ Overloading in central node can be fatal
+    - High cost for hub/ switch
+ 4. Mesh topology: All nodes connected to each other
+    - Fault tolerant and reliable
+    - Expensive, and impractical for large networks
+    - Issues with broadcast messages
+    - Least traffic
+ 5. Hybrid Topology: Mixing multiple topologies as per need
 
 # Communication
 Transfer of data between two nodes
