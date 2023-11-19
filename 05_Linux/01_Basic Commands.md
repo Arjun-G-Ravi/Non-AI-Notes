@@ -155,3 +155,5 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
 53. ifconfig, id, ip, netstat, ss: A lot of network stuff
 54. env: Environmental variables 
 55. apropos <words>: Identifies commands related to the words
+56. 
+57. https://www.youtube.com/watch?v=vX3krP6JmOY&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=5&ab_channel=NetworkChuck``
