@@ -10,6 +10,7 @@ They are of two types:
    Eg: BFS, DFS
  - Informed search: A problem specific knowledge guide the search.
    Eg: A*
+
 ## Node
 In the search problem, each state is represented as a node in a graph. 
 Each node has to keep track of:
@@ -26,7 +27,6 @@ Set of all states that we can next explore, but haven't explored.
 
 ## Visisted
 Set of states, that have aldready been explored. There is no reason to explore them anymore.
-
 
 ## Huristic Function
 A heuristic function is commonly employed to estimate the cost or value associated with reaching a goal state from a given state.
