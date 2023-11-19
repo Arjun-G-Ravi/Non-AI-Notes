@@ -1,5 +1,5 @@
 # Computer Network
-A network can be defined as a group of computers and other devices connected in some way so as to be able to exchange data.Each of the devices on the network can be thought of as a node, each node has a unique address.
+A network can be defined as a group of computers and other devices connected in some way so as to be able to exchange data. Each of the devices on the network can be thought of as a node, each node has a unique address.
 
 # 1. TYPES OF COMPUTER NETWORK
 1. PAN - Personal Area Network
