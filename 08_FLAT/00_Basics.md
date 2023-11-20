@@ -24,5 +24,24 @@ A Non-deterministic Finite Automaton (NFA) is another type of Finite State Machi
 - Every DFA is a NFA, but not vice versa.
 - For every NFA, there is an equivalent DFA.
 
+# Epsilon NFA
+An Epsilon-Nondeterministic Finite Automaton (ε-NFA or ENFA) is an extension of a Nondeterministic Finite Automaton (NFA) that includes the ability to make "epsilon transitions" (ε-transitions). An epsilon transition allows the automaton to move from one state to another without consuming any input symbol.
+- Every state on getting epsilon goes to itself also
+- Epsilon closure: All the states that can be reached by only seeing epsilon.
+
+![Alt text](<Screenshot from 2023-11-20 20-57-08.png>)
+
+
+### Minimisation using Myhill-Nerdoe Theorem
+![Alt text](<Screenshot from 2023-11-20 20-33-29.png>)
+![Alt text](<Screenshot from 2023-11-20 20-38-32.png>) 
+
+# Finite Automata with Output - Mealy machine and Moore Machine
+![Alt text](<Screenshot from 2023-11-20 20-45-32.png>)
+
+
+
+# Regular Expression
+https://www.youtube.com/watch?v=upu_TeZImN0&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=45&ab_channel=NesoAcademy
 
 
