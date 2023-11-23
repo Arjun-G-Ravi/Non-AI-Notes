@@ -20,6 +20,7 @@ Set of rules that governs data communication.
 ![Alt text](OSI-7-layers.jpg)
 - The communication between two hosts, using the osi model is shown
 ![Alt text](<Interaction between layers in the OSI Model.JPG>)
+- The intermediate nodes will conly have access to the phy, data link and network layer information.
 
 7. Application Layer:
  - Provides an interface between application and user
@@ -53,9 +54,11 @@ Set of rules that governs data communication.
 # TCP/IP model
 
 - Transmission Control Protocol/ Internet Protocol
-- Heirarchical protocol, made up of interactive modules- each providing a special funcitonality
--  
+- This model is used for networking all over the world, and OSI model is used just as reference
+- 4 layers in the TCP/IP model: Network Access Layer, Network/ Internet layer, Transport layer and Application layer.
+![Alt text](image-6.png)
+- Sometimes, it is split into 5 layers by splitting Network access layer into phy and data link layer 
+- The layers work just like the OSI model, but the application layer in TCP/IP model does the work of Application, Presentation and Session layers.
 
-
-
-
+## PDU
+![Alt text](<Screenshot from 2023-11-23 12-23-53.png>) 
