@@ -80,6 +80,7 @@ The various topologies are:
     - Issues with broadcast messages
     - Least traffic
  5. Hybrid Topology: Mixing multiple topologies as per need
+    - Probably the best
 
 # Communication
 Transfer of data between two nodes
@@ -87,7 +88,6 @@ Three types of data flow:
 1. Simplex: Unidirectional. Eg: Keyboard, mouse
 2. Half duplex: Both directions, but not at the same time. Eg: Walkie-talkies
 3. Duplex/ Full duplex: Both directions simultaneously. Eg: Telephone
-
 
 # Network protocols
 They are a set of rules that define how the communication between two nodes takes place.

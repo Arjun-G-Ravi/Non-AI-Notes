@@ -27,4 +27,4 @@ Thus for proper communication between nodes in a network, we need to attach thes
   - Message Switching: Each node will wait till the whole data is recieved. Then it will pass it to the next node. This happens till the reciever is reached. But this can't be used for real time applications.
   - Packet Switching: Message is broken into packets and send individually. It will also have sequence number. Acknowledgement is also send by the reciever, if any particular particle failed to reach the destination.
       - Datagram approach: No fixed path for communication
-      - Packet switching - Virtual circuit approach: A fixed path for communication
+      - Virtual circuit approach: A fixed path for communication
