@@ -1,6 +1,6 @@
-# Computre Networks
+# Computer Networks
 
-- A set of nodes connected be communication links.
+- A set of nodes connected by communication links.
 - A network can be defined as a group of computers and other devices connected in some way so as to be able to exchange data. Each of the devices on the network can be thought of as a node, each node has a unique address.
 - A computer network has three components:
    - Nodes
@@ -24,7 +24,7 @@
 1. Fault Tolerance: Ability of network to work regardless of failures. ie, if a failure occurs in a path the network has to find another path to get the information through.
 2. Scalability: Ability of netowork to grow based on needs, and still retain its performance
 3. QoS: Quality of Service refers to ability to set priorities and manage traffic.
-4. Security
+4. Security and privacy
    
 # 1. TYPES OF COMPUTER NETWORK
 1. PAN - Personal Area Network
