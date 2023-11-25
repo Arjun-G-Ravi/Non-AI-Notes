@@ -7,8 +7,9 @@ struct Node{
 
 int main(){
     struct Node s;
-    printf("%d",s.age);
     s.age = 10;
     printf("%d",s.age);
+    s.name = "John";
+    printf("%s", s.name);
     return 0;
 }
