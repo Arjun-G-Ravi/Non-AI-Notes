@@ -52,10 +52,18 @@ A way of representing strings in algebraic manner.
 ![Alt text](<Screenshot from 2023-11-25 11-47-07.png>)
 
 
-# Regular Grammar
+# Grammar
 ![Alt text](<Screenshot from 2023-11-25 12-06-44.png>)
 
+# Regular Grammar
+A regular grammar refers to a type of formal grammar that generates
+ a regular language, which is a type of formal language in
+ theoretical computer science. They are the simplest class of formal languages in the
+ Chomsky hierarchy, which categorizes formal languages based on
+ their generative power.  
+ 
+ ![Alt text](<Screenshot from 2023-11-25 12-08-54.png>)
 
-![Alt text](<Screenshot from 2023-11-25 12-08-54.png>)
+# Context Free Grammar
 
-
+![Alt text](<Screenshot from 2023-11-25 12-28-31.png>)
