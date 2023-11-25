@@ -40,7 +40,22 @@ An Epsilon-Nondeterministic Finite Automaton (ε-NFA or ENFA) is an extension of
 ![Alt text](<Screenshot from 2023-11-20 20-45-32.png>)
 
 
-
 # Regular Expression
-https://www.youtube.com/watch?v=upu_TeZImN0&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=45&ab_channel=NesoAcademy
+A way of representing strings in algebraic manner.
+
+# Arden's Theorem
+![Alt text](<Screenshot from 2023-11-25 11-08-12.png>)
+
+# Pumping lemma
+- Regular languages are languages that can be represented using finite state machines
+
+![Alt text](<Screenshot from 2023-11-25 11-47-07.png>)
+
+
+# Regular Grammar
+![Alt text](<Screenshot from 2023-11-25 12-06-44.png>)
+
+
+![Alt text](<Screenshot from 2023-11-25 12-08-54.png>)
+
 
