@@ -25,25 +25,31 @@ Set of rules that governs data communication.
 7. Application Layer:
  - Provides an interface between application and user
  - It generates the data. This is where the user gives in the to-network data
+
 6. Presentation Layer:
  - Encrypt, Compress, Translation of data
+
 5. Session Layer:
  - Establishes, maintains and synchronises interation btw communicating devices 
+
 4. Transport Layer:
  - Responsible for delivery of msg
  - Port adressing (Port Adress)
  - Segmentaion and reassembly
  - Connectio and flow control
  - Error control
+
 3. Network Layer:
 - Also responisble for msg delivery
  - Logical addressing (IP)
  - Routing
+
 2. Data Link Layer:
  - Responsible for moving data(frames) from one layer to another
  - Framing
  - Physical adressing (MAC)
  - Flow, Access and error control
+
 1. Physical Layer:
  - Responsible for transmitting bits over medium
  - Data rate, Representation and sync of bits
