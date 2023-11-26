@@ -48,4 +48,14 @@
   - WAN connectivity
 
 # 6. Gateways
-- 
+- operate at the application layer
+- A gateway is a network device or software application that serves as an entry point or interface between two different networks, allowing them to communicate and share information. 
+- Gateways can translate data between different communication protocols. 
+- They have
+  - Data Format Conversion
+  - Security Features
+  - Bi-directional Communication
+  - Network Segmentation
+
+
+
