@@ -151,9 +151,23 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
     - bash: Open bash
     - fish: Open fish
 51. nvidia-smi: Details about NVIDIA graphics card
-52. uname -a: Tells a lot about the user and the system you are using
-53. ifconfig, id, ip, netstat, ss: A lot of network stuff
-54. env: Environmental variables 
-55. apropos <words>: Identifies commands related to the words
-56. 
-57. https://www.youtube.com/watch?v=vX3krP6JmOY&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=5&ab_channel=NetworkChuck``
+52. env: Environmental variables 
+53. apropos <words>: Identifies commands related to the words
+54. Networking:
+    1. uname -a: Tells a lot about the user and the system you are using
+    2. id, ip, netstat, ss: A lot of network stuff
+    3. nslookup: To get the Domain Name Address(DNS) of a domain name
+    4. ping: To check the ping of an IP address or domain name
+    5. tracepath: To trace the path from the current computer to a domain. It shows all the intermediate nodes.
+    6. ifconfig: To get the network details of our device.
+    7. iwconfig: To see wifi related network details
+    8. nmap: To see a lot of information about the router and the connected devices
+    9. sudo cat /etc/NetworkManager/system-connections/<WiFi-SSID>: To retrieve wifi password from your device
+55. 
+
+https://www.youtube.com/watch?v=vX3krP6JmOY&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=5&ab_channel=NetworkChuck``
+
+### Add and remove window buttons
+gsettings set org.gnome.desktop.wm.preferences button-layout :
+
+gsettings reset org.gnome.desktop.wm.preferences button-layout
