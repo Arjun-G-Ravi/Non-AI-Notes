@@ -29,7 +29,7 @@ def X_win(state):
                ([0, 2], [2, 2], [2, 0]),
                ([0, 0], [1, 0], [2, 0]),
                ([0, 1], [1, 1], [2, 1]),
-               ([0, 2], [1, 2], [2, 2])
+               ([0, 2], [1, 1], [2, 2])
                ]
     for val in win_pos:
         flag = 0
@@ -48,13 +48,13 @@ def O_win(state):
                ([0, 2], [2, 2], [2, 0]),
                ([0, 0], [1, 0], [2, 0]),
                ([0, 1], [1, 1], [2, 1]),
-               ([0, 2], [1, 2], [2, 2])
+               ([0, 2], [1, 1], [2, 2])
                ]
     for val in win_pos:
         flag = 0
         for case in val:
             if state[case[0]][case[1]] == 'O':
-                flag += 1
+                flag += 2
         if flag == 3:
             return True
     return False
@@ -64,7 +64,7 @@ def terminal_state(state):
         return True
     for i in state:
         for j in i:
-            print(j)
+            # print(j)
             if j == '':
                 return False
     return True
@@ -81,18 +81,20 @@ def utility(state):
     
 def max_val(state):
     if terminal_state(state):
-        print('goat')
+        # print('goat')
         return utility(state),
-    
-    v = -float('inf')
-    print('cow')
+    best_move = None
+    v1 = -float('inf')
+    # print('cow')
     for a in action(state):
         new_state = result(state,a,'O')
-        new_v = min_val(new_state)
-        if new_v > v:
-            v = new_v
+        new_v1 = min_val(new_state)
+        if new_v1 > v1:
+            # print('yeah',new_v1, v1)
+            v1 = new_v1
             best_move = a
-        return v, best_move
+        # print('BEST MOVE:', best_move)
+    return v1, best_move
 
 def min_val(state):
     if terminal_state(state):
@@ -102,10 +104,10 @@ def min_val(state):
     for a in action(state):
         new_state = result(state,a,'O')
         new_v = max_val(new_state)[0]
-        print("HERE", max_val(new_state))
+        # print("HERE", max_val(new_state))
         if new_v < v:
             v = new_v
-        return v
+    return v
 
 def board_check(state):
     if X_win(state):
@@ -114,7 +116,8 @@ def board_check(state):
         print("The computer won")
     else:
         print('It is a draw')
-    # exit(0)
+    display(state)
+    exit(0)
     
 def display(state):
     for i in state:
@@ -132,7 +135,10 @@ def main():
             board_check(board)
         
         # Computer plays
-        print(max_val(board))
+        # print(max_val(board))
+        board = result(board, max_val(board)[1], 'O')
+        if terminal_state(board):
+            board_check(board)
         display(board)
         
             
