@@ -34,17 +34,14 @@ def queen_attack(square_cord):
              
         
     return att_sq
-print(queen_attack([3,2]))
 
 def main():
     current_queen = 0
     attack_sq = []
-    while current_queen <= 3:
-        # print(Q[current_queen], 'cow')
-        if Q[current_queen] not in attack_sq:
+    while -1 < current_queen <= 3:
+        if Q[current_queen] not in attack_sq and Q[current_queen][0]<4:
+            print(f'Placed Queen:{current_queen} at', Q[current_queen])
             attack_sq.extend(queen_attack(Q[current_queen]))
-            # print(attack_sq)
-            print('Placed Queen at', Q[current_queen])
             current_queen += 1
             
         else:
@@ -54,14 +51,15 @@ def main():
                 
             else:
                 print("BACKTRACKING")
+                Q[current_queen][0] = 0
+                current_queen -= 1
+                print(f"Removed Queen:{current_queen} from", Q[current_queen])
                 to_remove = queen_attack(Q[current_queen])
                 for bad in to_remove:
                     if bad in attack_sq:
                         attack_sq.remove(bad)
-                print("Removed Queen from", Q[current_queen])
-                current_queen -= 1 
-                print(current_queen)
 
+                Q[current_queen][0] += 1
     display(Q)
 main()
 
