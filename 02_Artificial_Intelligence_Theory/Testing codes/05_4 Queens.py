@@ -1,6 +1,4 @@
 # Arjun G Ravi
-from time import sleep
-
 Q = [[0,0], [0,1], [0,2], [0,3]]
 
 def display(Q):

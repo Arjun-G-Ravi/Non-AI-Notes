@@ -51,7 +51,7 @@ def main():
         one_state = state[1]
         print(one_state)
         if GOAL_TEST(one_state):
-            print('Found...')
+            print('Goal state reached')
             break
         for a in ACTIONS(one_state):
             current_state = deepcopy(one_state)

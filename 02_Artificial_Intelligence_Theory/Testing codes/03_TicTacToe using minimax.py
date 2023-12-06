@@ -102,7 +102,7 @@ def min_val(state):
     
     v = float('inf')
     for a in action(state):
-        new_state = result(state,a,'O')
+        new_state = result(state,a,'X')
         new_v = max_val(new_state)[0]
         # print("HERE", max_val(new_state))
         if new_v < v:
