@@ -10,7 +10,7 @@ def minimax(depth, nodeIndex, maximizingPlayer, values, alpha, beta):
             alpha = max(alpha, best) 
 
             if beta <= alpha: 
-                print('Pruning...')
+                print('Pruning at', val)
                 break
         return best 
     
