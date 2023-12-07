@@ -7,30 +7,22 @@ def display(Q):
         board[q[0]][q[1]] = 'Q'
     for row in board:
         print(row)
-# display(Q)
 
-def queen_attack(square_cord):
+def queen_attack(square_cord): # Returns the list of coords that a queen placed on 'square_cord' will attack
     att_sq = list()
     for i in range(4):
         att_sq.append([square_cord[0], i])
         att_sq.append([i, square_cord[1]])
-    # to add diagonals
     diag = [[1,1], [1,-1], [-1,1], [-1,-1]]
     for i in diag:
-        # print('i is', i)
         this_sq = square_cord.copy()
         while True:
             this_sq[0] += i[0]
             this_sq[1] += i[1]
-            # print(this_sq)
-            # sleep(1)
             if 4 in this_sq or -1 in this_sq:
                 break    
             if 4 not in this_sq or -1 not in this_sq:
-                # print('appended', this_sq)
                 att_sq.append(this_sq.copy())
-             
-        
     return att_sq
 
 def main():
@@ -43,8 +35,7 @@ def main():
             current_queen += 1
             
         else:
-            if Q[current_queen][0] < 3:
-                # move one sq below
+            if Q[current_queen][0] < 3: # move one sq below
                 Q[current_queen][0] += 1
                 
             else:
@@ -60,7 +51,3 @@ def main():
                 Q[current_queen][0] += 1
     display(Q)
 main()
-
-
-
-
