@@ -20,7 +20,7 @@ def queen_attack(square_cord): # Returns the list of coords that a queen placed 
             this_sq[0] += i[0]
             this_sq[1] += i[1]
             if 4 in this_sq or -1 in this_sq:
-                break    
+                break 
             if 4 not in this_sq or -1 not in this_sq:
                 att_sq.append(this_sq.copy())
     return att_sq
