@@ -2,5 +2,5 @@
 
 void main(){
     printf("Hello world");
-    print("Cows rock");
+    printf("Cows rock");
 }
