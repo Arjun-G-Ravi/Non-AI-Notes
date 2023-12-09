@@ -89,7 +89,8 @@ while running:
     screen.blit(pygame.image.load('grass_background.png'),(0,0))
     show_score()
  
-    for event in pygame.event.get():                
+    for event in pygame.event.get(): 
+        print(event)               
         if event.type == pygame.QUIT:
             running = False
 
@@ -153,11 +154,11 @@ while running:
             milk = pygame.mixer.Sound('grunt.mp3')
             milk.play()
 
-        if enemyPos[e][1] > 550:
+        if enemyPos[e][1] > 600:
             milk = pygame.mixer.Sound('evil_laugh.mp3')
             milk.play()
             screen.blit(pygame.image.load('grass_background.png'),(0,0))
-            screen.blit(pygame.image.load('spooky.png'), (enemyPos[e][0]-20, enemyPos[e][1]-20))
+            screen.blit(pygame.image.load('spooky.png'), (enemyPos[e][0]-20, enemyPos[e][1]-80))
             while True:
                 endFont1 = pygame.font.Font('freesansbold.ttf', 80)
                 endFont2 = pygame.font.Font('freesansbold.ttf', 60)
@@ -169,7 +170,7 @@ while running:
                 screen.blit(finalScore, (150,100))
                 screen.blit(press, (240,350))
                 pygame.display.update() 
-                time.sleep(3)
+                time.sleep(1)
                 for event in pygame.event.get():  
                     if event.type == pygame.KEYDOWN:
                         quit(0)
