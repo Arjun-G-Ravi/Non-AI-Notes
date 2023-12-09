@@ -46,8 +46,7 @@ for i in range(num_enemy):
 
 def enemy(enemyImg, enemypos):
     screen.blit(enemyImg, enemypos)
-
-    
+       
 def createEnemy(ch): # img, pos, horiz_motion, vertical motion
     global enemyImg
     global enemyPos
@@ -55,7 +54,6 @@ def createEnemy(ch): # img, pos, horiz_motion, vertical motion
     global horizontal_motion
     global num_enemy
     num_enemy += 1
-
     monster_type = {1:['monster1.png', [random.randint(100, 700), random.randint(0, 200)], random.randint(1,5), 1],
                     2:['monster2.png', [random.randint(100, 700), random.randint(0, 50)], random.randint(5,15), .5],
                     3:['monster3.png', [random.randint(100, 700), random.randint(0, 50)], random.randint(1,5), 2] }
@@ -117,7 +115,6 @@ while running:
             go_left = False
             go_right = False
     
-    
     if go_left:
         if player_pos[0] > 20:
             player_pos[0] -= 10
@@ -125,7 +122,6 @@ while running:
     if go_right:
         if player_pos[0] < 720:
             player_pos[0] += 10
-    
     
     # For each enemy in list
     for e in range(num_enemy):
@@ -136,10 +132,8 @@ while running:
         elif enemyPos[e][0] > 750:
             horizontal_motion[e] = - horizontal_motion[e]
        
-        
         enemyPos[e][0] += horizontal_motion[e]
         enemyPos[e][1] += vertical_motion[e]
-        
         
         if isCollision(milkPos, enemyPos[e]):
             screen.blit(pygame.image.load('explode.png'), enemyPos[e])
@@ -180,7 +174,7 @@ while running:
                     if event.type == pygame.KEYDOWN:
                         quit(0)
 
-        if isCollision(player_pos, enemyPos[e], 40): # Cow kills
+        if isCollision(player_pos, enemyPos[e], 40): # Cow kills, but it increases enemy spawn rate by 2 times !!!
             screen.blit(pygame.image.load('explode.png'), enemyPos[e])
             enemyPos[e] = [random.randint(100, 700), random.randint(0, 100)]
             score += 1
@@ -212,8 +206,6 @@ while running:
             fire = False
             milkPos[1] = 500
 
-# 
-    
     # This is where the screen gets updated with the above changes
     pygame.display.update()
 
