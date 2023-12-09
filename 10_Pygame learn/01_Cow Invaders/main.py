@@ -80,13 +80,12 @@ def isCollision(pos1, pos2):
 
 # main loop
 while running:
-    # screen.fill((0,0,0))
-
+    
     # fill screen with grass image
     screen.blit(pygame.image.load('grass.png'),(0,0))
     show_score()
-
-    for event in pygame.event.get():
+ 
+    for event in pygame.event.get():                
         if event.type == pygame.QUIT:
             running = False
 
@@ -104,11 +103,14 @@ while running:
                     milkPos[0] = player_pos[0]
                     shoot_milk(milkPos)
             
-            
+            if event.key == pygame.K_ESCAPE:
+                print('cow')
+                pause = True
                 
         if event.type == pygame.KEYUP:
             go_left = False
             go_right = False
+    
     
     if go_left:
         if player_pos[0] > 20:
@@ -119,7 +121,7 @@ while running:
             player_pos[0] += 10
     
     
-    # place enemy at enemy_pos
+    # For each enemy in list
     for e in range(num_enemy):
         enemy(enemyImg[e], enemyPos[e])
         if enemyPos[e][0] < 20:
@@ -184,15 +186,3 @@ while running:
 
     # A clock adjusts frame rate
     pygame.time.Clock().tick(60)
-
-
-
-
-
-
-
-
-
-
-
-
