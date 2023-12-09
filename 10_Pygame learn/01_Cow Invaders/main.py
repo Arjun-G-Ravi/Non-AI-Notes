@@ -11,6 +11,9 @@ pygame.display.set_caption("Cow invadors")
 running = True
 # pygame.display.set_icon(pygame.image.load('10_Pygame learn/01_Space Invaders /spaceship.png')) # wont wprk in ubuntu
 
+# bgm
+pygame.mixer.music.load('bgm.mp3')
+pygame.mixer.music.play(-1)
 # Score
 score = 0
 font = pygame.font.Font('freesansbold.ttf', 40)
@@ -31,7 +34,7 @@ def player(x,y):
 # Enemy
 enemyImg = []
 enemyPos = []
-num_enemy = 1
+num_enemy = 3
 horizontal_motion = [random.randint(1,5) for i in range(num_enemy)]
 vertical_motion = [1 for i in range(num_enemy)]
 
@@ -70,11 +73,14 @@ milkSpeed = 20
 def shoot_milk(milkPos):
     global fire
     fire = True
+    milk = pygame.mixer.Sound('laser.wav')
+    milk.play()
+    
 
 # Collision detection
 def isCollision(pos1, pos2):
     dis = math.sqrt((pos1[0]-pos2[0])**2 + (pos1[1]-pos2[1])**2)
-    if dis < 25:
+    if dis < 27:
         return True
     return False
 
@@ -150,12 +156,16 @@ while running:
                 createEnemy(3)
             else:
                 pass
-                
+            milk = pygame.mixer.Sound('grunt.mp3')
+            milk.play()
+
         if enemyPos[e][1] > 550:
             print("You lose")
+            milk = pygame.mixer.Sound('evil_laugh.mp3')
+            milk.play()
             screen.blit(pygame.image.load('spooky.png'), (enemyPos[e][0]-20, enemyPos[e][1]-20))
             pygame.display.update() 
-            time.sleep(3)
+            time.sleep(5)
             quit(0)
      
     # place player(cow) at player_pos
@@ -177,7 +187,9 @@ while running:
         print("GAME OVER")
         screen.blit(pygame.image.load('spooky.png'), (enemyPos[e][0]-20, enemyPos[e][1]-20))
         pygame.display.update() 
-        time.sleep(3)
+        milk = pygame.mixer.Sound('evil_laugh.mp3')
+        milk.play()
+        time.sleep(5)
         
         break
     
