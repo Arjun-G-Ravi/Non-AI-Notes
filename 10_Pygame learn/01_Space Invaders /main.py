@@ -1,6 +1,7 @@
 import pygame
 import random
 import math
+import time
 
 # Always initialise
 pygame.init()
@@ -9,7 +10,7 @@ pygame.init()
 screen = pygame.display.set_mode((800,600))
 
 # Title and icon
-pygame.display.set_caption("Space invadors")
+pygame.display.set_caption("Cow invadors")
 # pygame.display.set_icon(pygame.image.load('10_Pygame learn/01_Space Invaders /spaceship.png')) # wont wprk in ubuntu
 
 running = True
@@ -25,14 +26,14 @@ def player(x,y):
     screen.blit(playerImg, player_pos)
 
 # Enemy
-imgs = ['monster (1).png', 'monster (2).png', 'monster.png' ]
 enemyImg = []
 enemyPos = []
 num_enemy = 4
-horizontal_motion = [random.randint(1,10) for i in range(num_enemy)]
+horizontal_motion = [random.randint(1,5) for i in range(num_enemy)]
+vertical_motion = [1 for i in range(num_enemy)]
 
 for i in range(num_enemy):
-    enemyimg = pygame.image.load(random.choice(imgs))
+    enemyimg = pygame.image.load('monster.png')
     enemypos = [random.randint(100, 700), random.randint(0, 200)]
     enemyImg.append(enemyimg)
     enemyPos.append(enemypos)
@@ -109,20 +110,24 @@ while running:
             pass
         
         enemyPos[e][0] += horizontal_motion[e]
-        enemyPos[e][1] += 1
+        enemyPos[e][1] += vertical_motion[e]
         
         
         if isCollision(milkPos, enemyPos[e]):
-            # Explode
+            screen.blit(pygame.image.load('explode.png'), enemyPos[e])
             enemyPos[e] = [random.randint(100, 700), random.randint(0, 100)]
             fire = False
             milkPos[1] = 500
             score += 1
             print(f'Score: {score}')
             
+            
         
-        if enemyPos[e][1] > 500:
+        if enemyPos[e][1] > 550:
             print("You lose")
+            screen.blit(pygame.image.load('spooky.png'), (enemyPos[e][0]-20, enemyPos[e][1]-20))
+            pygame.display.update() 
+            time.sleep(3)
             quit(0)
      
     # place player(cow) at player_pos
@@ -140,10 +145,12 @@ while running:
 
 
     if isCollision(player_pos, enemypos):
-        # Explodes
-        # GAME OVER
         print(score)
         print("GAME OVER")
+        screen.blit(pygame.image.load('spooky.png'), (enemyPos[e][0]-20, enemyPos[e][1]-20))
+        pygame.display.update() 
+        time.sleep(3)
+        
         break
     
     # This is where the screen gets updated with the above changes
