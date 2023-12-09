@@ -3,20 +3,23 @@ import random
 import math
 import time
 
-# Always initialise
 pygame.init()
 
-# To make a screen
+# Screen
 screen = pygame.display.set_mode((800,600))
-
-# Title and icon
 pygame.display.set_caption("Cow invadors")
+running = True
 # pygame.display.set_icon(pygame.image.load('10_Pygame learn/01_Space Invaders /spaceship.png')) # wont wprk in ubuntu
 
-running = True
+# Score
+score = 0
+font = pygame.font.Font('freesansbold.ttf', 40)
+
+def show_score():
+    render = font.render("Score: "+str(score), True, (255,255,255))
+    screen.blit(render, (10,10))
 
 # Cow
-score = 0
 playerImg = pygame.image.load('./cow.png')
 player_pos = [400,500]
 go_left = False
@@ -28,7 +31,7 @@ def player(x,y):
 # Enemy
 enemyImg = []
 enemyPos = []
-num_enemy = 4
+num_enemy = 1
 horizontal_motion = [random.randint(1,5) for i in range(num_enemy)]
 vertical_motion = [1 for i in range(num_enemy)]
 
@@ -51,8 +54,8 @@ def createEnemy(ch): # img, pos, horiz_motion, vertical motion
     num_enemy += 1
 
     monster_type = {1:['monster1.png', [random.randint(100, 700), random.randint(0, 200)], random.randint(1,5), .5],
-                    2:['monster2.png', [random.randint(100, 700), random.randint(0, 200)], random.randint(5,10), .5],
-                    3:['monster3.png', [random.randint(100, 700), random.randint(0, 200)], random.randint(1,5), 2] }
+                    2:['monster2.png', [random.randint(100, 700), random.randint(0, 50)], random.randint(5,15), .5],
+                    3:['monster3.png', [random.randint(100, 700), random.randint(0, 50)], random.randint(1,5), 2] }
     enemyImg.append(pygame.image.load(monster_type[ch][0]))
     enemyPos.append(monster_type[ch][1])
     horizontal_motion.append(monster_type[ch][2])
@@ -75,11 +78,13 @@ def isCollision(pos1, pos2):
         return True
     return False
 
+# main loop
 while running:
     # screen.fill((0,0,0))
 
     # fill screen with grass image
     screen.blit(pygame.image.load('grass.png'),(0,0))
+    show_score()
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -98,6 +103,8 @@ while running:
                 if not fire:
                     milkPos[0] = player_pos[0]
                     shoot_milk(milkPos)
+            
+            
                 
         if event.type == pygame.KEYUP:
             go_left = False
@@ -132,9 +139,8 @@ while running:
             fire = False
             milkPos[1] = 500
             score += 1
-            print(f'Score: {score}')
             rand = random.randint(1,500)
-            if rand <= 50: # 10%
+            if rand <= 50: # 5%
                 createEnemy(1)
             elif rand <= 55: # 1%
                 createEnemy(2)
