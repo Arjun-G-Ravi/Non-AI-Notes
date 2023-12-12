@@ -30,8 +30,11 @@ ie, how costly is this path of actions
 ## 8. Solution
 A sequence of action that takes us from initial state to final state. The optimal solution is the solution with the lowest possible path cost.
 
-## Percept Sequence
+## 9. Percept Sequence
 - An agent’s percept sequence is the complete history of everything the agent has ever perceived.
 - An agent’s choice of action at any given instant can depend on the entire percept sequence observed to date, but not on anything it hasn’t perceived.
 
-
+## 10. Policy
+- A sequence of actions that takes an agent from the current state to the goal state.
+- An action is considered to be good, if it is a part of a good policy
+  
