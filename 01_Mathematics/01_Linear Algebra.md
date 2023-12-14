@@ -1,5 +1,5 @@
 # Linear Algerba
-Linear algebra is our 'good old algebra' that focuses on the study of vector spaces and linear mappings between those spaces. Algebraic representation of linear algebra problems will be linear equations. Geometrically, there will be no curves. 
+Linear algebra is our 'good old algebra' that focuses on the study of vector spaces and linear mappings between those spaces. Algebraic representation of linear algebra problems are called linear equations. Geometrically, there will be no curves in a graphical representaion of a linear algebra problem. 
 
 # 1. Matrix
 A matrix is a two-dimensional array of numbers, symbols, or expressions, arranged in rows and columns. Matrix is vastly exploited by linear algebra to represent 
@@ -8,11 +8,17 @@ A matrix is a two-dimensional array of numbers, symbols, or expressions, arrange
  - Eigenvalues and Eigenvectors, etc
 
 ### Inverse of a matrix
-For a matrix A, if A@B == I == B@A, then B is the inverse of A.
+For a matrix A, if ```A@B == I == B@A``` then B is the inverse of A.
 The matrix whose inverse exists is called Regular/ Non Singular/ Invertible matrix. 
 
 ### Transpose
 Transpose of a matrix is obtained by interchanging its rows and columns.
+
+## Operations
+ - Matrix Addition
+ - Matrix multiplication
+ - Scalar multiplication
+ - Scalar Multiplication
 
 # 2. Vectors
 A vector is a mathematical object used to represent quantities that have both magnitude and direction. 
@@ -48,21 +54,21 @@ Thus, vector subspaces are 'closed' under vector addition and scalar multiplicat
 ### Linear Independence
 In linear algebra, a set of vectors is said to be "linearly independent" if none of the vectors in the set can be expressed as a linear combination of the others. 
 Geometrically, linearly independent vectors in n-dimensional space do not lie in the same hyperplane. Intuitively, a set of linearly independent vectors consists of vectors that have no redundancy, i.e., if we remove any of those vectors from the set, we will lose something.
-
+All column vectors are linearly independent if and only if all columns are pivot columns. If there is at least one non-pivot column, the columns (and, therefore, the corresponding vectors) are linearly dependent.
 ### Linear Combination of vectors
 A linear combination of vectors is a mathematical operation that involves multiplying each vector by a scalar (a real number) and then adding the results together.
 
 ### Generating set
-A set of vectors which spans the vector space.
+A set of vectors which spans the vector space. The minimal generating set is called basis.
 
 ### Basis
-A set of linearly independent vectors that spans the vector space. It is the minimal generating set.
-Every vector space has a basis. The dimension of a vector space is the length of its basis.
-For eg, i,j,k are a basis of the cartesian coordinate system.
+A set of linearly independent vectors that spans the vector space. Every vector space has a basis. The dimension of a vector space is the length of its basis. For eg, i,j,k are a basis of the cartesian coordinate system.
+The dimension of a vector space is equal to the number of its basis vectors.
 
 ### Rank
-The number of linearly independent columns of a matrix equals the number of linearly independent rows and is called the rank of A and is denoted by rk(A).
-It is the number of non-zero rows in echlon form.
+The number of linearly independent columns of a matrix equals the number of linearly independent rows and is called the rank of A and is denoted by rk(). It is the number of non-zero rows in echlon form.
+The rank of a matrix is a fundamental concept in linear algebra and is a measure of the "dimensionality" of the column space of the matrix. In simple terms, the rank is the maximum number of linearly independent columns (or rows) in a matrix.
+It provides information about the "effective" dimension of the column space or row space. In other words, it quantifies how much "room" is occupied by the linearly independent vectors within the entire space.
 
 # 4. Linear System of Equations
 ### Solution to a S.O.L.E
