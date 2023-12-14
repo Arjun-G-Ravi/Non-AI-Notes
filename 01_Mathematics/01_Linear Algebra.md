@@ -70,7 +70,7 @@ The number of linearly independent columns of a matrix equals the number of line
 The rank of a matrix is a fundamental concept in linear algebra and is a measure of the "dimensionality" of the column space of the matrix. In simple terms, the rank is the maximum number of linearly independent columns (or rows) in a matrix.
 It provides information about the "effective" dimension of the column space or row space. In other words, it quantifies how much "room" is occupied by the linearly independent vectors within the entire space.
 
-# 4. Linear System of Equations
+# 4. Linear System of Equation (S.O.L.E)
 ### Solution to a S.O.L.E
 Value of variable that satisfies multiple linear eqn is called the solution of the system of eqns. Geometrically, this solution will be on the intersection of the geometrical eqns(which can be lines, planes or hyperplanes).
 
@@ -96,3 +96,13 @@ The matrix representation of a S.O.L.E can be changed to augmented matrix, and t
 
 If rank(A) == rank(augmented matrix) after converting both to row echlon form, then the system of linear eqns represented by the matrix is independent.
 In row echlon form, the vectors are **generally** represented as rows in the coefficient matrix. Row operations are applied to the rows of the matrix to achieve the desired form, and the columns remain unchanged during this process.
+
+# Linear Mapping/ Linear Transformation
+It's a mathematical function between two vector spaces that preserves vector addition and scalar multiplication.Geometrically, a linear mapping takes vectors from one space to another in a way that maintains the structure of those vectors.
+
+### Kernel/ Null space
+The kernel of a linear transformation, also known as the null space, is the set of all vectors that map to the zero vector under that transformation. In other words, it consists of the inputs that get "flattened" to zero when the transformation is applied.
+
+### Image
+
+In the context of linear algebra and linear transformations, the term "image" refers to the set of all possible output values that a linear transformation can produce. 
