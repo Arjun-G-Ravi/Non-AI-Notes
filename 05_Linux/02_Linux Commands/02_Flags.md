@@ -4,6 +4,8 @@ Terminal command flags, often referred to as "command-line options" or "command-
 # Important flags
 Sometimes same letter can be used for multiple flag application.
 
+```NOTE: They change wrt the command used. So use manual to conform it before using.```
+
 1. -v: To verbosely display what the command just did
 2. -r:  Indicate that an operation should be applied recursively, e.g., when copying directories.
 3. -i: Interactive. Prompt for confirmation before overwriting or deleting files.
@@ -18,7 +20,7 @@ Sometimes same letter can be used for multiple flag application.
 
 
 
-# 
+# Shortcuts
 1. .    Refers to the current directory
 2. ..   Refers to the prev directory
 3. ~    Refers to home
