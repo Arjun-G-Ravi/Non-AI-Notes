@@ -163,7 +163,7 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
     7. iwconfig: To see wifi related network details
     8. nmap: To see a lot of information about the router and the connected devices
     9. sudo cat /etc/NetworkManager/system-connections/<WiFi-SSID>: To retrieve wifi password from your device
-55. 
+55. sudo apt update && sudo apt upgrade: This upgrades the OS with the latest updates.
 
 https://www.youtube.com/watch?v=vX3krP6JmOY&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=5&ab_channel=NetworkChuck``
 

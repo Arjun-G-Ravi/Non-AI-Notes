@@ -19,9 +19,3 @@ Sometimes same letter can be used for multiple flag application.
 11. -h: Display file sizes in a human-readable format (e.g., 1K, 2M).
 
 
-
-# Shortcuts
-1. .    Refers to the current directory
-2. ..   Refers to the prev directory
-3. ~    Refers to home
-4. /    Refers to the root 

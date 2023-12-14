@@ -87,3 +87,9 @@ The permission will be a 10 character string:
 ![Alt text](<Screenshot from 2023-11-09 20-02-20.png>)
 
 We can change the permission using ```chmod``` command.
+
+# Shortcuts
+1. .    Refers to the current directory
+2. ..   Refers to the prev directory
+3. ~    Refers to home
+4. /    Refers to the root 
