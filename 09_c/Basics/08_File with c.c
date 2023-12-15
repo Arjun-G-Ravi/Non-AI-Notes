@@ -2,7 +2,7 @@
 
 int main(){
     FILE *fPtr = fopen("cow.txt", "w");
-    fprintf(fPtr, "Cow is awesome");
+    fprintf(fPtr, "Cow is awesome\nCow is great\nCow is cow.");
     fclose(fPtr);
 
 
@@ -10,6 +10,10 @@ int main(){
     char line[100];
 
     fgets(line,100, fPtr2);
-    printf()
+    printf("%s\n", line);
+
+    fgets(line,100, fPtr2);
+    printf("%s\n", line);
+
     return 0;
 }
