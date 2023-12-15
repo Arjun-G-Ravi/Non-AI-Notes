@@ -89,7 +89,7 @@ Here, the equation can have:
 Row echlon form of a matrix is a minimised version of the matrix that retains the same solutions as the base matrix (base set of vectors). Converting to this form can be helpful when doing matmul manully. There can be multiple row echlon form of a single matrix.
 ![Local Image](images/image2.png)
 
-The matrix representation of a S.O.L.E can be changed to augmented matrix, and then represented in row echlon form. To do that, we can do three operations which will not change the solution set. They are called elementary transformations:
+The matrix representation of a S.O.L.E can be changed to augmented matrix, and then represented in row echlon form. To do that, we can do three operations which will not change the solution set. They are called **elementary transformations**:
  - Multiply a row with a scalar
  - Add/sub a row with the multiple of another row
  - Interchange rows
