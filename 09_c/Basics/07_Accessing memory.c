@@ -1,6 +1,6 @@
 # include <stdio.h>
 
-void main(){
+int main(){
 
     int cow = 10;
 
@@ -11,9 +11,5 @@ void main(){
     int *pCow = &cow;
     printf("Cow: %p\n", pCow);
     printf("*Cow: %d\n\n\n", *pCow);
-    return NULL;
+    return 0;
 }
-
-
-
-
