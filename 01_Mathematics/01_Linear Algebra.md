@@ -43,7 +43,7 @@ In mathematics, a vector space is an algebraic structure that consists of a set 
 It is a set, and every element in it is a vector.
 **The concept of a vector space is foundational in linear algebra because it provides the mathematical framework and environment in which linear algebraic operations and transformations take place.**
 The **Basis vectors** of a vector space refers to a set of linearly independent vectors that span the entire vector space.
-
+``
 ### Span of a vector
 The span of a set of vectors refers to the set of all possible vectors that can be obtained by the linear combination of the given vectors.
 
