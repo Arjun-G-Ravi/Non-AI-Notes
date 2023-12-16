@@ -1,17 +1,28 @@
-# include <stdio.h>
-int power(int base, int power);
+#include <stdio.h>
 
-int main(){
-    int b = (int)getchar();
-    int p = (int)getchar();
-    printf("The ans is: %d", power(b, p));
+int power(int base, int pow);
+
+int main() {
+    int b, p;
+
+    printf("Enter base: ");
+    scanf("%d", &b);
+
+    printf("Enter power: ");
+    scanf("%d", &p);
+
+    printf("OUT: %d%d\n", b, p);
+    printf("The ans is: %d\n", power(b, p));
+
     return 0;
 }
 
+int power(int base, int pow) {
+    int num = 1;
 
-int power(int base, int power){
-    for(int i=1; i<power; i++){
-        base *= base;
+    for (int i = 0; i < pow; i++) {
+        num *= base;
     }
-    return base;
+
+    return num;
 }
