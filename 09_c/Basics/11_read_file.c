@@ -7,14 +7,8 @@ int main(){
 
     while (fgets(str, 100, fPtr)!= NULL){
         printf("%s", str);
-        
+
     }
     fclose(fPtr);
-
-
-
-
-
-
     return 0;
 }
