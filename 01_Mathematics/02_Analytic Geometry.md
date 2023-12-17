@@ -17,6 +17,13 @@ An orthonormal basis is a set of vectors in a vector space that is both orthogon
 i.e, the basis vectors are orthogonal to each other, and have been normalised to have a length of 1.
 Eg: i,j,k in the 3d space
 
-
 # Projection
-Projection, in mathematics, refers to the process of mapping a vector onto a subspace. The most common type of projection is the orthogonal projection, which involves projecting a vector onto a subspace in a way that the projected vector is orthogonal (perpendicular) to the subspace.
+Projection, in mathematics, refers to the process of mapping a vector onto a subspace. The most common type of projection is the orthogonal projection, which involves projecting a vector onto a subspace in a way that the projected vector is orthogonal (perpendicular) to the subspace. 
+Orthogonal projections are used in ML to visualise a higher dimensional graph, without the loss of valuable information. PCA works with this.
+
+## Inner product of functions
+Inner product of two functions is defined as:
+![Alt text](<Screenshot from 2023-12-17 08-31-34.png>)
+
+# Rotation
+A rotation is a linear mapping that rotates a plane by an angle θ about a fixed point, the origin.

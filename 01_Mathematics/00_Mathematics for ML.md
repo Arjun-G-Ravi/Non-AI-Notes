@@ -17,3 +17,5 @@ i.e, The goal of machine learning is to design general purpose methodologies to 
 
 Thanks to:
  - https://www.youtube.com/@DrTrefor
+ - https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+ - 
