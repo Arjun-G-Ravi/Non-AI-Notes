@@ -44,7 +44,7 @@ It is a set, and every element in it is a vector.
 **The concept of a vector space is foundational in linear algebra because it provides the mathematical framework and environment in which linear algebraic operations and transformations take place.**
 The **Basis vectors** of a vector space refers to a set of linearly independent vectors that span the entire vector space.
 ``
-### Span of a vector
+## Span
 The span of a set of vectors refers to the set of all possible vectors that can be obtained by the linear combination of the given vectors.
 
 ### Vector Subspace
@@ -98,9 +98,14 @@ The matrix representation of a S.O.L.E can be changed to augmented matrix, and t
 If rank(A) == rank(augmented matrix) after converting both to row echlon form, then the system of linear eqns represented by the matrix is independent.
 In row echlon form, the vectors are **generally** represented as rows in the coefficient matrix. Row operations are applied to the rows of the matrix to achieve the desired form, and the columns remain unchanged during this process.
 
-# Linear Mapping/ Linear Transformation
-It's a mathematical function between two vector spaces that preserves vector addition and scalar multiplication.Geometrically, a linear mapping takes vectors from one space to another in a way that maintains the structure of those vectors.
+# 5. Linear Mapping/ Linear Transformation
+It's a mathematical function between two vector spaces that preserves vector addition and scalar multiplication. Geometrically, a linear mapping takes vectors from one space to another in a way that maintains the structure of those vectors.
+i.e,
+ - All grid lines in the base vector space will remain lines (no curving). The grid lines must be parallel and evenly spaced.
+ - The origin remains at the exact place
 
+The representation of a linear transformation can be done with a matrix which will represent the final coordinates of the basis vector.
+Eg: A 2d linear transformation can be represented by a 2X2 matrix for the transformed vectors i and j.
 ### Kernel/ Null space
 The kernel of a linear transformation, also known as the null space, is the set of all vectors that map to the zero vector under that transformation. In other words, it consists of the inputs that get "flattened" to zero when the transformation is applied.
 
