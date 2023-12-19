@@ -101,14 +101,21 @@ In row echlon form, the vectors are **generally** represented as rows in the coe
 # 5. Linear Mapping/ Linear Transformation
 It's a mathematical function between two vector spaces that preserves vector addition and scalar multiplication. Geometrically, a linear mapping takes vectors from one space to another in a way that maintains the structure of those vectors.
 i.e,
- - All grid lines in the base vector space will remain lines (no curving). The grid lines must be parallel and evenly spaced.
+ - The grid lines must be parallel and evenly spaced.Therefore, all grid lines in the base vector space will remain lines (no curving). 
  - The origin remains at the exact place
 
 The representation of a linear transformation can be done with a matrix which will represent the final coordinates of the basis vector.
-Eg: A 2d linear transformation can be represented by a 2X2 matrix for the transformed vectors i and j.
+Eg: A 2d linear transformation can be represented by a 2X2 matrix for the transformed vectors i and j, with each column representing a vector.
+
+After writing transformation as vector form, we can obtain the transformation of a random vector (x,y) by matrix multiplying the transformation matrix A, with the new vector.i.e, `A@(x,y)`.
+
+![Alt text](<Screenshot from 2023-12-19 08-57-31.png>)
+
+
+### Multiplication of two matices
+Multiplying two transformation matrix results in the combination of both of those linear transformation.
 ### Kernel/ Null space
 The kernel of a linear transformation, also known as the null space, is the set of all vectors that map to the zero vector under that transformation. In other words, it consists of the inputs that get "flattened" to zero when the transformation is applied.
 
 ### Image
-
 In the context of linear algebra and linear transformations, the term "image" refers to the set of all possible output values that a linear transformation can produce. 
