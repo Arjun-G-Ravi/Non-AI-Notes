@@ -102,6 +102,7 @@ In row echlon form, the vectors are **generally** represented as rows in the coe
 
 # 5. Linear Mapping/ Linear Transformation
 It's a mathematical function between two vector spaces that preserves vector addition and scalar multiplication. Geometrically, a linear mapping takes vectors from one space to another in a way that maintains the structure of those vectors.
+`Matrix multiplication is a linear operation and can be represented as a linear transformation.`
 i.e,
  - The grid lines must be parallel and evenly spaced.Therefore, all grid lines in the base vector space will remain lines (no curving). 
  - The origin remains at the exact place
