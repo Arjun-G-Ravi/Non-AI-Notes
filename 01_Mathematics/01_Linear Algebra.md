@@ -68,6 +68,7 @@ The dimension of a vector space is equal to the number of its basis vectors.
 
 ### Rank
 `The number of dimensions of a vector after transformation.`
+It is the number of dimensions in the column space.
 The number of linearly independent columns of a matrix equals the number of linearly independent rows and is called the rank of A and is denoted by rk(). It is the number of non-zero rows in echlon form.
 The rank of a matrix is a fundamental concept in linear algebra and is a measure of the "dimensionality" of the column space of the matrix. In simple terms, the rank is the maximum number of linearly independent columns (or rows) in a matrix.
 It provides information about the "effective" dimension of the column space or row space. In other words, it quantifies how much "room" is occupied by the linearly independent vectors within the entire space.
@@ -115,6 +116,7 @@ After writing transformation as vector form, we can obtain the transformation of
 
 ### Multiplication of two matices
 Multiplying two transformation matrix results in the combination of both of those linear transformation.
+
 ### Kernel/ Null space
 The kernel of a linear transformation, also known as the null space, is the set of all vectors that map to the zero vector under that transformation. In other words, it consists of the inputs that get "flattened" to zero when the transformation is applied.
 
