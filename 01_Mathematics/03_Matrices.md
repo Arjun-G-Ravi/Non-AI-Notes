@@ -2,6 +2,7 @@
 Matrix decomposition, also known as matrix factorization, refers to the process of expressing a matrix as a product of two or more matrices, often with specific properties. These factorized matrices can provide insights into the structure of the original matrix and are useful in various mathematical and computational applications. 
 
 # Determinant
+`It is the factor by which a transformation matrix changes the area of shape/volume of parallelopiped, after transformation.`
 The determinant is a scalar value that can be calculated from the elements of a square matrix. It has several important applications, particularly in solving systems of linear equations, finding eigenvalues, and understanding linear transformations.
 
 ![Alt text](<Screenshot from 2023-12-17 09-04-00.png>)
