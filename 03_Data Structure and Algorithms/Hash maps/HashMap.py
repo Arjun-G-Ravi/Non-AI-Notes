@@ -20,7 +20,6 @@ class Hash_Map:
                        return
             self.arr[index].append([key, value])
        
-    
     def __getitem__(self, key):
         index = self.hash_function(key)
         for i in self.arr[index]:
@@ -31,4 +30,3 @@ class Hash_Map:
     def print_all (self):
         for i in self.arr:
             print(i)
-                
