@@ -123,3 +123,15 @@ The kernel of a linear transformation, also known as the null space, is the set 
 
 ### Image
 In the context of linear algebra and linear transformations, the term "image" refers to the set of all possible output values that a linear transformation can produce.  
+
+
+# 6. Eigenvalues and Eigen vectors
+
+Whenever we do a linear transformation, some vectors just remain in the line in which it spans out. Such vectors are called eigen vectors. The amount by which these eigenvectors are stretched are called eigen values.
+
+
+Use: For a 3d rotation, the eigen vector will be the axis of rotation.
+
+![Alt text](<Screenshot from 2023-12-24 11-45-21.png>)
+
+
