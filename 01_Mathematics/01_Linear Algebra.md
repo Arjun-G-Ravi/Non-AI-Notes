@@ -134,4 +134,11 @@ Use: For a 3d rotation, the eigen vector will be the axis of rotation.
 
 ![Alt text](<Screenshot from 2023-12-24 11-45-21.png>)
 
+We use this equation to compute the eigen value from eigen vectors.
+![Alt text](<Screenshot from 2023-12-24 11-48-20.png>)
+
+What this means is that transforming the vector v using A will yield the same result as multiplying the vector with a scalar value λ.
+![Alt text](<Screenshot from 2023-12-24 11-55-37.png>)
+And, only way two non zero matrices, becoming zero on matmul is if the det(A - λI) is zero. This would mean that the whole transformation squishes the space to a lower dimension.
+
 
