@@ -141,4 +141,5 @@ What this means is that transforming the vector v using A will yield the same re
 ![Alt text](<Screenshot from 2023-12-24 11-55-37.png>)
 And, only way two non zero matrices, becoming zero on matmul is if the det(A - λI) is zero. This would mean that the whole transformation squishes the space to a lower dimension.
 
-
+Diagonal matrices have all basis as eigen vectors, with their eigen values being the diagonal values. This makes them super easy to work with.
+![Alt text](<Screenshot from 2023-12-24 12-07-28.png>)
