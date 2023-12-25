@@ -17,3 +17,8 @@ Diagonal matrices have all basis as eigen vectors, with their eigen values being
 When the transformation is 3d rotation, the eigen vector will be the axis of rotation.
 
 ![Alt text](<Screenshot from 2023-12-24 11-45-21.png>)
+
+# Characteristic Polynomial
+The characteristic polynomial is a concept in linear algebra that is associated with square matrices. Given a square matrix A, the characteristic polynomial is obtained by finding the determinant of the matrix A−λI, where λ is a scalar variable, and I is the identity matrix of the same size as A. The characteristic polynomial is obtained by solving `det(A−λI)= 0`.
+
+The roots of the characteristic equation are the eigen values of the of the matrix. 

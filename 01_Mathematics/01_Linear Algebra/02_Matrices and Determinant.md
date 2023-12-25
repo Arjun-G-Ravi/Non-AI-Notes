@@ -34,9 +34,21 @@ A set of vectors which spans the vector space. The minimal generating set is cal
 ### Basis
 A set of linearly independent vectors that spans the vector space. Every vector space has a basis. The dimension of a vector space is the length of its basis.
 For eg, i,j,k are a basis of the cartesian coordinate system.
-
 The dimension of a vector space is equal to the number of its basis vectors.
 
+# Matrix decomposition
+Matrix decomposition, also known as matrix factorization, refers to the process of expressing a matrix as a product of two or more matrices, often with specific properties. These factorized matrices can provide insights into the structure of the original matrix and are useful in various mathematical and computational applications. 
 
+### Trace
+The sum of diagonal elements of a matrix.
+
+# Determinant
+The determinant is a scalar value that can be calculated from the elements of a square matrix. It has several important applications, particularly in solving systems of linear equations, finding eigenvalues, and understanding linear transformations.
+`It is the factor by which a transformation matrix changes the area of shape/volume of parallelogram/parallelopiped, after transformation.`
+
+![Alt text](<Screenshot from 2023-12-17 09-04-00.png>)
+
+### Some properties on determinant
+![Alt text](<Screenshot from 2023-12-17 09-06-55.png>)
 
 
