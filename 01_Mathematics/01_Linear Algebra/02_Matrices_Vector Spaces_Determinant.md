@@ -36,6 +36,11 @@ A set of linearly independent vectors that spans the vector space. Every vector 
 For eg, i,j,k are a basis of the cartesian coordinate system.
 The dimension of a vector space is equal to the number of its basis vectors.
 
+## Orthonormal basis
+An orthonormal basis is a set of vectors in a vector space that is both orthogonal and normalized.
+i.e, the basis vectors are orthogonal to each other, and have been normalised to have a length of 1.
+Eg: i,j,k in the 3d space
+
 # Matrix decomposition
 Matrix decomposition, also known as matrix factorization, refers to the process of expressing a matrix as a product of two or more matrices, often with specific properties. These factorized matrices can provide insights into the structure of the original matrix and are useful in various mathematical and computational applications. 
 
