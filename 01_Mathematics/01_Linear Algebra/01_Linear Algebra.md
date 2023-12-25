@@ -1,29 +1,10 @@
-# 1. Matrix
-A matrix is a two-dimensional array of numbers, symbols, or expressions, arranged in rows and columns. Matrix is vastly exploited by linear algebra to represent 
- - Systems of linear equations
- - Linear transformations
- - Eigenvalues and Eigenvectors, etc
-
-### Inverse of a matrix
-For a matrix A, if ```A@B == I == B@A``` then B is the inverse of A.
-The matrix whose inverse exists is called Regular/ Non Singular/ Invertible matrix. 
-
-### Transpose
-Transpose of a matrix is obtained by interchanging its rows and columns.
-
-## Operations
- - Matrix Addition
- - Matrix multiplication
- - Scalar multiplication
- - Scalar Multiplication
-
 
 # 3. Vector Spaces
 In mathematics, a vector space is an algebraic structure that consists of a set of vectors, along with two operations: vector addition and scalar multiplication.
-It is a set, and every element in it is a vector.
+It is a set where every element in it is a vector.
 **The concept of a vector space is foundational in linear algebra because it provides the mathematical framework and environment in which linear algebraic operations and transformations take place.**
 The **Basis vectors** of a vector space refers to a set of linearly independent vectors that span the entire vector space.
-``
+
 ## Span
 The span of a set of vectors refers to the set of all possible vectors that can be obtained by the linear combination of the given vectors.
 
@@ -34,9 +15,7 @@ Thus, vector subspaces are 'closed' under vector addition and scalar multiplicat
 ### Linear Independence
 In linear algebra, a set of vectors is said to be "linearly independent" if none of the vectors in the set can be expressed as a linear combination of the others. 
 Geometrically, linearly independent vectors in n-dimensional space do not lie in the same hyperplane. Intuitively, a set of linearly independent vectors consists of vectors that have no redundancy, i.e., if we remove any of those vectors from the set, we will lose something.
-All column vectors are linearly independent if and only if all columns are pivot columns. If there is at least one non-pivot column, the columns (and, therefore, the corresponding vectors) are linearly dependent.
-
-
+When represented in matrix form, all column vectors are linearly independent if and only if all columns are pivot columns. If there is at least one non-pivot column, the columns (and, therefore, the corresponding vectors) are linearly dependent.
 
 ### Generating set
 A set of vectors which spans the vector space. The minimal generating set is called basis.
@@ -79,27 +58,6 @@ The matrix representation of a S.O.L.E can be changed to augmented matrix, and t
 If rank(A) == rank(augmented matrix) after converting both to row echlon form, then the system of linear eqns represented by the matrix is independent.
 In row echlon form, the vectors are **generally** represented as rows in the coefficient matrix. Row operations are applied to the rows of the matrix to achieve the desired form, and the columns remain unchanged during this process.
 
-# 5. Linear Mapping/ Linear Transformation
-It's a mathematical function between two vector spaces that preserves vector addition and scalar multiplication. Geometrically, a linear mapping takes vectors from one space to another in a way that maintains the structure of those vectors.
-`Matrix multiplication is a linear operation and can be represented as a linear transformation.`
-i.e,
- - The grid lines must be parallel and evenly spaced.Therefore, all grid lines in the base vector space will remain lines (no curving). 
- - The origin remains at the exact place
-
-The representation of a linear transformation can be done with a matrix which will represent the final coordinates of the basis vector.
-Eg: A 2d linear transformation can be represented by a 2X2 matrix for the transformed vectors i and j, with each column representing a vector.
-
-After writing transformation as vector form, we can obtain the transformation of a random vector (x,y) by matrix multiplying the transformation matrix A, with the new vector.i.e, `A@(x,y)`.
-
-![Alt text](<Screenshot from 2023-12-19 08-57-31.png>)
- Multiplication of two matices
-Multiplying two transformation matrix results in the combination of both of those linear transformation.
-
-### Kernel/ Null space
-The kernel of a linear transformation, also known as the null space, is the set of all vectors that map to the zero vector under that transformation. In other words, it consists of the inputs that get "flattened" to zero when the transformation is applied.
-
-### Image
-In the context of linear algebra and linear transformations, the term "image" refers to the set of all possible output values that a linear transformation can produce.  
 
 
 # 6. Eigenvalues and Eigen vectors
