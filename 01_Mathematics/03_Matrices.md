@@ -23,7 +23,6 @@ The roots of the characteristic equation are the eigen values of the of the matr
 
 
 
-https://www.youtube.com/watch?v=jBsC34PxzoM&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=12
 
 
 

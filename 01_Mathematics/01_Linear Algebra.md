@@ -113,9 +113,7 @@ Eg: A 2d linear transformation can be represented by a 2X2 matrix for the transf
 After writing transformation as vector form, we can obtain the transformation of a random vector (x,y) by matrix multiplying the transformation matrix A, with the new vector.i.e, `A@(x,y)`.
 
 ![Alt text](<Screenshot from 2023-12-19 08-57-31.png>)
-
-
-### Multiplication of two matices
+ Multiplication of two matices
 Multiplying two transformation matrix results in the combination of both of those linear transformation.
 
 ### Kernel/ Null space
