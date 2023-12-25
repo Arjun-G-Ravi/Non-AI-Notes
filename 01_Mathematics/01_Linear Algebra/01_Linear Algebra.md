@@ -1,6 +1,3 @@
-# Linear Algerba
-Linear algebra is our 'good old algebra' that focuses on the study of vector spaces and linear mappings between those spaces. Algebraic representation of linear algebra problems are called linear equations. Geometrically, there will be no curves in a graphical representaion of a linear algebra problem. 
-
 # 1. Matrix
 A matrix is a two-dimensional array of numbers, symbols, or expressions, arranged in rows and columns. Matrix is vastly exploited by linear algebra to represent 
  - Systems of linear equations
@@ -20,23 +17,6 @@ Transpose of a matrix is obtained by interchanging its rows and columns.
  - Scalar multiplication
  - Scalar Multiplication
 
-# 2. Vectors
-A vector is a mathematical object used to represent quantities that have both magnitude and direction. 
-There are (at least) three different ways to think about vectors: 
- - a vector as an array of numbers (a computer science view)
- - a vector as an arrow with a direction and magnitude (a physics view)
- - a vector as an object that obeys addition and scaling (a mathematical view).
-Polynomials are also (unusual) instances of vectors, as they obey the mathematical view.
-
-### Properties of vectors
- - Scalar multiplication (stretching)
- - Vector Addition
-
-### Representation of vectors
- - In linear algebra, column vector form is often used when defining vectors, especially when working with matrix-vector multiplication because it aligns well with the matrix structure.
- - In physics, it's common to use row vector form for quantities like position vectors, which makes it easier to perform dot products with other vectors.
- - In computer programming, the choice may depend on the programming language and libraries being used.
- - **Generally, vectors can be represented as row or column depending on the context and ease of notation.** 
 
 # 3. Vector Spaces
 In mathematics, a vector space is an algebraic structure that consists of a set of vectors, along with two operations: vector addition and scalar multiplication.
@@ -56,8 +36,7 @@ In linear algebra, a set of vectors is said to be "linearly independent" if none
 Geometrically, linearly independent vectors in n-dimensional space do not lie in the same hyperplane. Intuitively, a set of linearly independent vectors consists of vectors that have no redundancy, i.e., if we remove any of those vectors from the set, we will lose something.
 All column vectors are linearly independent if and only if all columns are pivot columns. If there is at least one non-pivot column, the columns (and, therefore, the corresponding vectors) are linearly dependent.
 
-### Linear Combination of vectors
-A linear combination of vectors is a mathematical operation that involves multiplying each vector by a scalar (a real number) and then adding the results together.
+
 
 ### Generating set
 A set of vectors which spans the vector space. The minimal generating set is called basis.
