@@ -25,14 +25,3 @@ The number of linearly independent columns of a matrix equals the number of line
 The rank of a matrix is a fundamental concept in linear algebra and is a measure of the "dimensionality" of the column space of the matrix. In simple terms, `the rank is the maximum number of linearly independent columns (or rows) in a matrix.` In other words, it quantifies how much "room" is occupied by the linearly independent vectors within the entire space.
 
 
-
-
-
-
-
-
-
-
-
-
-
