@@ -1,37 +1,4 @@
-
-# 3. Vector Spaces
-In mathematics, a vector space is an algebraic structure that consists of a set of vectors, along with two operations: vector addition and scalar multiplication.
-It is a set where every element in it is a vector.
-**The concept of a vector space is foundational in linear algebra because it provides the mathematical framework and environment in which linear algebraic operations and transformations take place.**
-The **Basis vectors** of a vector space refers to a set of linearly independent vectors that span the entire vector space.
-
-## Span
-The span of a set of vectors refers to the set of all possible vectors that can be obtained by the linear combination of the given vectors.
-
-### Vector Subspace
-They are sets contained in the original vector space with the property that when we perform vector space operations on elements within this subspace, we will never leave it.
-Thus, vector subspaces are 'closed' under vector addition and scalar multiplication.
-
-### Linear Independence
-In linear algebra, a set of vectors is said to be "linearly independent" if none of the vectors in the set can be expressed as a linear combination of the others. 
-Geometrically, linearly independent vectors in n-dimensional space do not lie in the same hyperplane. Intuitively, a set of linearly independent vectors consists of vectors that have no redundancy, i.e., if we remove any of those vectors from the set, we will lose something.
-When represented in matrix form, all column vectors are linearly independent if and only if all columns are pivot columns. If there is at least one non-pivot column, the columns (and, therefore, the corresponding vectors) are linearly dependent.
-
-### Generating set
-A set of vectors which spans the vector space. The minimal generating set is called basis.
-
-### Basis
-A set of linearly independent vectors that spans the vector space. Every vector space has a basis. The dimension of a vector space is the length of its basis. For eg, i,j,k are a basis of the cartesian coordinate system.
-The dimension of a vector space is equal to the number of its basis vectors.
-
-### Rank
-`The number of dimensions of a vector after transformation.`
-It is the number of dimensions in the column space.
-The number of linearly independent columns of a matrix equals the number of linearly independent rows and is called the rank of A and is denoted by rk(). It is the number of non-zero rows in echlon form.
-The rank of a matrix is a fundamental concept in linear algebra and is a measure of the "dimensionality" of the column space of the matrix. In simple terms, the rank is the maximum number of linearly independent columns (or rows) in a matrix.
-It provides information about the "effective" dimension of the column space or row space. In other words, it quantifies how much "room" is occupied by the linearly independent vectors within the entire space.
-
-# 4. Linear System of Equation (S.O.L.E)
+# Linear System of Equation (S.O.L.E)
 ### Solution to a S.O.L.E
 Value of variable that satisfies multiple linear eqn is called the solution of the system of eqns. Geometrically, this solution will be on the intersection of the geometrical eqns(which can be lines, planes or hyperplanes).
 
