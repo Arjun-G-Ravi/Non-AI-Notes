@@ -32,7 +32,6 @@ The dot product, also known as the scalar product or inner product, is a binary 
 
 `Graphically, it is the product of the length of one vector with the projection of the other vector on the first vector`. It can be used to evaluate how aligned two vectors are. It is also used to evaluate angle between vectors.
 
-
 ## FLOP/s
 Vectors are stored as arrays of floating point numbers (or integers, when the entries are all integers). Storing an n-vector requires 8n bytes to store. Sparse vectors are stored in a more efficient way that keeps track of indices and values of the nonzero entries.
 
