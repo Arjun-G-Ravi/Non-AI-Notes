@@ -13,3 +13,8 @@ Basic Format:	def func():
 				               return func(changed parameter)
 ```
 
+## Call Stack
+The call stack is a region of memory that stores information about the active subroutines (functions or methods) in a program. Each recursive call adds a new frame to the call stack. The stack keeps track of the local variables, parameters, and return addresses for each active function call.
+
+### Stack Overflow:
+It's important to note that excessive recursion without proper termination conditions can lead to a stack overflow, where the call stack runs out of available memory. This is why it's crucial to have a base case in recursive functions that ensures termination. 
