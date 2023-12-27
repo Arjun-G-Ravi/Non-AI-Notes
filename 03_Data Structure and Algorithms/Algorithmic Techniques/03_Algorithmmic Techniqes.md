@@ -4,6 +4,7 @@ Backtracking is a more refined and optimized version of brute force that intelli
 
 # 3. Divide and conquer
 Take a (big) problem and divide it into smaller parts. Now solve these parts. This is divide. Now take the output from these smaller problems and combine them to get the final output. This is the conquer step.
+They are great demonstration of recursion.
 ```
 Basic Format:
     def DAC(P):
