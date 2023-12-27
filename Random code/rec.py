@@ -1,7 +1,10 @@
-def dec2bin(n):
-    if n//2 == 0:
-        return str(n%2)
-    
-    return dec2bin(n//2) + str(n%2)
+def bin_search(arr,n):
+    mid = len(arr)//2
 
-dec2bin(10)
+    if arr[mid] == n:
+        return mid
+    if n > arr[mid]:
+        return bin_search(arr[mid+1:], n) + mid
+    else:
+        return bin_search(arr[:mid], n)
+print(bin_search([1,2,3,4,5],4))
