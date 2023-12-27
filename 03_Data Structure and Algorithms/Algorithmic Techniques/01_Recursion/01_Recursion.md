@@ -18,3 +18,7 @@ The call stack is a region of memory that stores information about the active su
 
 ### Stack Overflow:
 It's important to note that excessive recursion without proper termination conditions can lead to a stack overflow, where the call stack runs out of available memory. This is why it's crucial to have a base case in recursive functions that ensures termination. 
+
+## Steps to solving a recursive problem
+
+![Alt text](<Screenshot from 2023-12-27 12-34-42.png>)
