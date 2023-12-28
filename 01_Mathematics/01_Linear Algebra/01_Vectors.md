@@ -42,25 +42,25 @@ The dot product, also known as the scalar product, is a binary operation that ta
 
 `Graphically, it is the product of the length of one vector with the projection of the other vector on the first vector`. It can be used to evaluate how aligned two vectors are. It is also used to evaluate angle between vectors.
 
-
-## Norm
-The norm of a vector, often denoted by ‖v‖ is a measure of the length or magnitude of the vector. 
-Eg: Manhattan Norm (L1 norm), Euclidean Norm (L2 norm), etc.
-
 ## Projection
 Projection, in mathematics, refers to the process of mapping a vector onto a subspace. The most common type of projection is the orthogonal projection, which involves projecting a vector onto a subspace in a way that the projected vector is orthogonal (perpendicular) to the subspace. 
 Orthogonal projections are used in ML to visualise a higher dimensional graph, without the loss of valuable information. PCA works with this.
 
+## Norm
+The norm of a vector, often denoted by ‖v‖ is a measure of the length or magnitude of the vector. 
+Eg: Manhattan Norm (L1 norm), Euclidean Norm (L2 norm) RMS, etc.
+
+Euclidean norm
+![Alt text](<Screenshot from 2023-12-28 16-04-13.png>)
+
+## Distance
+
+![Alt text](<Screenshot from 2023-12-28 16-04-58.png>)
 
 
 
 
-
-
-
-
-
-
+![Alt text](image.png)
 
 
 
