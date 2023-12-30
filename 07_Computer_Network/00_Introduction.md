@@ -4,18 +4,18 @@
 - A computer network has three components:
     - Nodes
         - End nodes: Computers, printer, etc
-      - Intermediate nodes: Switches, bridges
+        - Intermediate nodes: Switches, bridges
     - Transmission media
         - Wired/ Guided
-        - Ethernet: Data transferred as electrical signals
-        - Fibre optics: As light waves, fastest
-        - Coaxial: For video and audio. As electricity
-        - USB cable: Universal serial bus. 
-    - Wireless/ Unguided
-        - IR: Short
-        - Radio: Bluetooth, Wifi
-        - Microwaves: Cell phone. Longer
-        - Sattelite communication
+            - Ethernet: Data transferred as electrical signals
+            - Fibre optics: As light waves, fastest
+            - Coaxial: For video and audio. As electricity
+            - USB cable: Universal serial bus. 
+        - Wireless/ Unguided
+            - IR: Short
+            - Radio: Bluetooth, Wifi
+            - Microwaves: Cell phone. Longer
+            - Sattelite communication
     - Services
         - Instant messaging, file sharing, Information and web services, entertainment, etc. 
 

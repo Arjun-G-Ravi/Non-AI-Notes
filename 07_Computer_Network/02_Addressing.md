@@ -1,9 +1,10 @@
 # IP Address
  - The internet protocol address is used to identify every node in a computer network
- - It is a logical address - an abstract adress, that doesn't depend on the nodes physically
- - Router assigns an ip adress to every device that connects to it, creating a LAN
+ - It is a logical address - an abstract address, that doesn't depend on the node devices.
+ - It is not even dependent on the physical location of the devices. But the physical location can be approximated using the IP address.
+ - Router assigns an ip address to every device that connects to it, creating a LAN
  - An IPv4 address is represented as decimals, as 4 octets. Each octet is a number between 0 and 255.
- - It is of the form 192.168.1.12, where the first 3 octets refer to the network adress and last one is host adress 
+ - It is of the form 192.168.1.12, where the first 3 octets refer to the network address and last one is host address 
  - Can be assigned manually
 
 # MAC address
@@ -12,8 +13,7 @@
  - Unique for any other devices. Assigned by the manufacturer
  - Represented as hexadecimals, separated by hyphen, period or colon. Eg: 70-20-84-00-ED-FC 
 
-Routers need IP address and switches need MAC address.
-
+Routers need IP address and switches need MAC address to transfer data.
 # Port Address
 - Decides which process has to get the communicated data in the particular node
 - Port is the communication endpoint.

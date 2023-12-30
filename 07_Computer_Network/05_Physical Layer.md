@@ -1,5 +1,4 @@
-# The Physical Layer
-
+# THE PHYSICAL LAYER
 
 # Physical Network Topology
 Arrangement of nodes in a network.
@@ -44,13 +43,15 @@ Three types of data flow:
 2. Half duplex: Both directions, but not at the same time. Eg: Walkie-talkies
 3. Duplex/ Full duplex: Both directions simultaneously. Eg: Telephone
 
-## Peer to peer network
+# Network Types - by Connection
+
+#### Peer to peer network
 - No centralised administration
 - All peers are equal 
 - Simple sharing
 - Not scalable
 
-## Client Server network
+#### Client Server network
 - Centralised administraton
 - Request-response model
 - Scalable

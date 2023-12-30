@@ -1,6 +1,6 @@
 # Data Link Layer
-Uses physical layer to send bits over communication channel
-To accomplish these goals, the data link layer takes the packets it gets from the network layer and encapsulates them into frames for transmission.
+- Uses physical layer to send bits over communication channel
+- To accomplish these goals, the data link layer takes the packets it gets from the network layer and encapsulates them into frames for transmission.
 - It uses MAC address
 
 It has three parts:
