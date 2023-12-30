@@ -2,22 +2,22 @@
 - A set of nodes connected by communication links.
 - A network can be defined as a group of computers and other devices connected in some way so as to be able to exchange data. Each of the devices on the network can be thought of as a node, each node has a unique address.
 - A computer network has three components:
-   - Nodes
-     - End nodes: Computers, printer, etc
-     - Intermediate nodes: Switches, bridges
-   - Transmission media
-     - Wired/ Guided
+    - Nodes
+        - End nodes: Computers, printer, etc
+      - Intermediate nodes: Switches, bridges
+    - Transmission media
+        - Wired/ Guided
         - Ethernet: Data transferred as electrical signals
         - Fibre optics: As light waves, fastest
         - Coaxial: For video and audio. As electricity
         - USB cable: Universal serial bus. 
-     - Wireless/ Unguided
+    - Wireless/ Unguided
         - IR: Short
         - Radio: Bluetooth, Wifi
         - Microwaves: Cell phone. Longer
         - Sattelite communication
-   - Services
-     - Instant messaging, file sharing, Information and web services, entertainment, etc. 
+    - Services
+        - Instant messaging, file sharing, Information and web services, entertainment, etc. 
 
 # Properties of CN
 1. Fault Tolerance: Ability of network to work regardless of failures. ie, if a failure occurs in a path the network has to find another path to get the information through.
