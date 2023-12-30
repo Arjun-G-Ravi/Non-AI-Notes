@@ -25,40 +25,42 @@ Set of rules that governs data communication.
 
 ## Functions of Layers in OSI model
 
-1. Application Layer:
+![Alt text](<Screenshot from 2023-11-23 08-09-45.png>)
+
+#### Layer 7: Application Layer:
    - Provides an interface between application and user
    - It generates the data. This is where the user gives in the 'to-network' data
+   - In TCP/IP model, the application layer contains the presentation and session layer also
 
-2. Presentation Layer:
-    - Encrypt, Compress, Translation of data
+#### Layer 6: Presentation Layer:
+   - Encrypt, Compress, Translation of data
 
-3. Session Layer:
-    - Establishes, maintains and synchronises interation btw communicating devices 
+#### Layer 5: Session Layer:
+   - Establishes, maintains and synchronises interation btw communicating devices 
 
-4.  Transport Layer:
-     - Responsible for delivery of msg
-     - Port adressing (Port Adress)
-     - Segmentaion and reassembly
-     - Connectio and flow control
-     - Error control
+#### Layer 4: Transport Layer:
+   - Responsible for delivery of msg
+   - Port adressing (Port Adress)
+   - Segmentaion and reassembly
+   - Connectio and flow control
+   - Error control
 
-5.  Network Layer:
-    - Also responisble for msg delivery
-     - Logical addressing (IP)
-     - Routing
+#### Layer 3: Network Layer:
+   - Also responisble for msg delivery
+   - Logical addressing (IP)
+   - Routing
 
-6. Data Link Layer:
-    - Responsible for moving data(frames) from one layer to another
-    - Framing
-    - Physical adressing (MAC)
-    - Flow, Access and error control
+#### Layer 2: Data Link Layer:
+   - Responsible for moving data(frames) from one layer to another
+   - Framing
+   - Physical adressing (MAC)
+   - Flow, Access and error control
 
-7. Physical Layer:
-    - Responsible for transmitting bits over medium
-    - Data rate, Representation and sync of bits
-    - Physical topology
+#### Layer 1: Physical Layer:
+   - Responsible for transmitting bits over medium
+   - Data rate, Representation and sync of bits
+   - Physical topology
 
-![Alt text](<Screenshot from 2023-11-23 08-09-45.png>)
 
 # TCP/IP model
 
