@@ -9,7 +9,7 @@
 # 2.Hubs
 - Operate at physical layer
 - Connects multiple devices in a network and allows them to communicate with each other.
-- Serves as a central connection point for devices on a network, and facilitates communication by broadcasting data to all connected devices.
+- Serves as a central connection point for devices on a network, and facilitates communication by broadcasting data to all connected devices -> dumb
 - Simple device - no security, ability to manage traffic, filtering
 - Being replaced now by more intelligent devices
 
@@ -21,8 +21,8 @@
 - Adapts to changes in the network, ensuring efficient and accurate forwarding decisions.
 
 # 4. Switches
-- Operate in data link layer
 -  They are essential components in local area networks (LANs) and are used to connect multiple devices within a network, enabling efficient communication.
+- Operate in data link layer. So they donot know anything about the IP addresses(Layer 3 address) of its devices. IT knows about its MAC address though
 - Unlike hubs or simple bridges, switches provide more intelligent and efficient handling of network traffic.
 - They build and maintain a MAC address table that maps MAC addresses to specific switch ports
 - Switches use the MAC address table to forward frames only to the port where the destination device is located- reduces traffic
@@ -34,6 +34,7 @@
     - Larger data handling capability
     - Better scalability
 - Switches have largely replaced older technologies like hubs and simple bridges in modern networks.
+- They store the mac address in a table, and thus know exactly in which ports each devices are
 
 # 5. Routers
 - Operate in Network layer
