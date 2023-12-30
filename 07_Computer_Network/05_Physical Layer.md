@@ -1,4 +1,5 @@
 # THE PHYSICAL LAYER
+This is the layer which actually transfers the data between devices. It takes in the data from the data link layer and convert it into binary data that can be transported.
 
 # Physical Network Topology
 Arrangement of nodes in a network.
