@@ -59,3 +59,8 @@
 
 
 
+# Modem
+- A device that brings internet to the home
+- Converts the analog data signal from the ISP into digital signal, so that computer will be able to understand the data
+- Modem stands for modulator and demodulator
+- 
