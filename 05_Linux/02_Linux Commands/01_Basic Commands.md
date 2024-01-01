@@ -165,11 +165,17 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
     7. iwconfig: To see wifi related network details
     8. nmap: To see a lot of information about the router and the connected devices
     9. sudo cat /etc/NetworkManager/system-connections/<WiFi-SSID>: To retrieve wifi password from your device
-57. sudo apt update && sudo apt upgrade: This upgrades the OS with the latest updates.
-58. Installing applications:
+57. Package managers:
     1.  dpkg: Low level package manager for debian. We have to download the .deb file for the installation ourself and perform `sudo dpkg -i <path to pkg>`. Another issue with this is that you have to manually download all the requirements for the installed package.
-    2.  apt: High level. We just have to do `sudo apt install <pkg name>`
-
+    2.  apt: High level.
+        1. To install a package: `sudo apt install <pkg name>`.
+        2. To remove a package: `sudo apt remove <pkg name>` # This removes the package, but preserves user data and modification done to that package. This will let us continue from where we left off, by reinstalling the package again.
+        3. To completely remove a package: `sudo apt purge <pkg name>`
+        4. To update and upgrade all apps: `sudo apt update && sudo apt upgrade`
+    3. snap: Kind of like a store, where developers can put their packages in a snap.
+    4. pip: Python's package manager. `pip install <package name>`
+       1. `pip install -r <file name>`: To install all the things mentioned in the file. Generally used for installing requirements.txt
+    5. git: We can use `git clone <url>` to clone a repo
 
 https://www.youtube.com/watch?v=vX3krP6JmOY&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=5&ab_channel=NetworkChuck``
 
