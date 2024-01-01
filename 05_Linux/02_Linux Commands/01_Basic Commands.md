@@ -80,7 +80,7 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
         2. logical operators like -not -or 
         3. -mtime for modified time
         4. We can even use -exec to execute another operation to the found out files.
-31. grep: Helps us find text inside of files
+31. grep: Helps us find text inside of files. It stands for global regular expression print.
     1.  grep #string# #file_loc#: Prints the matching string lines in file_loc
     2.  -n: Gives line numbers
     3.  -C: gives context. More lines before and after the matching word    
