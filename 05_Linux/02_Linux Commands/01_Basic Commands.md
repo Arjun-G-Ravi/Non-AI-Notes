@@ -166,6 +166,9 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
     8. nmap: To see a lot of information about the router and the connected devices
     9. sudo cat /etc/NetworkManager/system-connections/<WiFi-SSID>: To retrieve wifi password from your device
 57. sudo apt update && sudo apt upgrade: This upgrades the OS with the latest updates.
+58. Installing applications:
+    1.  dpkg: Low level package manager for debian. We have to download the .deb file for the installation ourself and perform `sudo dpkg -i <path to pkg>`. Another issue with this is that you have to manually download all the requirements for the installed package.
+    2.  apt: High level. We just have to do `sudo apt install <pkg name>`
 
 
 https://www.youtube.com/watch?v=vX3krP6JmOY&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=5&ab_channel=NetworkChuck``
