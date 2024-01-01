@@ -5,7 +5,6 @@ Linux is a family of free and open-source operating systems based on the Linux k
 
 The Linux kernel has been under active development since 1991, and has proven to be extremely versatile and adaptable. You can find computers that run Linux in a wide variety of contexts all over the world, from web servers to cell phones. Today, 90% of all cloud infrastructure and 74% of the world’s smartphones are powered by Linux.
 
-
 # Linux Origin Story
 - Richard Stallman and a group of people aimed to create an open-source UNIX based operating system. It was named GNU.
 - During this time, a young prodigy Linus Torvalds was working to create his own kernel known as Linux.
@@ -88,8 +87,8 @@ The permission will be a 10 character string:
 
 We can change the permission using ```chmod``` command.
 
-# Shortcuts
-1. .    Refers to the current directory
-2. ..   Refers to the prev directory
-3. ~    Refers to home
-4. /    Refers to the root 
+# Directory representation in Linux
+    .    Refers to the current directory
+    ..   Refers to the prev directory
+    ~    Refers to home
+    /    Refers to the root 
