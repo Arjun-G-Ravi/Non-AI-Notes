@@ -12,3 +12,4 @@ The functions of data link layer are:
 3. error detection and correction: by calculating and comparing checksum, and sending acknowledgement
 4. flow control:feedback based or rate based. These can be implemented as stop-and-wait flow control and sliding window based
 
+q
