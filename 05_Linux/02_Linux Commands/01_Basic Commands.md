@@ -105,31 +105,34 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
       - kill -9 #Pid#: This is a brutal way to kill a process
       - killall #Pname#: Kills all the processes with the Pname
       - killall -9 #Pname#: Kills all the processes with the Pname brutally.
-      - pkill -9 #part of Pname#: Kills process brutally, but Pname is more liberal
+      - pkill -9 #part of Pname#: Kills process brutally, but if the pname is a part of the real process name, it is killed. So use carefully as it may kill unwanted processes.
 36. fg, bg: Create processes in foreground and background
-37. 
-38. jobs: See all the sleeping and background processes
-39. gzip -k filename: Create a zip of the file. -k keeps the unzipped file. If used on multiple files, it zips them separately.
-40. gunzip -k filename: Unzip the file 
-41. tar -cf #EndFileName.tar# file1 file2 file3: Creates archives of multiple files. Now we can use gzip to compress the archive.
+37. jobs: See all the sleeping and background processes
+38. gzip -k filename: Create a zip of the file. -k keeps the unzipped file. If used on multiple files, it zips them separately.
+39. gunzip -k filename: Unzip the file 
+40. tar -cf #EndFileName.tar# file1 file2 file3: Creates archives of multiple files. Now we can use gzip to compress the archive.
     1. tar -xf #EndFileName.tar# file1 file2 file3: To extract the archive
     2. tar -tf #ArchiveName#: To view contents of the archive
     3. tar -czf #EndFileName.tar# file1 file2 file3: To create and compress the archive all in one
-42. nano: It is an in-built text editor in linux
-43. alias: We can rename different keywords to be custom commands. This has to be put on config file for fish, bashrc for bash in home directory.
-44. xargs: Some commands expect arguments for its functioning. xargs lets us pipe the output of another command (stdout) as the arguments of the command.
+41. Editors:
+    1.  nano: Built-in, light weight, super easy text editor in linux
+    2.  vi: Open in vim. Built in most linux systems
+    3.  code: Open in vscode
+    4.  nvim: Open in nvim
+42. alias: We can rename different keywords to be custom commands. This has to be put on config file for fish, bashrc for bash in home directory.
+43. xargs: Some commands expect arguments for its functioning. xargs lets us pipe the output of another command (stdout) as the arguments of the command.
     - cat file1|xargs touch: Creates all the filenames present in file1
     - find . -size +1G | xargs rm: Remove all files in the current directory that is larger than 1 GB.
-45. ln: Links
+44. ln: Links
     1. Hardlink: A hardlink to a file is like a copy of that file, but if any change in one will be reflected in the other. If you delete one, the other WILL persist, as it is pointing to the same thing in memory.
         - ln #original# #link#
     2. Softlink/ Symbolic link: A softlink to a file is like a copy of that file, but if any change in one will be reflected in the other(same as hard link). If you delete one, the other WILL NOT persist, as the link is pointing to the file itself, not the memory location
         - ln -s #original# #link#
-46. su: Lets you switch users to a different terminal just for that terminal instance.
-47. sudo: Super user do - Lets you run commands as the root user, with elevated permissions if you have administrative permissions. This is generally required if you are making changes that affects multiple users.
-48. passwd: To change, expire, delete, etc. our or other user's (if you have root access) passwords.
-49. chown: Lets us change ownership of files and directories.
-50. chmod (Change mode): To Changing Permissions
+45. su: Lets you switch users to a different terminal just for that terminal instance.
+46. sudo: Super user do - Lets you run commands as the root user, with elevated permissions if you have administrative permissions. This is generally required if you are making changes that affects multiple users. This is primarily for debian type Linux like ubuntu, parrotOS and mint.
+47. passwd: To change, expire, delete, etc. our or other user's (if you have root access) passwords.
+48. chown: Lets us change ownership of files and directories.
+49. chmod (Change mode): To Changing Permissions
     - Format: chmod #mode# #file#
     ```
     Mode includes the following
@@ -148,17 +151,17 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
         - x
     ```
     Eg: chmod ug+rw file1.txt : This add read and write permission to the user and group for file1.txt
-51. ranger: Open ranger - a terminal file system manager
-52. source: To activate virtual environment
+50. ranger: Open ranger - a terminal file system manager
+51. source: To activate virtual environment
     - source "/home/arjun/AI_ENV/bin/activate.fish"
     - source "/home/arjun/AI_ENV/bin/activate"
-53. Open terminal
+52. Open terminal
     - bash: Open bash
     - fish: Open fish
-54. nvidia-smi: Details about NVIDIA graphics card
-55. env: Environmental variables 
-56. apropos <words>: Identifies commands related to the words
-57. Networking:
+53. nvidia-smi: Details about NVIDIA graphics card
+54. env: Environmental variables 
+55. apropos <words>: Identifies commands related to the words
+56. Networking:
     1. uname -a: Tells a lot about the user and the system you are using
     2. id, ip, netstat, ss: A lot of network stuff
     3. nslookup: To get the Domain Name Address(DNS) of a domain name
@@ -168,7 +171,7 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
     7. iwconfig: To see wifi related network details
     8. nmap: To see a lot of information about the router and the connected devices
     9. sudo cat /etc/NetworkManager/system-connections/<WiFi-SSID>: To retrieve wifi password from your device
-58. Package managers:
+57. Package managers:
     1.  dpkg: Low level package manager for debian. We have to download the .deb file for the installation ourself and perform `sudo dpkg -i <path to pkg>`. Another issue with this is that you have to manually download all the requirements for the installed package.
     2.  apt: High level.
         1. To install a package: `sudo apt install <pkg name>`.
