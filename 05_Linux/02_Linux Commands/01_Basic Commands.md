@@ -21,6 +21,7 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
    1. cd ..: To go back
    2. cd ~: Go to home
    3. cd \: Go to root
+   4. cd -: Go to the last used directory
 9. mkdir: Make directory
    1. mkdir dir1 dir2 dir3: Make multiple directories at once
    2. mkdir -p dir1/dir2/dir3: Creates all the directories to make this path. i.e, creates nested directory
@@ -187,7 +188,11 @@ gsettings set org.gnome.desktop.wm.preferences button-layout :
 gsettings reset org.gnome.desktop.wm.preferences button-layout
 
 
-# Kills
+# Shortcuts for the terminal
+Ctrl + A: Go to the very first of the line
+Ctrl + E: Go to the very end of the line
+Ctrl + U: Cut(delete) to the left of cursor
+Ctrl + Y: Paste
 Ctrl + C: Kills a process in the terminal. Kill signal 2
 Ctrl + Z: Sleeps a process. Kill signal 19
 & at the end of a process: Sends the proecess straight to background
