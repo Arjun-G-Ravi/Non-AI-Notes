@@ -9,7 +9,7 @@ A Finite State Machine (FSM) is a mathematical model used to design and describe
 ![Alt text](<Screenshot from 2023-11-20 19-49-04.png>)
 
 ## Regular Language
-A language is called a regualar language if and only if a FSM recogonises it.
+A language is called a regular language if and only if a FSM recogonises it.
 
 ## Regular Grammar
 - A grammar refers to a set of production rules that define the structure of a formal language. It is a mathematical formalism used to describe the syntax of a language. 
