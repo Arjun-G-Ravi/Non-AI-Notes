@@ -29,3 +29,4 @@ An Epsilon-Nondeterministic Finite Automaton (ε-NFA or ENFA) is an extension of
 - Epsilon closure: All the states that can be reached by only seeing epsilon.
 
 ![Alt text](<Screenshot from 2023-11-20 20-57-08.png>)
+
