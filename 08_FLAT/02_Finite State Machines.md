@@ -22,6 +22,10 @@ The equivalence of a Deterministic Finite Automaton (DFA) and a Regular Grammar 
 A Non-deterministic Finite Automaton (NFA) is another type of Finite State Machine (FSM), similar to a Deterministic Finite Automaton (DFA), but with a key difference in the transition function. In an NFA, for a given state and input symbol, there can be multiple possible transitions to different states or even no transition at all.
 - Every DFA is a NFA, but not vice versa.
 - For every NFA, there is an equivalent DFA.
+![Alt text](<Screenshot from 2024-01-02 20-51-15.png>)
+
+We can convert any NFA into a DFA.
+![Alt text](<Screenshot from 2024-01-02 20-53-26.png>)
 
 # Epsilon NFA
 An Epsilon-Nondeterministic Finite Automaton (ε-NFA or ENFA) is an extension of a Nondeterministic Finite Automaton (NFA) that includes the ability to make "epsilon transitions" (ε-transitions). An epsilon transition allows the automaton to move from one state to another without consuming any input symbol.
