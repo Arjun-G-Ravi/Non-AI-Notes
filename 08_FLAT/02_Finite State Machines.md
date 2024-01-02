@@ -18,12 +18,21 @@ The transition funciton is defined as:
 
 The equivalence of a Deterministic Finite Automaton (DFA) and a Regular Grammar means that for every regular language recognized by a DFA, there exists a corresponding regular grammar that generates the same language, and vice versa.
 
+### Minimisation of DFA
+Minimisation of DFA is done to make the DFA do the same task with the minimum number of states.
+
+##### Equivalence of DFAs
+
+![Alt text](<Screenshot from 2024-01-02 21-28-25.png>)
+
+
 # NFA
 A Non-deterministic Finite Automaton (NFA) is another type of Finite State Machine (FSM), similar to a Deterministic Finite Automaton (DFA), but with a key difference in the transition function. In an NFA, for a given state and input symbol, there can be multiple possible transitions to different states or even no transition at all.
 - Every DFA is a NFA, but not vice versa.
 - For every NFA, there is an equivalent DFA.
 ![Alt text](<Screenshot from 2024-01-02 20-51-15.png>)
 
+### Conversion of a NFA into a DFA
 We can convert any NFA into a DFA.
 ![Alt text](<Screenshot from 2024-01-02 20-53-26.png>)
 
