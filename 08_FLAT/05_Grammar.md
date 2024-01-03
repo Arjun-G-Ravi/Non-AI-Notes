@@ -1,13 +1,16 @@
 # Grammar
 Grammar refers to a set of rules that define the structure of strings in a formal language.
 
+![Alt text](image-3.png)
+
 ## Chomsky Classification of Grammars
 ![Alt text](<Screenshot from 2023-11-25 12-06-44.png>)
 
+
 # Regular Grammar
-A regular grammar refers to a type of formal grammar that generates a regular language, which is a type of formal language in theoretical computer science. They are the simplest class of formal languages in the Chomsky hierarchy, which categorizes formal languages based on their generative power.  
- 
- ![Alt text](<Screenshot from 2023-11-25 12-08-54.png>)
+A regular grammar refers to a type of formal grammar that generates a regular language, which is a type of formal language in theoretical computer science. They are the simplest class of formal languages in the Chomsky hierarchy, which categorizes formal languages based on their generative power.
+
+![Alt text](image-4.png) 
 
 # Context Free Grammar
 
