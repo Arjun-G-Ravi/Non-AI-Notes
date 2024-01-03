@@ -1,14 +1,5 @@
 https://www.nesoacademy.org/cs/04-theory-of-computation
 
-
-
-d
-
-
-### Minimisation using Myhill-Nerdoe Theorem
-![Alt text](<Screenshot from 2023-11-20 20-33-29.png>)
-![Alt text](<Screenshot from 2023-11-20 20-38-32.png>) 
-
 # Finite Automata with Output - Mealy machine and Moore Machine
 ![Alt text](<Screenshot from 2023-11-20 20-45-32.png>)
 

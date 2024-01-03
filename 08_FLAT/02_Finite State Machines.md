@@ -23,7 +23,12 @@ The equivalence of a Deterministic Finite Automaton (DFA) and a Regular Grammar 
 
 ### Minimisation of DFA
 Minimisation of DFA is done to make the DFA do the same task with the minimum number of states.
+### 1. Minimisation using partitioning method
 ![Alt text](<Screenshot from 2024-01-02 21-37-04.png>)
+
+### 2. Minimisation using Myhill-Nerdoe Theorem - Table filling method
+![Alt text](<Screenshot from 2023-11-20 20-33-29.png>)
+![Alt text](<Screenshot from 2023-11-20 20-38-32.png>) 
 
 # NFA
 A Non-deterministic Finite Automaton (NFA) is another type of Finite State Machine (FSM), similar to a Deterministic Finite Automaton (DFA), but with a key difference in the transition function. In an NFA, for a given state and input symbol, there can be multiple possible transitions to different states or even no transition at all.
