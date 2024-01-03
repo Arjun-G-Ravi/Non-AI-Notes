@@ -24,8 +24,18 @@ CFL provide a higher level of expressive power compared to regular languages, ma
 ### Production Rules:
 These are more flexible and expressive. They allow for rules of the form A → α, where A is a non-terminal symbol, and α is any combination of terminal and non-terminal symbols (including the possibility of just a single terminal or non-terminal symbol on the right-hand side). This flexibility allows CFGs to represent more complex languages than regular grammars.
 
+### Derivation Tree
+![Alt text](image-5.png)
+
+There are two types of derivation tree
+![Alt text](image-6.png)
+
+A grammar is said to be ambiguous if there exists two or more tree(of the same type-left/right) to represent a string w.
+
+### Simplification of CFG
+![Alt text](image-7.png)
+
 # Chomsky Normal Form
-d
 ![Alt text](<Screenshot from 2023-11-25 20-34-24.png>)
 
 https://www.youtube.com/watch?v=FNPSlnj3Vt0&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=80
