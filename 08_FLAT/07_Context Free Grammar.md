@@ -26,3 +26,4 @@ In CNF, production rules are simplified to have only two non-terminals on the ri
 
 ![Alt text](<Screenshot from 2023-11-25 20-34-24.png>)
 
+![Alt text](image-9.png)
