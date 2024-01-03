@@ -34,6 +34,7 @@ A grammar is said to be ambiguous if there exists two or more tree(of the same t
 
 ### Simplification of CFG
 ![Alt text](image-7.png)
+![Alt text](image-8.png)
 
 # Chomsky Normal Form
 ![Alt text](<Screenshot from 2023-11-25 20-34-24.png>)
