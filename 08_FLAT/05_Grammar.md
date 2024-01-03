@@ -25,7 +25,7 @@ CFL provide a higher level of expressive power compared to regular languages, ma
 These are more flexible and expressive. They allow for rules of the form A → α, where A is a non-terminal symbol, and α is any combination of terminal and non-terminal symbols (including the possibility of just a single terminal or non-terminal symbol on the right-hand side). This flexibility allows CFGs to represent more complex languages than regular grammars.
 
 # Chomsky Normal Form
-
+d
 ![Alt text](<Screenshot from 2023-11-25 20-34-24.png>)
 
 https://www.youtube.com/watch?v=FNPSlnj3Vt0&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=80
