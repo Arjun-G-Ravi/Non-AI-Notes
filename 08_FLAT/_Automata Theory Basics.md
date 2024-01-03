@@ -1,14 +1,10 @@
-https://www.nesoacademy.org/cs/04-theory-of-computation
-
-# Finite Automata with Output - Mealy machine and Moore Machine
-![Alt text](<Screenshot from 2023-11-20 20-45-32.png>)
-
-
 # Regular Expression
 A way of representing strings in algebraic manner.
 
 # Arden's Theorem
 ![Alt text](<Screenshot from 2023-11-25 11-08-12.png>)
+
+![Alt text](<Screenshot from 2024-01-03 11-29-57.png>)
 
 # Pumping lemma
 - Regular languages are languages that can be represented using finite state machines

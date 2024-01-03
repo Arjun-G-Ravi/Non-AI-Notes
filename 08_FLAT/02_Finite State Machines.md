@@ -44,8 +44,18 @@ We can convert any NFA into a DFA.
 ![Alt text](<Screenshot from 2024-01-02 20-53-26.png>)
 
 # Epsilon NFA
-An Epsilon-Nondeterministic Finite Automaton (ε-NFA or ENFA) is an extension of a Nondeterministic Finite Automaton (NFA) that includes the ability to make "epsilon transitions" (ε-transitions). An epsilon transition allows the automaton to move from one state to another without consuming any input symbol.
-- Every state on getting epsilon goes to itself also
-- Epsilon closure: All the states that can be reached by only seeing epsilon.
+An Epsilon-Nondeterministic Finite Automaton (ε-NFA or ENFA) is an extension of a Nondeterministic Finite Automaton (NFA) that includes the ability to make "epsilon transitions" (ε-transitions). 
+It is defined as:
+![Alt text](image.png)
 
+An epsilon transition allows the automaton to move from one state to another without consuming any input symbol. Every state on getting epsilon goes to itself also.
+
+### Epsilon closure
+Epsilon closure of a state refers to all the states that can be reached by from that state only seeing epsilon.
+
+### Epsilon NFA to NFA
 ![Alt text](<Screenshot from 2023-11-20 20-57-08.png>)
+
+
+# Finite Automata with Outputs
+![Alt text](<Screenshot from 2024-01-03 07-53-36.png>)

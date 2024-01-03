@@ -7,6 +7,9 @@
 5. Grammar:A grammar refers to a set of production rules that define the structure of a language. It is a mathematical formalism used to describe the syntax of a language. 
 6. Automata: Language genarator/ acceptor. Returns yes/no
 
+- Φ often refers to an empty set or language
+- ε refers to the empty string
+
 ### Language classification and the automata that accepts it
 ![Alt text](<Screenshot from 2024-01-02 13-13-11.png>)
 
