@@ -1,5 +1,5 @@
 # 1. Regular Grammar
-A regular grammar refers to a type of formal grammar that generates a regular language. They are the simplest class of formal languages in the Chomsky hierarchy, which categorizes formal languages based on their generative power.
+A regular grammar refers to a type of formal grammar that generates a regular language. They are the simplest class of formal languages in the Chomsky hierarchy, which categorizes formal languages based on their generative power. It is recogonised by finite state machines.
 
 ![Alt text](image-4.png) 
 ### Production Rules:

@@ -20,5 +20,9 @@ A grammar is said to be ambiguous if there exists two or more tree(of the same t
 ![Alt text](image-8.png)
 
 # Chomsky Normal Form
+Chomsky Normal Form (CNF) is a specific form used in the context of formal grammars, particularly in the study of context-free grammars (CFGs).
+
+In CNF, production rules are simplified to have only two non-terminals on the right-hand side, and no rules with ε (epsilon, indicating an empty string) or unit productions (where a single non-terminal leads to another single non-terminal). This standardization simplifies various parsing algorithms and formal analyses in the field of formal languages and automata theory.
+
 ![Alt text](<Screenshot from 2023-11-25 20-34-24.png>)
 
