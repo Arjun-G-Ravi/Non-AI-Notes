@@ -1,10 +1,4 @@
 
-# Pumping lemma
-- Regular languages are languages that can be represented using finite state machines
-
-![Alt text](<Screenshot from 2023-11-25 11-47-07.png>)
-
-
 # Grammar
 ![Alt text](<Screenshot from 2023-11-25 12-06-44.png>)
 
