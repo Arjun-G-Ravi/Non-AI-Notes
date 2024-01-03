@@ -10,3 +10,4 @@ https://www.youtube.com/watch?v=OKFrju0HB7k&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKO
 
 Using these, there are a lot of things to be done like converting DFA/NFA/ENFA to RE, and vice versa.
 
+![Alt text](image-1.png)
