@@ -41,6 +41,6 @@ In CNF, production rules are simplified to have only two non-terminals on the ri
 ![Alt text](image-16.png)
 ![Alt text](image-17.png)
 
-
+![Alt text](image-18.png)
 
 
