@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=0D7yInuKvKs&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKO
 
 ![Alt text](image-19.png)
 ![Alt text](image-20.png)
-
+d
 
 ![Alt text](image-21.png)
 
