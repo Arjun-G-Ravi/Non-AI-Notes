@@ -31,3 +31,16 @@ In CNF, production rules are simplified to have only two non-terminals on the ri
 # Pumping lemma for CFL
 
 ![Alt text](image-10.png)
+![Alt text](image-11.png)
+![Alt text](image-12.png)
+
+# Push Down Automata
+![Alt text](image-13.png)
+![Alt text](image-14.png)
+![Alt text](image-15.png)
+![Alt text](image-16.png)
+![Alt text](image-17.png)
+
+
+
+
