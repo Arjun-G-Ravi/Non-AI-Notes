@@ -1,5 +1,5 @@
 # Computer Networks
-- A set of nodes connected by communication links.
+- A set of nodes(computers) connected by communication links.
 - A network can be defined as a group of computers and other devices connected in some way so as to be able to exchange data. Each of the devices on the network can be thought of as a node, each node has a unique address.
 - A computer network has three components:
     - Nodes
