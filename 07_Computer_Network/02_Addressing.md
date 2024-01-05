@@ -14,11 +14,18 @@
  - Represented as hexadecimals, separated by hyphen, period or colon. Eg: 70-20-84-00-ED-FC 
 
 Routers need IP address and switches need MAC address to transfer data.
+
 # Port Address
 - Decides which process has to get the communicated data in the particular node
 - Port is the communication endpoint.
 
-Thus for proper communication between nodes in a network, we need to attach these three addresses of both the reciever and the sender along with the data to be communicated. 
+`Thus for proper communication between nodes in a network, we need to attach these three addresses of both the reciever and the sender along with the data to be communicated. `
+
+### Ports
+Port is a logical address of a 16-bit unsigned integer that is allotted to every application on the computer that uses the internet to send or receive data.
+Now every time any application sends any data, it is identified by the port that which the application sent that data and the data is to be transferred to the receiver application according to its port. We often call port as port number.
+
+For example, if you are accessing a website using a web browser, your computer might use port 49152 as the source port, and the web server would use port 80 or 443 as the destination port for HTTP or HTTPS traffic, respectively. The combination of the IP address and port number allows for the accurate delivery of data in a networked environment.
 
 # Switching 
 - Helps deciding the best route for data transmission in a computer network

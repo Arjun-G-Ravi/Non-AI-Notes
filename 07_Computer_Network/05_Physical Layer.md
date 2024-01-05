@@ -14,6 +14,7 @@ The various topologies are:
     - No security
     - Node failure is fine, but medium failure is not. So not fault tolerant(only one path)
     - Limited cable length
+
  2. Ring: Bus in a closed loop
     - peer to peer
     - Unidirectional
@@ -22,6 +23,7 @@ The various topologies are:
     - Node failure can affect whole network
     - No security
     - As load increases, performance decreases
+
  3. Star: Every node is connected to each other with a central node, which generally is a hub or a switch
     - Centralised management
     - All traffic pass though the central node
@@ -29,11 +31,13 @@ The various topologies are:
     - Scalable
     - Failure/ Overloading in central node can be fatal
     - High cost for hub/ switch
+
  4. Mesh topology: All nodes connected to each other
     - Fault tolerant and reliable
     - Expensive, and impractical for large networks
     - Issues with broadcast messages
     - Least traffic
+
  5. Hybrid Topology: Mixing multiple topologies as per need
     - Probably the best
 
