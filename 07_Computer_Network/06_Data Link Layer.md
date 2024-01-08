@@ -13,7 +13,7 @@ DLL commonly provides 3 services
 - Acknowledged connectionless service
 - Acknowledged connection-oriented service
 
-Data Link Layer also performs the following:
+Data Link Layer also performs the following:k
 1. framing: dividing the stream of bits received from the Network Layer into manageable data frames.
 2. addressing
 3. error detection and correction: by calculating and comparing checksum, and sending acknowledgement
