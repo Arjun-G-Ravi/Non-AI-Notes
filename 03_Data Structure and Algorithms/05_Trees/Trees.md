@@ -21,6 +21,8 @@ Here we traverse to the deapths. It include pre-order, in-order and post-order m
 - Time complexity: O()
 - Space complexity: O()
 
+![Alt text](image-1.png)
+
 It has variants like:
 - Iterative DFS
 - Limited DFS
