@@ -11,5 +11,4 @@ Properties of max heap
   - Parent > Child: Max heap
   - Child > Parent: Min heap
 
-
 Learn creatino, insertion, heapify, deletion, etc. when leetcoding.
