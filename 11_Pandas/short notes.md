@@ -11,8 +11,7 @@
 - df.columns
 - df['col1'].value_counts() # Count the occurence of each value of a column
 - df.isnull().sum() # To get count of null for each column
-- 
-
+  
 # Create DataFrame
 - df = pd.DataFrame(np_array/dict/etc.)
 
@@ -22,8 +21,12 @@
 - df.loc[0,'col1_name'] # Same as iloc, but with as textual column names
 - df.iterrows() # Creates a generator, which can be used to easily iterate through the columns
 
-# Sorting
-- df.sort_values(['col1', 'col2'], ascending=[1,0]) # Sorts by col1 in ascending manner. If col1 for multiple rows are the same, it will sort those columns by col2 in descending manner.
+# Reading df as chunks
+- for df in pd.read_csv('cow.txt', chunksize=100) # Read 100 rows at a time
+      print(df)
+
+# Saving df as a file 
+- df.to_csv('name', index=False) # Save as csv
 
 # Manipulating columns
 - df['new_col'] = df['col1'] + df['col2'] # Create a new column
@@ -31,14 +34,13 @@
 - df.drop(columns = ['new_col'])
 - df.rename(columns={'Sex':'Gender','Name':'Full Name','last_name':'Surname','first_name':'Name'})
 
-
-# Saving df as a file 
-- df.to_csv('name', index=False) # Save as csv
-
-# Filtering rows
+# Manipulating rows
 
 ### Basics
 - df=df.drop(df.index[-1],axis=0) # Deletes last row
+- 
+# Sorting
+- df.sort_values(['col1', 'col2'], ascending=[1,0]) # Sorts by col1 in ascending manner. If col1 for multiple rows are the same, it will sort those columns by col2 in descending manner.
 
 ### Conditionals
 - df.loc[(df['name'] = 'Tom') & (df['age'] = '10')] # Select all rows with the conditions specified. Don't forget the stupid extra paranthesis
@@ -61,6 +63,4 @@
 ### Using regular Expressions
 - df.loc[df['col1'].str.contains('cow|goat',regex = True)] # Uses re module and selects all rows where cow or goat is present
 
-# Reading df as chunks
-- for df in pd.read_csv('cow.txt', chunksize=100) # Read 100 rows at a time
-      print(df)
+
