@@ -3,10 +3,16 @@
 # Loading data
 - pd.read_csv() # Reads a csv file as pandas Dataframe
 
-# DataFrame basic overview
+# DataFrame basic information
 - df.describe()
 - df.info()
 - df.head(5) # Read first 5 rows with all columns
+- df.shape
+- df.columns
+- df['col1'].value_counts() # Count the occurence of each value of a column
+
+# Create DataFrame
+
 
 # Accessing data from a DataFrame
 - df[['col1_name','col2_name']] # Reads both columns from the DataFrame df
@@ -33,7 +39,7 @@
 ![Alt text](image.png)
 
 ### Using df.apply()
-- 
+  - 
  
 # Using regular Expressions
 - df.loc[df['col1'].str.contains('cow|goat',regex = True)] # Uses re module and selects all rows where cow or goat is present
