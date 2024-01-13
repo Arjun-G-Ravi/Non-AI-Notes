@@ -19,4 +19,5 @@ Thanks to:
  - https://www.youtube.com/@DrTrefor
  - https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
  - 3Blue 1Brown
+ - Mathematics for ML
  - and more ...
