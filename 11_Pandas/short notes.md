@@ -11,6 +11,9 @@
 - df.columns
 - df['col1'].value_counts() # Count the occurence of each value of a column
 - df.isnull().sum() # To get count of null for each column
+- df.nunique() # unique value for each variable
+- df.reset_index() 
+- 
   
 # Create DataFrame
 - df = pd.DataFrame(np_array/dict/etc.)
@@ -48,7 +51,13 @@
 
 ### Using groupby()
 - df.groupby(['age']).mean() # Takes the mean for all columns for the rows with each discrete age value
+  - min(), max()
+  - mean(), median(), mode()
+  - count()
 ![Alt text](image.png)
+
+### Using agg()
+later bro.
 
 ### Using apply()
 - df['last_name'] = df['Name'].apply(lambda x: x.split()[-1])
@@ -63,5 +72,25 @@
 ### Using regular Expressions
 - df.loc[df['col1'].str.contains('cow|goat',regex = True)] # Uses re module and selects all rows where cow or goat is present
 
+### Using query()
+- df.query('Age > PassengerId')
+
+### Using filter()
+- df.filter(items=['Age', 'Sex'])[:2]
+- df.filter(regex='ed$', axis=1)[:2] # regex
+
+### Using isin()
+- df[df.Pclass.isin([0,1])].head() # Filter rows of column based on list of multiple values
+
+### Using duplicated()
+- sum(df.PassengerId.duplicated())
+- df.loc[:,['Sex', 'Embarked']].drop_duplicates()
+
+
+
+
 # Joining Tables
 ![Alt text](image-1.png)
+
+# Boolean Indexing
+![Alt text](image-2.png)
