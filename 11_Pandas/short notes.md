@@ -10,9 +10,11 @@
 - df.shape
 - df.columns
 - df['col1'].value_counts() # Count the occurence of each value of a column
+- df.isnull().sum() # To get count of null for each column
+- 
 
 # Create DataFrame
-
+- df = pd.DataFrame(np_array/dict/etc.)
 
 # Accessing data from a DataFrame
 - df[['col1_name','col2_name']] # Reads both columns from the DataFrame df
@@ -28,22 +30,21 @@
     - df['new_col'] = df.iloc[:,0: 10].sum(axis=1) # Create a new col, which is the sum of all the 10 columns
 - df.drop(columns = ['new_col'])
 
-# Save 
+# Saving df as a file 
 - df.to_csv('name', index=False) # Save as csv
 
 # Filtering rows
 - df.loc[(df['name'] = 'Tom') & (df['age'] = '10')] # Select all rows with the conditions specified. Don't forget the stupid extra paranthesis
 - df.loc[df['name] == 'cow', ['age', 'good']] = [100,True]# Set age to 100 and good to True if name is cow 
-### Using groupby
+### Using groupby()
 - df.groupby(['age']).mean() # Takes the mean for all columns for the rows with each discrete age value
 ![Alt text](image.png)
 
-### Using df.apply()
+### Using apply()
   - 
  
-# Using regular Expressions
+### Using regular Expressions
 - df.loc[df['col1'].str.contains('cow|goat',regex = True)] # Uses re module and selects all rows where cow or goat is present
-- 
 
 # Reading df as chunks
 - for df in pd.read_csv('cow.txt', chunksize=100) # Read 100 rows at a time
