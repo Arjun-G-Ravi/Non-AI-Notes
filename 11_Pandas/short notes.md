@@ -37,10 +37,13 @@
 
 # Filtering rows
 
-### Basic Conditionals
+### Basics
+- df=df.drop(df.index[-1],axis=0) # Deletes last row
+
+### Conditionals
 - df.loc[(df['name'] = 'Tom') & (df['age'] = '10')] # Select all rows with the conditions specified. Don't forget the stupid extra paranthesis
 - df.loc[df['name] == 'cow', ['age', 'good']] = [100,True]# Set age to 100 and good to True if name is cow 
-  
+
 ### Using groupby()
 - df.groupby(['age']).mean() # Takes the mean for all columns for the rows with each discrete age value
 ![Alt text](image.png)
