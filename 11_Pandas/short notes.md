@@ -63,4 +63,5 @@
 ### Using regular Expressions
 - df.loc[df['col1'].str.contains('cow|goat',regex = True)] # Uses re module and selects all rows where cow or goat is present
 
-
+# Joining Tables
+![Alt text](image-1.png)
