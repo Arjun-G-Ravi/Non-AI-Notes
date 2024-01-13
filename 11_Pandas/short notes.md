@@ -28,11 +28,17 @@
 # Filtering rows
 - df.loc[(df['name'] = 'Tom') & (df['age'] = '10')] # Select all rows with the conditions specified. Don't forget the stupid extra paranthesis
 - df.loc[df['name] == 'cow', ['age', 'good']] = [100,True]# Set age to 100 and good to True if name is cow 
-- 
+- df.groupby(['age']).mean() # Takes the mean for all columns for the rows with each discrete age value
+![Alt text](image.png)
 
+- 
 # Using regular Expressions
 - df.loc[df['col1'].str.contains('cow|goat',regex = True)] # Uses re module and selects all rows where cow or goat is present
 - 
 
+# Reading df as chunks
+- for df in pd.read_csv('cow.txt', chunksize=100) # Read 100 rows at a time
+      print(df)
 
+``
 
