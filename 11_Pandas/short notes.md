@@ -84,8 +84,8 @@ later bro.
 
 ### Using duplicated()
 - sum(df.PassengerId.duplicated())
-- df.loc[:,['Sex', 'Embarked']].drop_duplicates()
-
+- df.loc[:,['Sex', 'Embarked']].drop_duplicates(subset=['col1', 'col2'])
+- duplicates_df = df[df.duplicated(keep=False)]
 
 
 
