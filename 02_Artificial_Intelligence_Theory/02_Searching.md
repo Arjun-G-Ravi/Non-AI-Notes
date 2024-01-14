@@ -8,7 +8,7 @@ The common techniques to problem solving with AI are:
 
 # Search Algorithms
 General Purpose search algorithm can be classified into two:
- 1. Uninformed search: Search where we have no information about the search space.
+ 1. Uninformed /Blind search: Search where we have no information about the search space.
  2. Informed search: There is some sort of guidance to aid the search. This information will help us to form a heuristic, that will aid the search process.
 
 # Problem solving
@@ -31,5 +31,4 @@ For some problems, we will also have
  - UTILITY(s): Returns the utility value if it(exists) of a given state
 
 # Solution  
-A solution to a problem is an action sequence that leads from the initial state to a goal state. Solution quality is measured by the path cost function, and an optimal solution has the lowest path cost among all solutions.
-
+A solution to a problem is an action sequence that leads from the initial state to a goal state. Solution quality is measured by the path cost function. An optimal solution has the lowest path cost among all solutions.

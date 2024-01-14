@@ -5,16 +5,10 @@ The purpose of the AI is to find a path (a series of actions) that will take us 
 - Frontier will be used to see all the possible future states
 - Visited will contain the set of visited/ explored states
 
-They are of two types:
- - Uninformed search/ Blind: There is no problem specific knowledge present to guide the search.
-   Eg: BFS, DFS
- - Informed search: A problem specific knowledge guide the search.
-   Eg: A*
-
 ## Node
 In the search problem, each state is represented as a node in a graph. 
-Each node has to keep track of:
 
+Each node has to keep track of:
 - A state
 - The parent state
 - Action taken from the parent state to reach the current state
@@ -41,7 +35,6 @@ A heuristic function is commonly employed to estimate the cost or value associat
 - We explore the shallower nodes first, before going deeper
 - Always find the optimal solution
 - This is generally more faster to converge at a solution, if the solution tend to lie closer to the start.
-
 
 # Search Algo 3: Greedy Best-First search
   - Expands the nodes that is closest to the nodes.
