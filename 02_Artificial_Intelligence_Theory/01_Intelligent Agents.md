@@ -14,10 +14,12 @@ A "state" refers to the current situation or condition of a system at a specific
 The choices made by the agent, which changes the state
 
 We define a function to represent this in code.
+
 ACTIONS(s) is the function that takes in current state, and output the possible actions
 
 ## 4.  Transition model
 A description of what state results from performing one action on a state.
+
 RESULT(s,a): Returns the state which occurs when we perform action a on state s.
 
 ## 5. State space
@@ -26,7 +28,7 @@ Set of all states reachable from initial state, by any sequence of actions. This
 ## 6. Goal Test
 A way to determine if the current state is a goal state
 
-## 7.Path cost
+## 7. Path cost
 A numerical value which represents the cost it takes to travel through a given path. 
 ie, how costly is this path of actions
 

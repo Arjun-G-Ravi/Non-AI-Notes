@@ -1,5 +1,6 @@
 # Introduction to AI
 Artificial intelligence (AI) is defined as the branch of computer science that is concerned with the automation of intelligent behavior.
+
 Another defenition of AI is the development of algorithms and software that enable computers to perform tasks that would typically require human(higher level) intelligence.
 
 ### The four approaches to AI
