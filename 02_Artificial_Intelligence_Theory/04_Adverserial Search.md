@@ -6,7 +6,6 @@ Search where two or more agents compete for opposing goals.
 The Minimax algorithm is a decision-making algorithm commonly used in two-player turn-based games. Its primary purpose is to find the optimal move for a player, assuming that the opponent also makes optimal moves. The algorithm is called "Minimax" because it seeks to minimize the possible loss for a worst-case scenario (opponent's best move) and maximize the potential gain.
 
 ## Working
-
 - Game Tree Representation:
   - Represents possible moves and outcomes as a tree structure.
   - Nodes alternate between player and opponent moves.
@@ -34,7 +33,6 @@ The Minimax algorithm is a decision-making algorithm commonly used in two-player
 
 ## Alpha-beta pruning
 A method to prune out some branches in our minimax tree, that is guaranteed to be unused. This will lead to increased performance.
-
 
 ## Depth limited minimax
 Here, we stop the tree at some constant depth value. At this point, the algorithm evaluates the evaluation using some other arbitary function, at a non-terminal state.
