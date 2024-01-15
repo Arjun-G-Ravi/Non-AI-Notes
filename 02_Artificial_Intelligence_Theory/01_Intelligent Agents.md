@@ -46,6 +46,13 @@ A sequence of action that takes us from initial state to final state. The optima
 - A sequence of actions that takes an agent from the current state to the goal state.
 - An action is considered to be good, if it is a part of a good policy
   
-## 11. Environment
+## 11. Task environment
 - Place where the agent acts
-- It can be fully observable or partially observable
+- It can be 
+  - fully observable or partially observable
+  - Competitive Vs Co-operative
+  - Single agent vs multi agent
+  - Deterministic vs. stochastic
+  - Static vs. dynamic
+  - 
+  - Episodic vs. sequential
