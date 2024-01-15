@@ -54,5 +54,4 @@ A sequence of action that takes us from initial state to final state. The optima
   - Single agent vs multi agent
   - Deterministic vs. stochastic
   - Static vs. dynamic
-  - 
   - Episodic vs. sequential
