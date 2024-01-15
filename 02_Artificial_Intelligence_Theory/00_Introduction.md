@@ -4,10 +4,10 @@ Artificial intelligence (AI) is defined as the branch of computer science that i
 Another defenition of AI is the development of algorithms and software that enable computers to perform tasks that would typically require human(higher level) intelligence.
 
 ### The four approaches to AI
-1. Acting Humanly: Turing test approach
-2. Thinking Humanly: Imitating the thought process in human brain
-3. Thinking Rationally: Logic via 'Laws of thought'
-4. Acting Rationally: 
+1. Acting Humanly: Turing test approach. Try to make AI act like human, as much as possible.
+2. Thinking Humanly: Imitating the thought process in human brain - cognitive modeling
+3. Thinking Rationally: Logic via 'Laws of thought' - thinking in the most optimal way
+4. Acting Rationally: Trying to make an agent act rationally in an environment - trying to achieve the best expected outcome.
 
 ### Fields of AI
 1. NLP
