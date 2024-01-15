@@ -1,10 +1,13 @@
 # Basic Terminologies 
 
-## 1. Intelligent Agent
-- An agent is just something that operate autonomously, perceive their environment, persist over a prolonged time period, adapt to change, and create and pursue goals. An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.
+## 1. Agent
+- An agent is just something that operate autonomously, perceive their environment, persist over a prolonged time period, adapt to change, and create and pursue goals. It can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.
 - Mathematically speaking, we say that an agent’s behavior is described by the agent function that maps any given percept sequence to an action.
+- 
+###### Rationanl Agent
 - Rational Agent: It is the agent that does the right thing. It is a specific type of intelligent agent that is not only capable of perceiving its environment, learning, and taking actions but also acts in a way that is expected to achieve the best outcome or maximize its utility.
-- PEAS is an acronym that stands for Performance measure, Environment, Actuators, and Sensors. It is a framework used to describe the key components of an intelligent agent in the context of artificial intelligence and agent-based systems.
+- Rationality maximizes expected performance, while perfection maximizes actual performance.
+- PEAS is an acronym that stands for Performance measure, Environment, Actuators, and Sensors. It is a framework used to describe the key components of an intelligent agent.
 
 
 ## 2. State
