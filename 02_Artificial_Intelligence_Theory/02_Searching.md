@@ -1,4 +1,3 @@
-# Searching
 # Search Algorithms
 General Purpose search algorithm can be classified into two:
  1. Uninformed /Blind search: Search where we have no information about the search space.
@@ -10,7 +9,7 @@ General Purpose search algorithm can be classified into two:
 - The process of looking for a sequence of actions that reaches the goal is called search.
 - A search algorithm takes a problem as input and returns a solution in the form of an action
 sequence. Once a solution is found, the actions it recommends can be carried out. This
-is called the execution phase.Notice that while the agent is executing the solution sequence it ignores its percepts when choosing an action because it knows in advance what they will be. 
+is called the execution phase. Notice that while the agent is executing the solution sequence it ignores its percepts when choosing an action because it knows in advance what they will be. 
 
 # Proper Definition of a Search problem 
 Inorder to do this, we need a well defined form of the problem called state space. It includes:
@@ -25,3 +24,6 @@ For some problems, we will also have
 
 # Solution  
 A solution to a problem is an action sequence that leads from the initial state to a goal state. Solution quality is measured by the path cost function. An optimal solution has the lowest path cost among all solutions.
+
+# Types of Search problems
+![Alt text](image.png)
