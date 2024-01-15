@@ -87,8 +87,6 @@ later bro.
 - df.loc[:,['Sex', 'Embarked']].drop_duplicates(subset=['col1', 'col2'])
 - duplicates_df = df[df.duplicated(keep=False)]
 
-
-
 # Joining Tables
 ![Alt text](image-1.png)
 
