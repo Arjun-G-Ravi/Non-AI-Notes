@@ -2,7 +2,6 @@
 Search where two or more agents compete for opposing goals.
 
 # Search Algo1: Minimax
-
 The Minimax algorithm is a decision-making algorithm commonly used in two-player turn-based games. Its primary purpose is to find the optimal move for a player, assuming that the opponent also makes optimal moves. The algorithm is called "Minimax" because it seeks to minimize the possible loss for a worst-case scenario (opponent's best move) and maximize the potential gain.
 
 ## Working
