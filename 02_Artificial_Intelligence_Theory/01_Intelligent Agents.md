@@ -9,7 +9,6 @@
 - Rationality maximizes expected performance, while perfection maximizes actual performance.
 - PEAS is an acronym that stands for Performance measure, Environment, Actuators, and Sensors. It is a framework used to describe the key components of an intelligent agent.
 
-
 ## 2. State
 A "state" refers to the current situation or condition of a system at a specific point in time. The goal of an intelligent agent will be to move from initial state to final(expected) state.
 

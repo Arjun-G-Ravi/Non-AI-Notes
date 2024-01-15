@@ -1,11 +1,4 @@
 # Searching
-The common techniques to problem solving with AI are:
-- Search algorithms
-- Knowledge representation and reasoning
-- Machine Learning(NLP + CV)
-- Expert systems
-- Genetric Algorithms, etc.
-
 # Search Algorithms
 General Purpose search algorithm can be classified into two:
  1. Uninformed /Blind search: Search where we have no information about the search space.
@@ -19,7 +12,7 @@ General Purpose search algorithm can be classified into two:
 sequence. Once a solution is found, the actions it recommends can be carried out. This
 is called the execution phase.Notice that while the agent is executing the solution sequence it ignores its percepts when choosing an action because it knows in advance what they will be. 
 
-# Problem
+# Proper Definition of a Search problem 
 Inorder to do this, we need a well defined form of the problem called state space. It includes:
  - Initial state: Starting state
  - ACTION(s): A fn that returns the set of all possible actions, given a state
