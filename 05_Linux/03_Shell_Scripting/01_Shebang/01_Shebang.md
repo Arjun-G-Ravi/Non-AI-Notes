@@ -9,6 +9,5 @@ Eg: #!/bin/bash: To set the interpreter to bash
     #!/usr/bin/python3: To set the interpreter to python3, installed in the given location
 
 
-
 # How to run
 To run the script with the default (or shebangged) interpreter, we do ```./filename```

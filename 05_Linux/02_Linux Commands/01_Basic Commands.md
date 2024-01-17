@@ -195,6 +195,10 @@ Ctrl + C: Kills a process in the terminal. Kill signal 2
 Ctrl + Z: Sleeps a process. Kill signal 19
 & at the end of a process: Sends the proecess straight to background
 
+# Flags - command-line arguments
+
+Terminal command flags, often referred to as "command-line options" or "command-line arguments," are additional parameters that you can add to a command to modify its behavior or provide extra information. These flags are typically preceded by a hyphen (e.g., -f) or two hyphens (e.g., --force) and are used to customize the command's operation. Flags are a fundamental part of working in a command-line environment, as they allow you to fine-tune commands according to your specific needs.
+
 # Credits
 
 - https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
