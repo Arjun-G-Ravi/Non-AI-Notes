@@ -47,7 +47,7 @@ Eg:
 
 The terminal, also known as a command-line interface (CLI) or console, is a text-based interface that allows users to interact with the shell(and thus the OS) by typing commands. It serves as a user interface for entering and executing commands.
 
-The shell is a command interpreter, which is a program that takes the commands entered by the user via the terminal and interprets them for the operating system. It is called shell as it hides the kernel.
+The shell is a command interpreter, which is a program that takes the commands entered by the user via the terminal and interprets them for the operating system. It is called shell as it hides the kernel. It is a program that runs user commands. It also serves as a small programming environment.
 
 ![Alt text](<Screenshot from 2023-10-31 10-37-49.png>)
 
