@@ -1,7 +1,7 @@
 # Credits
 https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1s&ab_channel=freeCodeCamp.org
 
-# Super Basic Terminal Commands
+# Linux Terminal Commands
 
 1. whoami: returns username
 2. Manuals and helps
