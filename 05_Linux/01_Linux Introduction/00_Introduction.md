@@ -1,5 +1,5 @@
 # GNU/ Linux
-GNU/Linux(commonly reffered to as linux) is a popular open source UNIX-like operating system that used Linux kernel and GNU tools.
+GNU/Linux(commonly reffered to as linux) is a popular open source UNIX-like operating system that uses Linux kernel and GNU tools.
 
 Linux is a family of free and open-source operating systems based on the Linux kernel. Operating systems based on Linux are known as Linux distributions or distros. Examples include Debian, Ubuntu, Fedora, CentOS, Gentoo, Arch Linux, and many others.
 
