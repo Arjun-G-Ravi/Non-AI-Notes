@@ -4,6 +4,7 @@
 2. pwd: print working directory
 3. Manuals and helps
    1. man: return manual pages
+      - Use man -k {key-word} to do keyword search 
    2. help: a worse, but more general man page
    3. tldr: a shorter and readable man page
 4. which: Returns the full path of the executable in the file system
