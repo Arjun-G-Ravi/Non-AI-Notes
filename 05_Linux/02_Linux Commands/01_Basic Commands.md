@@ -190,8 +190,8 @@
 
 ![Alt text](image.png)
 
-- Ctrl + C: Kills a process in the terminal. Kill signal 2
-- Ctrl + Z: Sleeps a process. Kill signal 19
+- Ctrl + C: Kills a process in the terminal. [Kill signal 2]
+- Ctrl + Z: Suspends(sleeps) a process. [Kill signal 19] -> You can see that the process is still alive when you type 'jobs' command.
 - & (at the end of a process): Sends the proecess straight to background
 
 # Flags - command-line arguments
