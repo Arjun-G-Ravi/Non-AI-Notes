@@ -16,3 +16,5 @@ The permission will be a 10 character string:
 ![Alt text](<Screenshot from 2023-11-09 20-02-20.png>)
 
 We can change the permission using `chmod` command.
+Eg: 
+- chmod g+r fileName
