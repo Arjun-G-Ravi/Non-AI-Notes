@@ -36,7 +36,7 @@
 19. head/ tail: Lets us print out the first 10 line from the first and last part, respectively of a file.
     1. You can change the length with -n flag.
     2. You can monitor for more data with only tail if you add -f.
-20. `Redirect`: Greater-than(>) is used to redirect std output into a file. Creates files if it doesn't exist.
+20. `Stdout`: Greater-than(>) is used to redirect std output into a file. Creates files if it doesn't exist.
     1. date > test.txt : The current date is written (over-written) in the file
     2. date >> test.txt: The current date is appended to the contents of the file
 21. cat: Primarily used for displaying the contents of one or more files to the terminal.
@@ -115,7 +115,7 @@
        1. tar -xf #EndFileName.tar# file1 file2 file3: To extract the archive
        2. tar -tf #ArchiveName#: To view contents of the archive
        3. tar -czf #EndFileName.tar# file1 file2 file3: To create and compress the archive all in one
-40. `Editors`:
+40. `Text Editors`:
     1. nano: Built-in, light weight, super easy text editor in linux
     2. gedit: Open in notepad
     3. vi: Open in vim. Built in most linux systems
@@ -158,7 +158,7 @@
 46. `source`: To activate virtual environment
     - source "/home/arjun/AI_ENV/bin/activate.fish"
     - source "/home/arjun/AI_ENV/bin/activate"
-47. `Open shell`
+47. `Switching shell`
     - bash: Open bash
     - fish: Open fish
 48. env: Environmental variables
