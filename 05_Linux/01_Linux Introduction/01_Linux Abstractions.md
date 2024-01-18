@@ -18,17 +18,3 @@ There is a critical difference between the ways that the kernel and user process
 Code running in kernel mode has unrestricted access to the processor and main memory. This is a powerful but dangerous privilege that allows a kernel process to easily crash the entire system. The area that only the kernel can access is called kernel space.
 User mode, in comparison, restricts access to a (usually quite small) subset of memory and safe CPU
 operations. If a process makes a mistake and crashes, the consequences are limited and can be cleaned up by the kernel.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
