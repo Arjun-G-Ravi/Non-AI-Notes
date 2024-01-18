@@ -110,7 +110,7 @@
 39. `Zipping files and directories`
     1.  gzip -k filename: Create a zip of the file. -k keeps the unzipped file. If used on multiple files, it zips them separately.
     2.  gunzip -k filename: Unzip the file
-    3.  tar -cf #EndFileName.tar# file1 file2 file3: Creates archives of multiple files. Now we can use gzip to compress the archive.
+    3.  tar -cf #EndFileName.tar# file1 file2 file3: Creates archives of multiple files. Now we can use gzip to compress the arschive.
         1. tar -xf #EndFileName.tar# file1 file2 file3: To extract the archive
         2. tar -tf #ArchiveName#: To view contents of the archive
         3. tar -czf #EndFileName.tar# file1 file2 file3: To create and compress the archive all in one
