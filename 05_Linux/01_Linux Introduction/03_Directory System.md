@@ -28,3 +28,13 @@
     ..   Refers to the prev directory
     ~    Refers to home
     /    Refers to the root
+
+# Disk Partitions
+
+Partitions are subdivisions of the whole disk. On Linux, they’re denoted with a number after the whole block device, and therefore have device names such as /dev/sda1 and /dev/sdb3. The kernel presents each partition as a block device, just as it would an entire disk. Partitions are defined on a small area of the disk called a partition table.
+
+Use `sudo parted -l` to see all the partitions in disk.
+
+# Swap space
+
+It’s also possible to augment the RAM on a machine with disk space. If you run out of real memory, the Linux virtual memory system can automatically move pieces of memory to and from a disk storage. This is called swapping because pieces of idle programs are swapped to the disk in exchange for active pieces residing on the disk. The disk area used to store memory pages is called swap space (or just swap for short).
