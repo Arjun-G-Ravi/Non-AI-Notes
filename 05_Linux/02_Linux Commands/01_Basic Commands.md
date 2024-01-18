@@ -55,7 +55,7 @@
     2. -u: Prints only non-duplicates
     3. -c: Gives count
        1. Eg: ls | sort | uniq -c : Gives the count of all the files and directories present in the working dir
-28. `Shell Globbing (Wildcards)` 
+28. `Shell Globbing (Wildcards)`
     1. \*: Matches all any character
        1. Eg: \*.pdf refers to all the pdf files (in the dir)
     2. ?: Matches one character
@@ -108,12 +108,12 @@
 37. fg, bg: Create processes in foreground and background
 38. jobs: See all the sleeping and background processes
 39. `Zipping files and directories`
-    1.  gzip -k filename: Create a zip of the file. -k keeps the unzipped file. If used on multiple files, it zips them separately.
-    2.  gunzip -k filename: Unzip the file
-    3.  tar -cf #EndFileName.tar# file1 file2 file3: Creates archives of multiple files. Now we can use gzip to compress the arschive.
-        1. tar -xf #EndFileName.tar# file1 file2 file3: To extract the archive
-        2. tar -tf #ArchiveName#: To view contents of the archive
-        3. tar -czf #EndFileName.tar# file1 file2 file3: To create and compress the archive all in one
+    1. gzip -k filename: Create a zip of the file. -k keeps the unzipped file. If used on multiple files, it zips them separately.
+    2. gunzip -k filename: Unzip the file
+    3. tar -cf #EndFileName.tar# file1 file2 file3: Creates archives of multiple files. Now we can use gzip to compress the arschive.
+       1. tar -xf #EndFileName.tar# file1 file2 file3: To extract the archive
+       2. tar -tf #ArchiveName#: To view contents of the archive
+       3. tar -czf #EndFileName.tar# file1 file2 file3: To create and compress the archive all in one
 40. `Editors`:
     1. nano: Built-in, light weight, super easy text editor in linux
     2. gedit: Open in notepad
@@ -187,15 +187,11 @@
 
 # Shortcuts for the terminal
 
-Ctrl + A: Go to the very first of the line
-Ctrl + E: Go to the very end of the line
-Ctrl + U: Cut(delete) to the left of cursor
-Ctrl + K: Cut(delete) to the right of cursor
-Ctrl + Y: Paste
-Alt + E: Opens that line in selected editor(for fish. Ctrl+X+E for bash)
-Ctrl + C: Kills a process in the terminal. Kill signal 2
-Ctrl + Z: Sleeps a process. Kill signal 19
-& at the end of a process: Sends the proecess straight to background
+![Alt text](image.png)
+
+- Ctrl + C: Kills a process in the terminal. Kill signal 2
+- Ctrl + Z: Sleeps a process. Kill signal 19
+- & (at the end of a process): Sends the proecess straight to background
 
 # Flags - command-line arguments
 
