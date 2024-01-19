@@ -40,8 +40,18 @@ def func():
 # These fns changes both x to 11, global and local.
 ```
 
-But you don't want to do global in functions because, ideally, functions are not meant to change global variables. It also extends the scope, which can result in unforseen situations, as in https://www.youtube.com/watch?v=UEuXQjPUwcw
+But you don't want to do global in functions because, ideally, functions are not meant to change global variables. It also extends the scope, which can result in unforseen situations, as in https://www.youtube.com/watch?v=UEuXQjPUwcw.
 
-Globals
+# Globals
+It lets you access global variables and change it the way you want, without affecting global.
+```
+x = 10
+def func():
+    x = globals()['x']
+    x += 1
+    print(x)
 
+func()
+print(x)
+```
 https://www.youtube.com/watch?v=QYUbLevwgDQ
