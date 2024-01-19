@@ -58,7 +58,7 @@ When you're dealing with lists (arrays in Python), if you want to modify the glo
 #### Note
 But you don't want to do global in functions because, ideally, functions are not meant to change global variables. It also extends the scope, which can result in unforseen situations, as in https://www.youtube.com/watch?v=UEuXQjPUwcw.
 
-# Globals
+# Globals function
 It lets you access global variables and change it the way you want, without affecting global.
 ```
 x = 10
