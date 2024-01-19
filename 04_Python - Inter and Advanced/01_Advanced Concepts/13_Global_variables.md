@@ -6,6 +6,7 @@ However, if you intend to modify the value of a global variable inside a functio
 
 In the context of recursion, if you have a recursive function and you are modifying a global variable within that function, you would still need to use the global keyword to indicate that you are referring to the global variable and not creating a new local variable at each recursive call. If you're only reading the global variable, then you may not need the global keyword inside the function.
 
+
 For Eg:
 
 ```
@@ -40,6 +41,21 @@ def func():
 # These fns changes both x to 11, global and local.
 ```
 
+
+```
+global_list = [1, 2, 3]
+
+def append_to_global_list(value):
+    global_list.append(value)
+    print(global_list)
+
+append_to_global_list(4)  # Output: [1, 2, 3, 4]
+print(global_list)  # Output: [1, 2, 3, 4] Global is changed
+
+```
+When you're dealing with lists (arrays in Python), if you want to modify the global list by appending elements inside a function, you don't necessarily need to use the global keyword. This is because you are modifying the contents of the list, not reassigning a new list to the variable.
+
+#### Note
 But you don't want to do global in functions because, ideally, functions are not meant to change global variables. It also extends the scope, which can result in unforseen situations, as in https://www.youtube.com/watch?v=UEuXQjPUwcw.
 
 # Globals
