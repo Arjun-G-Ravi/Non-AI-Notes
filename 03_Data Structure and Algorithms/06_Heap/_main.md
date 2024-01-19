@@ -12,3 +12,10 @@ Properties of max heap
   - Child > Parent: Min heap
 
 Learn creation, insertion, heapify, deletion, etc. when leetcoding.
+
+
+# For coding
+
+- Create heap as heapq.heapify(list)
+- heappop() and heappush() to add and remove
+- heap[0] reveals min/max element
