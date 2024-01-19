@@ -1,6 +1,4 @@
-# Global variables in python
-
-https://www.youtube.com/watch?v=QYUbLevwgDQ
+# Global fn in python
 
 In Python, the need to declare a variable as global inside a function during recursion depends on whether you are modifying the variable's value within the function. When you declare a variable outside a function, it is considered a global variable, and you can usually access it within functions without using the global keyword if you are only reading its value.
 
@@ -41,3 +39,9 @@ def func():
 
 # These fns changes both x to 11, global and local.
 ```
+
+But you don't want to do global in functions because, ideally, functions are not meant to change global variables. It also extends the scope, which can result in unforseen situations, as in https://www.youtube.com/watch?v=UEuXQjPUwcw
+
+Globals
+
+https://www.youtube.com/watch?v=QYUbLevwgDQ
