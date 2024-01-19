@@ -2,8 +2,8 @@
 x = 10
 def func():
     global x
-    x =11
+    x += 1
     print(x)
 
-print(x)
 func()
+print(x)
