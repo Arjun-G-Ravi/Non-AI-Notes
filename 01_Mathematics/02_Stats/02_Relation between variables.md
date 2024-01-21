@@ -1,25 +1,3 @@
-# Some important Terms
-
-Mean: The average of a column
-`df.col_name.mean()`
-
-Median: Middle value. Not swayed by outliers
-`df.col_name.medan()`
-
-**If the distribution is gaussian, mean is a meaningful one value representation of the data, else median is.**
-
-Mode: Most frequent value
-`df.col_name.mode()`
-
-Variance: spread of distribution
-`df.col_name.var()`
-
-Standard deviation: Square root of variance
-`df.col_name.std()`
-
-Cumulative Distibution function (CDF)
-It is a function that gives the probability that a random variable takes on a value less than or equal to a specific value.
-
 # Relationship Between Variables
 
 ## Correlation
@@ -37,6 +15,3 @@ It's important to note that correlation does not imply causation. Even if two va
 measure of the tendency of two variables to vary together
 Covariance is zero if they are orthogonal.
 
-# Normal(Gaussian) Distribution and z-score¶
-
-bell shaped distribution

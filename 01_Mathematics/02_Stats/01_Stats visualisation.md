@@ -16,16 +16,23 @@ Outliers: Individual data points that fall outside the whiskers are often plotte
 An example is:
 ![Alt text](image-5.png)
 
-# Frequency table
+# Frequency Tables
+
+They show frequency vs some other meaningful thing. There are many types of frequency tables:
+
 ```
 binnedPopulation = pd.cut(state['Population'], 10)
 binnedPopulation.value_counts()
 ```
 
-can be used to split a df into intervals.
+This code can be used to split a df into intervals.
+
+### 1. Histogram
 
 A histogram is a way to visualize a frequency table, with bins on the x-axis and the
-data count on the y-axis.
+data count on the y-axis. They generally used to plot interval vs frequency.
 
 ![Alt text](image-6.png)
 
+### 2. Bar charts
+Used to show frequency for categorical values.
