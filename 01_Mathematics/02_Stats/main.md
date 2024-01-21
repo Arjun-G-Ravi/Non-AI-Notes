@@ -1,11 +1,3 @@
-# Statistics
-
-Statistics is a branch of mathematics that involves collecting, analyzing, interpreting, presenting, and organizing data. It provides methods for making inferences and decisions in the presence of uncertainty.
-
-It provides the theoretical foundation and practical tools for understanding, analyzing, and improving the performance of machine learning models in various stages of the data science workflow.
-
-- describe() method in pandas DataFrame can be used to create a statistical summary of the dataset.
-
 # Some important Terms
 
 Mean: The average of a column
