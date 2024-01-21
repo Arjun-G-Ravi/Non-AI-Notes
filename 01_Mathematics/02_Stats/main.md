@@ -11,7 +11,7 @@ It provides the theoretical foundation and practical tools for understanding, an
 Mean: The average of a column
 `df.col_name.mean()`
 
-Median: Middle value
+Median: Middle value. Not swayed by outliers
 `df.col_name.medan()`
 
 **If the distribution is gaussian, mean is a meaningful one value representation of the data, else median is.**
