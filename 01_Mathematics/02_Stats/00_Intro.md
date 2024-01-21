@@ -41,7 +41,7 @@ Variations:
 
 ### Mode
 
-Most frequent value
+Most frequent value. They are useful when dealing with categorical values, where in-between values are meaningless.
 `df.col_name.mode()`
 
 ## 3. Measures of spread
