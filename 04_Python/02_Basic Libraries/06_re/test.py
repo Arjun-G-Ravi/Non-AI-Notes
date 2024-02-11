@@ -1,8 +1,12 @@
 import re
 
-txt = 'What is beef beef if not cow persevering!!!'
+txt = 'What is beef beef if not balloon cow persevering!!!'
 
-print(re.split('beef',txt))
+print(re.findall('^b',txt))
+
+
+
+
 
 
 
