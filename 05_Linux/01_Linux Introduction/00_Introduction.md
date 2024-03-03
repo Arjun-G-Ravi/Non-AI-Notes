@@ -35,16 +35,16 @@ Eg: Linux, macOS
 A linux distribution is a Linux kernel, some GNU tools, documentation, desktop manager, and whole lot of other things. There are 1000s of linux distros.
 Eg:
 
-- Debian: Robust and stable Linux distribution, Serves as the basis other distributions, including Ubuntu.
+- Debian: Robust and stable Linux distribution, Serves as the basis other distributions, including Ubuntu.`Super Stable`
 - Ubuntu: Derived from debian. User friendly, and most popular.
 - Linux Mint: Out-of-the-box usability, comes with the Cinnamon desktop environment, Great choice for newcomers to Linux. Derived from ubuntu.
 - Fedora: Cutting edge of open-source technologies
-- Arch Linux: Rolling-release distribution favored by advanced users, minimal base installation, and users build their systems from the ground up.
+- Arch Linux: Rolling-release distribution favored by advanced users, minimal base installation, and users build their systems from the ground up.`Super bleeding edge`
 - Kali Linux: Specialized distribution designed for penetration testing and ethical hacking.
 - Slackware: Oldest Linux distributions and is known for its simplicity and minimalism.
 
+# Desktop Environment
 # Terminal and Shell
-
 The terminal, also known as a command-line interface (CLI) or console, is a text-based interface that allows users to interact with the shell(and thus the OS) by typing commands. It serves as a user interface for entering and executing commands.
 
 The shell is a command interpreter, which is a program that takes the commands entered by the user via the terminal and interprets them for the operating system. It is called shell as it hides the kernel. It is a program that runs user commands. It also serves as a small programming environment.
