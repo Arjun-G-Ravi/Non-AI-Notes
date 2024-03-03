@@ -61,7 +61,6 @@ The shell is a command interpreter, which is a program that takes the commands e
 ![Alt text](<Screenshot from 2023-10-31 10-37-49.png>)
 
 Eg:
-
 - **Bash (Bourne-Again Shell)**: Default shell on many Linux distributions. Bash is known for its scripting capabilities and is highly customizable. It provides a robust set of features for both interactive use and scripting.
 - **Fish (Friendly Interactive Shell)**: Fish is designed to be user-friendly and interactive. It offers features like syntax highlighting, autosuggestions, and a helpful web-based configuration interface.
 - **Zsh (Z Shell)**: Zsh is an extended shell that offers many interactive features and advanced scripting capabilities. It includes features like advanced auto-completion, themes, and plugins. Macs these days use Z Shell.
