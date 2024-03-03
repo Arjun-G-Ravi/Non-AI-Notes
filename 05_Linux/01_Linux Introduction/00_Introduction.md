@@ -44,6 +44,15 @@ Eg:
 - Slackware: Oldest Linux distributions and is known for its simplicity and minimalism.
 
 # Desktop Environment
+A Linux desktop environment (DE) is a graphical user interface (GUI) that provides a way for users to interact with their Linux operating system. It typically includes a window manager, a set of utilities and applications, and often a desktop environment framework for creating applications that integrate seamlessly with the desktop environment.
+
+Popular desktop environments are:
+- GNOME: GNOME is a `modern, user-friendly` desktop environment known for its simplicity and elegance. It has bloat and is `heavy`. Ubuntu ships with GNOME.
+- KDE Plasma: KDE Plasma is a `highly customizable` desktop environment that offers a wide range of features and options for personalization. It is `heavier than GNOME, contains more bloats and looks very good`.
+- Xfce: Xfce is a `super lightweight` desktop environment that is known for its speed and efficiency.
+- Cinnamon: It is simple, looks good and light. It is the averge of KDE and Xfce.
+
+
 # Terminal and Shell
 The terminal, also known as a command-line interface (CLI) or console, is a text-based interface that allows users to interact with the shell(and thus the OS) by typing commands. It serves as a user interface for entering and executing commands.
 
