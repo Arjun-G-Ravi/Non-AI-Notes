@@ -1,5 +1,5 @@
 # TMUX - terminal multiplexer
-tmux is a program which runs in a terminal and allows multiple other terminal programs to be run inside it.
+tmux is a program which runs in a terminal and allows multiple other terminal programs to be run inside it. It allows multiple sessions with windows, panes, and more.
 
 ## Primary uses
 - Protect running programs on a remote server from connection drops by running them inside tmux.
@@ -10,7 +10,7 @@ tmux is a program which runs in a terminal and allows multiple other terminal pr
 - tmux keeps all its state in a single main process, called the tmux server.
 - Panes are the individual sections within a window that can be split and used for different tasks.
 - Windows are the separate environments within which these panes exist. A window is made up of one or more panes which together cover its entire area. 
-
+- Sessions allow you to group related windows together and provide a convenient way to manage and switch between them. 
 
 
 
