@@ -13,7 +13,6 @@
 - df.isnull().sum() # To get count of null for each column
 - df.nunique() # unique value for each variable
 - df.reset_index() 
-- 
   
 # Create DataFrame
 - df = pd.DataFrame(np_array/dict/etc.)
