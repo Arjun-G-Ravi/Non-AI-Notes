@@ -5,16 +5,3 @@
 
 ## Functional Tests
 Functional tests are higher level tests that are closer to how an end-user would interact with your application. They are typically used for web and GUI applications.
-
-
-
-
-
-
-
-
-
-
-
-
-
