@@ -9,8 +9,7 @@ tmux is a program which runs in a terminal and allows multiple other terminal pr
 ## TMUX concepts
 - tmux keeps all its state in a single main process, called the tmux server.
 - Panes are the individual sections within a window that can be split and used for different tasks.
-- Windows, on the other hand, are the separate environments within which these panes exist. 
-
+- Windows are the separate environments within which these panes exist. A window is made up of one or more panes which together cover its entire area. 
 
 
 
