@@ -22,4 +22,4 @@
     (4) Make algorithm, write it fully in shortest form. Check for side cases
     (5) Code it up
 
-
+`Made with solving leetcode problems in mind`
