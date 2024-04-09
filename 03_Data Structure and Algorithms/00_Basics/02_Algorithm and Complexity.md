@@ -11,7 +11,7 @@ The performance of an algorithm is measured from its execution time and memory r
 
 Among these, the big O is the most important as it lets us know the upper bound or worst performance an algorithm can perform. 
 
-#### Basic Things to know to calculate Complexity
+### Basic Things to know to calculate Complexity
 - A loop that iterates 'n' times contributes a factor of 'n' to the complexity.
 - Nested loops multiply the complexity by the number of nested levels.
 - The following loop gives a time complexity of O(log(2) n)

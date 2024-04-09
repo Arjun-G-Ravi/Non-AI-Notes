@@ -1,9 +1,9 @@
-# 2. Linked List
+# Linked List
 A linked list consists of a series of nodes, each containing two main components: the data/value that the node holds and a reference (or pointer) to the next node in the sequence. It doesn’t have a fixed length (nodes can be dynamically allocated).
 The first node of the linked list is called the "head."
 
-- Insertion is easier, more efficient
-- Has to store pointers, though
+- Insertion is more efficient
+- Has to store pointers, though -> more memory compared to arrays
 
 ![Alt text](image.png)
 
@@ -18,4 +18,4 @@ The first node of the linked list is called the "head."
 - Circular Linked Lists: They do not have ends.
 
 ## Tips
-- To find middle in O(1) time, use **fast-and-slow pointers**
+- To find middle in O(1) time, use **fast-and-slow pointer technique**

@@ -11,7 +11,6 @@ class LinkedList:
     def get_head(self):
         return self.head.data        
 
-
     def insert_end(self, data):
         new_node = Node(data, None)
         if self.head.data == None:
@@ -34,13 +33,11 @@ class LinkedList:
         new_node = self.head
         if self.head.data == None:
             l = 0
-            # print(l)
         else:
             l = 1
             while new_node.next != None:
                 new_node = new_node.next
                 l += 1
-            # print(l)
         return l
 
     def insert(self, data, index):
@@ -71,8 +68,3 @@ class LinkedList:
         for i in list:
             self.insert_end(i)
         return 
-
-# reverse
-
- 
- 
