@@ -12,3 +12,6 @@ Basic Format:
 	        Apply DAC(P1), DAC(P2) ... DAC(Pk)
 	        Combine [DAC(P1), DAC(P2) ... DAC(Pk)]
 ```
+
+A lot of recursive programs follow this divide and conquer approach.
+Eg: Merge sort
