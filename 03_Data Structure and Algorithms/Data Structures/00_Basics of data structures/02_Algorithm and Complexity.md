@@ -22,3 +22,4 @@ while ct < 100:
      ct = ct * 2           # as this variable increases exponentially 
 ```
 - Non looped statements do not contribute to time complexity. Eg: if-else, prints, inputs, etc.
+
