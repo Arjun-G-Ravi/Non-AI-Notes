@@ -1,7 +1,6 @@
 # Divide and conquer
 
 Take a (big) problem and divide it into smaller parts. Now solve these parts. This is divide. Now take the output from these smaller problems and combine them to get the final output. This is the conquer step.
-They are great demonstrations of recursion.
 ```
 Basic Format:
     def DAC(P):
@@ -15,3 +14,6 @@ Basic Format:
 
 A lot of recursive programs follow this divide and conquer approach.
 Eg: Merge sort
+
+
+

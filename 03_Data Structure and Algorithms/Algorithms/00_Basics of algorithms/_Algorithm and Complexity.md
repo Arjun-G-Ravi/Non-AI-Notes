@@ -2,7 +2,7 @@
 An algorithm is the step-by-step instructions to solve a given problem. 
 
 ### Algorithmic Analysis
-The performance of an algorithm is measured from its execution time and memory requirement. This can be represented in a polynomial form as shown in figure. This notation is called asymptotic notation. There are three ways to show the complexity of an algorithm:
+The performance of an algorithm is measured from its execution time and memory requirement. This can be represented in a polynomial form as shown in figure. This notation is called `asymptotic notation`. There are three ways to show the complexity of an algorithm:
 - Big O: Worst case
 - Big Ω: Best case
 - Big ϴ: Mixture of the above two. It shows the average case performance.
