@@ -16,6 +16,9 @@ var1 <- var2 <- var3 <- "cow" # Assign the same value to multiple variables
 - y <- 10L    # integer
 - z <- 3 + 5i # complex
 
+## 2. Strings
+Use ' or ''
+
 
 # Operators
 - :     Creates a series of numbers in a sequence	x <- 1:10
@@ -78,4 +81,3 @@ sum_upto <- function(n){
 }
 print(sum_upto(10))
 ```
-
