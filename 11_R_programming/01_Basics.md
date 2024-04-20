@@ -33,4 +33,36 @@ if (b > a) {
 }
 ```
 
-# 
+# AND(&) and OR(|)
+```
+if (a > b & c > a) print("Both conditions are true")
+```
+
+# While Loop
+```
+x <- 10
+
+while (x>0){
+    print('banana')
+    x <- x - 1
+    if (x == 7) next # next is the same as continue in python
+    if (x == 3) break
+}
+
+```
+
+# For loop
+```
+for (x in 1:10) print(x)
+
+animals <- c('cow', 'goat')
+for (animal in animals) print(animal)
+
+```
+
+# Custom Functions
+```
+my_function <- function() { 
+    # write what the function does
+}
+```

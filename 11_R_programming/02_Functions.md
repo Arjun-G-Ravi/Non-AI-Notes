@@ -27,3 +27,23 @@ Counts character in a str
 # grepl()
 To see if a string is present in another string
 grepl("H", str) # returns TRUE if H is present in str
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
