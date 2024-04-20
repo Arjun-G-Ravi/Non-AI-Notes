@@ -14,3 +14,7 @@ R is a popular programming language used for statistical computing and graphical
 - R is slower
 - R takes more memory
 - Deployment is harder for R
+
+
+# Credits 
+ - https://www.w3schools.com/
