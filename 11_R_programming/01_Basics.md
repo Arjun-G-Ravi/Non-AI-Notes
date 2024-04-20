@@ -62,7 +62,20 @@ for (animal in animals) print(animal)
 
 # Custom Functions
 ```
-my_function <- function() { 
+my_function <- function(p1,p2, p3='default val') { 
     # write what the function does
+    return (p1)
 }
+
+# Recursion example
 ```
+```
+sum_upto <- function(n){
+    if (n==1){return (1)
+    }else{
+        return (n + sum_upto(n-1))
+    }
+}
+print(sum_upto(10))
+```
+
