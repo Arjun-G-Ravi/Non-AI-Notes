@@ -1,5 +1,5 @@
-# Vectors
-Vectors are mutable datastructures that stores collection of items.
+# 1. Vectors
+Vectors are mutable data structures that stores collection of items.
 ```
 fruits <- c("banana", "apple", "orange")
 
@@ -20,4 +20,28 @@ v[-1]: all elements except the first one
 v[1:100]: all elements from 1 to 100 (: creates a vector) # if there are no enough elements, NA appears at those indices
 v[c(1,100)]: elements 1 and 100
 ```
+
+# 2. Lists
+A list in R can contain many different data types inside it. A list is a collection of data which is ordered and mutable.
+
+- Initialised as l <- list("cow", "12", 24.4)
+- List can be indexed as l[1]
+- Mutable as 'goat' -> l[2]
+
+## Functions
+- length()
+- "element" %in% l: To see if an element in a list
+- append(l, new_element)
+- Remove elements using negative indexing l = l[-1] # remove 1st element
+- list3 <- c(list1,list2) # To join two lists
+
+
+# 3. Matrices
+A matrix is a two dimensional data set with columns and rows.
+
+- Initialised as mat <- matrix(c(1,2,3,'cow',5,6), nrow = 3, ncol = 2)
+- Index as 
+  - mat[1][2]
+  - mat[2,] # the whole row
+  - mat[c(1,2),] # select all of 1st and 2nd row
 
