@@ -37,7 +37,7 @@ A list in R can contain many different data types inside it. A list is a collect
 
 
 # 3. Matrices
-A matrix is a two dimensional data set with columns and rows.
+A matrix is a two dimensional data set with columns and rows.They  are limited to two dimension.
 
 - Initialised as mat <- matrix(c(1,2,3,'cow',5,6), nrow = 3, ncol = 2)
 - Index as 
@@ -45,3 +45,24 @@ A matrix is a two dimensional data set with columns and rows.
   - mat[2,] # the whole row
   - mat[c(1,2),] # select all of 1st and 2nd row
 
+### Functions
+- cbind(): To add a new column
+- rbind(): To add a new row
+```
+mat <- matrix(c(1,2,3,4,5,6,7,8,9), nrow=3)
+mat <- cbind(mat, c('cow', 'goat', 'elepahnt'))
+```
+- c() along with negative indexing to remove the rows and columns
+```
+mat[,c(-4, -2)]
+```
+- "item" %in% mat: Check if item in matrix
+- dim(matrix): To see shape of the matrix
+- nrow(), ncol(): To see dim of row and column
+- rbind(), cbind(): To combine two matrices
+
+# 4. Arrays
+- Homogeneous
+- multi-dimensional data structure
+- array() to initialise
+- dim() to see dimension
