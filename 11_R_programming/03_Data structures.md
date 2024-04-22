@@ -90,6 +90,8 @@ O/P
 - Use df$col_name to access elements([] also works.)
 - rbind(), cbind() to add row, col
 - dim(), ncol(), nrow()
+- names(), rownames()
+
 
 # 6. Factor
 later.
