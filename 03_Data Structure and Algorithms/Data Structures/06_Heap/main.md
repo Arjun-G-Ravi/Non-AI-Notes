@@ -11,7 +11,7 @@ Properties of max heap
   - Parent > Child: Max heap
   - Child > Parent: Min heap
 
-# For codingm in Python
+# For coding in Python
 
 - Create heap as heapq.heapify(list)
 - heappop() and heappush() to add and remove

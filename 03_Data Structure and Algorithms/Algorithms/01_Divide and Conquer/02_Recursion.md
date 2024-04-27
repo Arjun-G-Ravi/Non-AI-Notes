@@ -3,8 +3,8 @@ Recursion is a programming technique where a function calls itself, and this sel
 
 It solves a problem by calling a copy of itself to work on a smaller problem. Recursive code tend to be shorter and elegant. But every recursive step requires extra memory (iterative step does not) and hence recursive solutions tend to be less efficient than its iterative counterpart. 
 
-	Basic Format:	def func():
-				        if base_condition:
+	Basic Format:	def func(parameter):
+				        if base_condition_involving_parameter:
 				            return value
 				        else:
 				            return func(changed parameter)
