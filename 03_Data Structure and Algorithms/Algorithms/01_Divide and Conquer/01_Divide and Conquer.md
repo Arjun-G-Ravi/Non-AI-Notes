@@ -16,4 +16,4 @@ A lot of recursive programs follow this divide and conquer approach.
 Eg: Merge sort
 
 
-
+`In divide and conquer the divided parts will be disjoint. (In dynamic programming, we divide into mutually overlapping parts)`
