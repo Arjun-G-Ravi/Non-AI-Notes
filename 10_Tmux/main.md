@@ -20,16 +20,12 @@ tmux is a program which runs in a terminal and allows multiple other terminal pr
 1. tmux new: Creates a new tmux session.
 2. tmux new -s SessionName: Creates a new session with the SessionName
 3. :neww -dnmynewwindow: Creates a new window, if run in tmux command mode
-4. 
 
 
 # Shortcuts
 1. C-b ?: Open help
 2. C-b 0: Switches window to '0'th
 3. C-b l: Switches to last window
-
-
-
 
 # I'll read rest later
 https://github.com/tmux/tmux/wiki/Getting-Started
