@@ -20,9 +20,11 @@ Basic Bindings
 - Mod s     Change mode to: stacking
 - Mod w     Change mode to: tabbed
 - Mod < 0-9 > Switch to another workspace
-- Mod
-- Mod
-- Mod
+- Mod Shift < 0-9 >
+
+## Dealing with other appilication
+- Mod d         Open a default application
+- Mod Shift q   Kill a window
 - Mod
 - Mod
 - Mod
