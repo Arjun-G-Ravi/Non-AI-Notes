@@ -9,12 +9,12 @@ i3 is a window managing software. It supports tiling, stacking, and tabbing layo
 ## Basic Bindings
 - Mod Return 	        open terminal
 - Mod Shift Space       toggle floating window mode
-- Mod < arrow >         Move around the current workspace
 - Mod Shift c           Reload the configuration file
 - Mod Shift r           Read i3 inplace
 
 ## Modifying Container
 - Mod Shift q           Kill a workspace
+- Mod < arrow >         Move to different containers in the current workspace
 
 ## Modifying workspace
 - Mod f                 Change mode to: fullscreen
