@@ -28,26 +28,39 @@ tmux is a program which runs in a terminal and allows multiple other terminal pr
 5. Kill the whole server: tmux kill-server
 
 # Shortcuts
+`[ Leader ]: C-b`
 
 ### General
-1.  C-b ?: Open help
-2.  C-b d: Detach from a session
+1.  [ Leader ] ?: List keys
+2.  [ Leader ] d: Detach from a session
+3.  [ Leader ] ?
 
 ### Panes
-1.  C-b %: Split pane vertically
-2.  C-b ": Split pane horizontally
-3.  C-b < arrows >: Move around tmux panes
-4.  C-b q < Index >: Move around tmux panes fast 
-5.  C-b C-< arrows >: Adjust size of panes
-6.  C-b Alt-< arrows >: Adjust size of panes fast
-7.  C-b Alt-< 1 to 5>: Choose pre-selected layouts for panes
-8.  C-b X: To kill a pane 
+1.  [ Leader ] %: Split pane vertically
+2.  [ Leader ] ": Split pane horizontally
+3.  [ Leader ] < arrows >: Move around tmux panes
+4.  [ Leader ] q < Index >: Move around tmux panes fast 
+5.  [ Leader ] C-< arrows >: Adjust size of panes
+6.  [ Leader ] Alt-< arrows >: Adjust size of panes fast
+7.  [ Leader ] Alt-< 1 to 5>: Choose pre-selected layouts for panes
+8.  [ Leader ] X: To kill a pane
+9.  [ Leader ] ;: Last pane 
 
 ### Window
-10. C-b c: Create a new window
-11. C-b n: Move through the windows
-12. C-b ,: Rename the current window
-13. C-b &: Kill the window(and all the panes in it)
-14. C-b w: Move through windows
+10. [ Leader ] c: Create a new window
+11. [ Leader ] n: Move to next window
+11. [ Leader ] l: Move to last window
+12. [ Leader ] ,: Rename the current window
+13. [ Leader ] &: Kill the window(and all the panes in it)
+14. [ Leader ] w: Move through windows
+15. [ Leader ] p: Last window
+16. [ Leader ] q: Synchronise windows
+
+### Copy mode
+17. [ Leader ] [: Start copy mode
+18. [ Leader ] space: Start copying
+19. [ Leader ] < arrow/ hjkl > Move around
+20. [ Leader ] Enter: Stop copying
+21. [ Leader ] C-v: Paste
 
 https://github.com/tmux/tmux/wiki/Getting-Started
