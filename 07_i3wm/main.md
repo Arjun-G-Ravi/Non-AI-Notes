@@ -1,41 +1,29 @@
-# i3
+# i3 window Manager
 i3 is a window managing software. It supports tiling, stacking, and tabbing layouts, which are handled manually. 
+![alt text](image.png)
 
 # Shortcuts
 
-` Mod = Start`
+` Mod = Start` (Alt is another popular alternative)
 
-
-Basic Bindings
+## Basic Bindings
 - Mod Return 	        open terminal
-- Mod Shift Space       toggle floating window
-- Mod < arrow >         Move around the current window
+- Mod Shift Space       toggle floating window mode
+- Mod < arrow >         Move around the current workspace
+- Mod Shift c           Reload the configuration file
+- Mod Shift r           Read i3 inplace
 
 ## Modifying workspace
-- Mod f     toggle fullscreen
-- Mod v     Change mode to: split a window vertically
-- Mod h     Change mode to: split a window horizontally
-- Mod r     Change mode to: resize mode
-- Mod e     Change mode to: default
-- Mod s     Change mode to: stacking
-- Mod w     Change mode to: tabbed
-- Mod < 0-9 > Switch to another workspace
-- Mod Shift < 0-9 >
+- Mod f                 Change mode to: fullscreen
+- Mod v                 Change mode to: split a workspace vertically
+- Mod h                 Change mode to: split a workspace horizontally
+- Mod r                 Change mode to: resize mode
+- Mod e                 Change mode to: default
+- Mod s                 Change mode to: stacking
+- Mod w                 Change mode to: tabbed
+- Mod < 0-9 >           Switch to another workspace
+- Mod Shift < 0-9 >     Move the current container into a different window
 
 ## Dealing with other appilication
-- Mod d         Open a default application
-- Mod Shift q   Kill a window
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
-- Mod
+- Mod d                 Open a default application
+- Mod Shift q           Kill a workspace
