@@ -26,7 +26,7 @@ Project1                    # The root directory
 |
 └── tests                   # Files for testing
     ├── unit_tests
-    |   └── test_1.py       # Use the format test_*() for all test functions (for pytest to work)
+    |   └── test_1.py       
     |   └── test_2.py
     |   └── test_3.py
     └── integration_tests
