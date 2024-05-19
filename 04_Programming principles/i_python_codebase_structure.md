@@ -13,7 +13,7 @@ Project1                    # The root directory
 │   ├── util1
 │   ├── util2
 │   └── util2 
-├── Project1                # The same name as the repo. Contains the important code
+├── Project1                # The same name as the repo. Contains the important code [3]
 │   ├── p1                  # Subsection
 │   │   ├── __init__.py     # Makes this directory callable as a module [1]
 │   │   ├── p1.py           # main code for this subsection
@@ -41,3 +41,4 @@ Project1                    # The root directory
 
 [1] Use relative import to import p1, to make future importing easier
 [2] and hence, cannot be put into any single sub-directory
+[3] Some people like to put all the important directories in the file called src(source). Others think that it is redundant.
