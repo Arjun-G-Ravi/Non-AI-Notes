@@ -9,6 +9,10 @@ Project1                    # The root directory
 ├── Makefile                # An easy way to install and run tests
 ├── setup.py                # To setup env and install requirements
 ├── requirements.txt        # To install requirements (not necessary if setup exists)
+├── Utils                   # Helper functions that is to be used for every class [2]
+│   ├── util1
+│   ├── util2
+│   └── util2 
 ├── Project1                # The same name as the repo. Contains the important code
 │   ├── p1                  # Subsection
 │   │   ├── __init__.py     # Makes this directory callable as a module [1]
@@ -36,3 +40,4 @@ Project1                    # The root directory
 ```
 
 [1] Use relative import to import p1, to make future importing easier
+[2] and hence, cannot be put into any single sub-directory
