@@ -1,5 +1,6 @@
 # i3 window Manager
 i3 is a window managing software. It supports tiling, stacking, and tabbing layouts, which are handled manually. 
+
 ![alt text](image.png)
 
 # Shortcuts
@@ -29,3 +30,7 @@ i3 is a window managing software. It supports tiling, stacking, and tabbing layo
 
 ## Dealing with other appilication
 - Mod d                 Open a default application
+
+# Custom Shortcut
+- Alt tab               Toggle between last two windows
+- Mod Tab               Loop between tabs present in current workspace
