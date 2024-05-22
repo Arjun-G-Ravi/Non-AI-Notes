@@ -16,8 +16,12 @@ i3 is a window managing software. It supports tiling, stacking, and tabbing layo
 ## Modifying Container
 - Mod Shift q           Kill a workspace
 - Mod < arrow >         Move to different containers in the current workspace
+- Mod Shift < arrow >   Switch the current window to the arrow window's location
+- 
+- Mod < 0-9 >           Switch to another workspace
+- Mod Shift < 0-9 >     Move the current container into a different window
 
-## Modifying workspace
+## Modifying current workspace
 - Mod f                 Change mode to: fullscreen
 - Mod v                 Change mode to: split a workspace vertically
 - Mod h                 Change mode to: split a workspace horizontally
@@ -25,8 +29,7 @@ i3 is a window managing software. It supports tiling, stacking, and tabbing layo
 - Mod e                 Change mode to: default
 - Mod s                 Change mode to: stacking
 - Mod w                 Change mode to: tabbed
-- Mod < 0-9 >           Switch to another workspace
-- Mod Shift < 0-9 >     Move the current container into a different window
+
 
 ## Dealing with other appilication
 - Mod d                 Open a default application
