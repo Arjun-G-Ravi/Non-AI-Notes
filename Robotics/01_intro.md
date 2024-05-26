@@ -56,3 +56,35 @@
 - Operating System: Manages the robot's software and hardware.
 - Programming Languages: Used to write code for the robot.
 - Robot Operating System (ROS): An open-source software framework for robotics.
+
+
+# Degrees of Freedom
+- number of independent parameters that define its configuration of the robot
+- To define a rigid body in space, we need 6 doF: 3 components of translation, 3 components of rotation
+
+# Robot Anatomy
+- Joints
+- Links
+- End effector
+  - Grippers
+  - Tools
+- Actuators - drivers that move the joints in robots
+- Sensors - senses the environment
+- Controller
+
+# Joints
+![alt text](image.png)
+
+# Robotic Arm Configuration
+![alt text](<Common-robot-arm-configurations (1).png>)
+
+# Dynamic Characteristics of Robots
+1. Speed of Motion
+2. Load Carrying Capacity
+3. Speed of Response
+
+
+# Isaacc Asimov’s 3 laws of Robotics
+1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+2. A robot must obey orders given it by human beings except where such orders would conflict with the First Law.
+3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
