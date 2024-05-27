@@ -3,7 +3,7 @@
 - intelligent agent, physical or virtual, capable of doing a task autonomously or with guidance
 - an automatic device that performs functions ordinarily ascribed to human beings
 
-### Requirements
+### Requirements of a robot
 - perception
 - ablility to complete different tasks
 - re-programmable
@@ -83,8 +83,11 @@
 2. Load Carrying Capacity
 3. Speed of Response
 
-
 # Isaacc Asimov’s 3 laws of Robotics
 1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.
 2. A robot must obey orders given it by human beings except where such orders would conflict with the First Law.
 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
+
+# Sensors
+![alt text](image-2.png)
+
