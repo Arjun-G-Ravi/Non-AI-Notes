@@ -7,12 +7,9 @@ R is a popular programming language used for statistical computing and graphical
 
 # Comparison with Python
 - R is better for statistical data analysis and visualisation
-- R specialises on Data Science. So its ecosystem is made exactly for this task.
-
+- R specialises on Data Science. So its ecosystem is made exactly for this task(while python is a general purpose programming language)
 - R has a steeper learning curve
-- Python is a multipurpose programming language. R isn't
-- R is slower
-- R takes more memory
+- R is slowert, takes more memory
 - Deployment is harder for R
 
 

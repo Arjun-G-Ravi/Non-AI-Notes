@@ -21,9 +21,9 @@ Use ' or ''
 
 
 # Operators
-- :     Creates a series of numbers in a sequence	x <- 1:10
-- %in%	Find out if an element belongs to a vector	x %in% y
-- %*%	Matrix Multiplication	                    x <- Matrix1 %*% Matrix2
+- `:` Creates a series of numbers in a sequence	x <- 1:10
+- `%in%`	Find out if an element belongs to a vector	x %in% y
+- `%*%`	Matrix Multiplication	                    x <- Matrix1 %*% Matrix2
 
 # if-else
 ```
