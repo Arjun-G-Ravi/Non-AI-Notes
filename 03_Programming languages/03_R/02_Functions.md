@@ -16,7 +16,7 @@ To find datatype
 - as.integer()
 - as.complex()
 
-# Mathe related
+# Math related
 - max(), min()
 - sqrt()
 - ceiling(), floor()
@@ -27,23 +27,3 @@ Counts character in a str
 # grepl()
 To see if a string is present in another string
 grepl("H", str) # returns TRUE if H is present in str
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

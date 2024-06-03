@@ -1,5 +1,5 @@
 # 1. Vectors
-Vectors are mutable data structures that stores collection of items.
+Vectors are `mutable, homogeneous` data structures that stores collection of items.
 ```
 fruits <- c("banana", "apple", "orange")
 
@@ -17,7 +17,7 @@ a <- 1.5:6.2 # creates vector with (1.5 2.5 3.5 4.5 5.5)
 # Let v be a vector
 v[1]: first element (0th elemt in classic programming)
 v[-1]: all elements except the first one
-v[1:100]: all elements from 1 to 100 (: creates a vector) # if there are no enough elements, NA appears at those indices
+v[1:100]: all numbers from 1 to 100 (: creates a vector) # if there are no enough elements, NA appears at those indices
 v[c(1,100)]: elements 1 and 100
 ```
 

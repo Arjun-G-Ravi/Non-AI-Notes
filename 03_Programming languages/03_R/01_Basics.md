@@ -75,8 +75,8 @@ my_function <- function(p1,p2, p3='default val') {
 ```
 sum_upto <- function(n){
     if (n==1){return (1)
-    }else{
-        return (n + sum_upto(n-1))
+    }else{ # This placement is important
+        return (n + sum_upto(n-1)) # This bracket is important
     }
 }
 print(sum_upto(10))
