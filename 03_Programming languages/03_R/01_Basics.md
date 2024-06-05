@@ -81,3 +81,10 @@ sum_upto <- function(n){
 }
 print(sum_upto(10))
 ```
+
+# Packages
+- Base
+- Contributed
+
+We can use pacman to install required packages as:
+`pacman::p_load(pacman, dplyr, GGally, ggplot2, ggthemes,  ggvis, httr, lubridate, plotly, rio, rmarkdown, shiny, stringr, tidyr) `

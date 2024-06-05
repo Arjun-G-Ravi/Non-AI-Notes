@@ -1,5 +1,6 @@
-# 1. Plots
-Plotting multiple points
+# 1. plot()
+- Plotting multiple points
+- Adapts to datatype and parameter count
 ```
 plot(c(1,4,5), c(4,-1,6))
 ```
@@ -8,6 +9,8 @@ plot(c(1,4,5), c(4,-1,6))
 - col # change point color
 - cex # change size of the plotting point
 - pch # To change point style
+
+`If you plot a whole dataframe, R will plot each of the feature against each other.`
 
 # 2. Line Graphs
 ```

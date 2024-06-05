@@ -91,6 +91,8 @@ O/P
 - rbind(), cbind() to add row, col
 - dim(), ncol(), nrow()
 - names(), rownames()
+- head(), tail()
+- 
 
 
 # 6. Factor

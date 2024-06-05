@@ -8,15 +8,15 @@ paste('cow', 'cat')
 # 3. cat()
 Concat string and print them. Doesn't return anything.
 
-# class()
+# 4. class()
 To find datatype
 
-# Type conversions
+# 5. Type conversions
 - as.numeric()
 - as.integer()
 - as.complex()
 
-# Math related
+# 6. Math related
 - max(), min()
 - sqrt()
 - ceiling(), floor()
