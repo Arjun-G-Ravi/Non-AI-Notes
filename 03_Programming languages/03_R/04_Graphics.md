@@ -1,6 +1,7 @@
 # 1. plot()
 - Plotting multiple points
 - Adapts to datatype and parameter count
+- Super flexible - acts as scatter plot, line graph, box plot, etc. depending on the situation
 ```
 plot(c(1,4,5), c(4,-1,6))
 ```
