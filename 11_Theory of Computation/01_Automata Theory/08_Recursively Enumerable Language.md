@@ -1,18 +1,7 @@
-# RE language
-It is produced by unrestrictive grammar, and is accepted by turing machine.
-![Alt text](image-23.png)
+# Recursively Enumerable language
 
-# Turing Machine
+A recursively enumerable language (RE language), also known as a Turing-recognizable language, is a type of formal language that can be recognized by a Turing machine.
 
-A Turing machine is a theoretical mathematical model of computation introduced by the mathematician and logician Alan Turing in 1936. It serves as a fundamental concept in the theory of computation and computability. The Turing machine consists of an infinite tape, a read/write head that moves along the tape, and a finite set of states.
+It means that for any recursively enumerable language, there exists a Turing machine that, if run indefinitely, will generate all and only the strings of the language, possibly in an unordered sequence.
 
-A Turing machine is capable of simulating the logic of any algorithm, making it a powerful theoretical concept for understanding the limits and possibilities of computation. The Church-Turing thesis suggests that anything computable can be computed by a Turing machine, although this is a theoretical notion and not a practical one given the physical limitations of real-world computers.
-
-https://www.youtube.com/watch?v=0D7yInuKvKs&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=99
-
-![Alt text](image-19.png)
-![Alt text](image-20.png)
-
-![Alt text](image-21.png)
-
-![Alt text](image-22.png)
+Recursively enumerable languages are significant in theoretical computer science because they represent the limits of what can be recognized by a computational system. They help in understanding the boundaries between what can be computed or recognized and what lies beyond the capabilities of Turing machines. 
