@@ -4,7 +4,7 @@ The essence of the theory of computation is to help develop mathematical and log
 `The branch of computer science that explores the capabilities and limitations of computation is known as theory of computation or computational theory. It builds and analyses mathematical models to probe computation in the abstract.`
 
 It has 3 main branches:
-1. `Automata Theory` - The study of abstract mathematical machines and the computational problems that can be solved using these machines. By using mathematical models, we can strip away all of these superfluous details and better understand the capabilities of the underlying model. We’ll see that an surprisingly simple model of computation is capable of representing any computation.
+1. `Automata Theory` - The study of abstract mathematical machines and the computational problems that can be solved using these machines. 
 
 2. `Computability Theory` - This theory deals primarily with the question of the extent to which a problem is solvable on a computer. It explores the capabilities and limits of computation.
 
