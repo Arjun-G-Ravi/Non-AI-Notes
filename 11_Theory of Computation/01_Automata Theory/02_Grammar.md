@@ -1,3 +1,4 @@
+# Grammar
 Grammar refers to a set of rules that define the structure of strings in a formal language.
 
 ![Alt text](image-3.png)

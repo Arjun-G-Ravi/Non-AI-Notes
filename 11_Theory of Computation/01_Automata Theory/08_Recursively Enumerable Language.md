@@ -1,4 +1,4 @@
-# Recursively Enumerable language
+# 3. Recursively Enumerable language
 
 A recursively enumerable language (RE language), also known as a Turing-recognizable language, is a type of formal language that can be recognized by a Turing machine.
 

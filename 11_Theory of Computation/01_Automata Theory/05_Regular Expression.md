@@ -19,10 +19,3 @@ https://www.youtube.com/watch?v=OKFrju0HB7k&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKO
 Using these, there are a lot of things to be done like converting DFA/NFA/ENFA to RE, and vice versa.
 
 ![Alt text](image-1.png)
-
-# Pumping lemma
-Regular languages are languages that can be represented using finite state machines. Pumping lemma is used to prove if a language is NOT REGULAR.
-
-![Alt text](<Screenshot from 2023-11-25 11-47-07.png>)
-
-![Alt text](<Screenshot from 2024-01-03 17-52-39.png>)
