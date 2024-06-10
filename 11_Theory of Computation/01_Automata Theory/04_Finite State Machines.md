@@ -16,6 +16,8 @@ A regular grammar is a type of formal grammar that generates a regular language.
 # DFA
 A Deterministic Finite Automaton (DFA) is a specific type of Finite State Machine (FSM) that has a set of states, a set of transitions between these states, an initial state, and a set of accepting states. The key difference between a DFA and a general FSM is that in a DFA, for each combination of a current state and an input symbol, there is exactly one uniquely determined next state.
 
+Another way to think: A machine is deterministic if it consistently gives the same output for a given input. This is generally a desirable quality. 
+
 The transition funciton is defined as:
 ![Alt text](<Screenshot from 2024-01-02 13-20-25.png>)
 
