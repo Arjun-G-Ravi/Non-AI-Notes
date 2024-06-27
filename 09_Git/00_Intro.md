@@ -35,11 +35,9 @@ It was created by Linus Torvalds and is open source. Platforms like GitHub, GitL
 
 - Origin: The conventional name for the primary version of a repository. Git also uses origin as a system alias for pushing and fetching data to and from the primary branch. For example, git push origin master, when run on a remote, will push the changes to the master branch of the primary repository database.
 
+- Stash: A stash is a way to temporarily save changes that are not ready to be committed. This is useful when you need to switch to a different branch or address an urgent issue before completing your current changes.
 
-
-Stash: A stash is a way to temporarily save changes that are not ready to be committed. This is useful when you need to switch to a different branch or address an urgent issue before completing your current changes.
-
-Conflict: A conflict occurs when Git is unable to automatically merge changes from different branches. Developers need to manually resolve conflicts by choosing which changes to keep.
+- Conflict: A conflict occurs when Git is unable to automatically merge changes from different branches. Developers need to manually resolve conflicts by choosing which changes to keep.
 
 - HEAD: HEAD is a reference variable used to denote the most current commit of the repository in which you are working. When you add a new commit, HEAD will then become that new commit.
 
