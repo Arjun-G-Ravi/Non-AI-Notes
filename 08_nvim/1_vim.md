@@ -24,6 +24,7 @@
         Shift+v -> Visual mode and select that line
 
     4. Esc/ Ctrl+c -> normal mode
+    5. Ctrl + W -> Window mode (not really a mode, but kinda is)
 
 ## 1. Normal mode
 
@@ -46,7 +47,6 @@
     4. GG, gg (rare): Move to last, first line
 
 ### Commands for Normal mode
-
     1.Delete/ Cut (d,c)
         1. d -> Delete selected part
         2. D -> Deletes rest of the line, from the cursor
@@ -100,6 +100,13 @@ Selects the way through. We can move around using normal mode motion. Then the s
 
 The normal typing experience.
 
+## 5. Window mode
+
+Not really a mode in the normal sense, but allows you to switch between window panes/splits.
+Use:
+`Ctrl w` and then any movement key to move to that window
+`Ctrl w w`: To switch between two windows split in the screen
+`Ctrl w + Ctrl o`: Closes all the windows open, except the current one
 ---
 
 ## Vim registers
