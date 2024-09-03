@@ -75,6 +75,7 @@
     9. /: To search through the text. Press N, n to move through searches
     10. * (at any word): Searches that word in the text. Press n, N to traverse through
     11. 'line_no' + G: Move to that line
+    12. Ctrl 6: to jump to the last file. Works as 'last'
 
     ### Intendation
     << To intend to left
@@ -120,3 +121,10 @@ Inorder to use them you can do:
 `"0p`: To paste the contents of reg 0
 `"*p`: To paste the contents of clipboard
 `"0p`: To paste the contents of reg 0
+
+## Marks
+You can set marks across files, so that you can jump between them very fast.
+Use `m capital_letter` to put a mark somewhere. 
+Then use `' capital_letter` to go there, after you have navigated somewhere else.
+
+If you use small_letters, they are local maps and only work within a file.

@@ -8,4 +8,4 @@ You can put these in vimrc file for them to permanently come up in vim
 6. set expandtab
 7. set smartindent
 8. Ex - To go to the filesystem
-9. e filename - To edit any file in pwd
+9. e filename - To edit any file in pwd                          
