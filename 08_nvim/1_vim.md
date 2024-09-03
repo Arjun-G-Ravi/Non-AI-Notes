@@ -15,12 +15,14 @@
         R -> starts replacing characters (like getting into insert mode)
         o -> creates line after
         O -> creates line before
-        (not using now)c -> Just like 'd',  but also enter insert mode after deletion
+        c -> Just like 'd',  but also enter insert mode after deletion
 
     2. : -> command mode
         :! command -> Lets us type bash command
+        
     3. v -> visual mode
         Shift+v -> Visual mode and select that line
+
     4. Esc/ Ctrl+c -> normal mode
 
 ## 1. Normal mode
@@ -85,6 +87,7 @@
         :q! - Quit without saving
         :wq - Save and quit
     line_no: To move to that line
+    new: To create a new file after a horizontal split(vnew for vertical split)
 
 ## 3. Visual mode
 
@@ -99,50 +102,14 @@ The normal typing experience.
 
 ---
 
-# 2. NVIM
+## Vim registers
+There are registers in vim that stores the data that you yanks or deletes. The most recent data is stored in register `"`. The registers can be obtained by the command `:reg`. 
 
-nvim is a popular text editor that is a modern, improved version of the classic vim editor. It stands for "Neovim" and is a fork of the original vim project, with the goal of providing a more extensible and maintainable codebase.
+The data yanked will always be present in `"`. The most recent deleted/cut data will be present in `"`, and the subsequent ones will be stored as history in other registers.
 
-### Telescope
+The `*` register is the one that stores the clipboard copy(same as the ctrl copy) form everywhere else. 
 
-Telescope is a powerful and highly customizable fuzzy finder plugin for Neovim (nvim). It provides a user-friendly interface for quickly searching and navigating through various types of content within your Neovim environment.
-
-## LSP
-
-LSP stands for "Language Server Protocol", and it is a protocol that allows software development tools, such as code editors and IDEs, to communicate with language-specific servers to provide advanced code editing features.
-
-The main purpose of LSP is to enable a consistent and standardized way for code editors to interact with language-specific tools, such as compilers, linters, and code completion engines, to provide a rich and seamless coding experience. It includes code completion, syntax highlighting, refactoring, go-to definitions, etc.
-
-## Mason
-
-The default installer in nvim.
-
-# Commands
-
-`Space is the leader key.   `
-
-- Tutor in nvim is a good way to start with the commands
-- Lua vim.opt: To change settings from nvim command
-- Lazy: To install new plugins and stuff
-- q: To quit overlapping windows
-
-# Shortcuts
-
-- Leader s h: Help
-- Leader s n: To search for a nvim related file
-- Leader /: Search for a word or similar word in a file
-- Leader d s: Opens document symbols - a list of all classes, variables, etc in the given file
-- Leader w s: Opens workspace symbol, the above but for an entire workspace
-- [ d: Go to next error message line
-- g d: Go to definition
-- g r: Go to references
-- K over a word: Shows its documentation
-
-## Nvim(kickstart) specific vim motions
-
-- va)  - [V]isually select [A]round [)]paren
-- yinq - [Y]ank [I]nside [N]ext [']quote
-- ci'  - [C]hange [I]nside [']quote
-- saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
-- sd'   - [S]urround [D]elete [']quotes
-- sr)'  - [S]urround [R]eplace [)] [']
+Inorder to use them you can do:
+`"0p`: To paste the contents of reg 0
+`"*p`: To paste the contents of clipboard
+`"0p`: To paste the contents of reg 0
