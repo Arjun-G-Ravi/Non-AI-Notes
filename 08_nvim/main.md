@@ -3,6 +3,7 @@
 `GENERAL FORMAT: Command Count Motion`
 
 # Change modes
+
     1. Enter insert mode (small letter is for character, capital is for line)
         i -> before the character
         I -> at the start of the line
@@ -10,10 +11,11 @@
         A -> at the end of the line
         s -> replacing that letter
         S -> replaces entire line
+        r -> replace one letter
+        R -> starts replacing characters (like getting into insert mode)
         o -> creates line after
         O -> creates line before
-        c -> Delete and enter insert mode
-
+        (not using now)c -> Just like 'd',  but also enter insert mode after deletion
 
     2. : -> command mode
         :! command -> Lets us type bash command
@@ -24,22 +26,25 @@
 ## 1. Normal mode
 
 ### Horizontal Motions
+
     1. h, l: Move around character
     2. w, b: Move around words, where words are string separated by special characters
     3. $: Move to end of line
     4. _: Move to start of line
     5. 0: Move to begining character
     6. #: Move to last place (skip)
-    7. f + <char>: (find) Move to the next <char> that appears in the line (F for backward motion)
-    8. t + <char>: (to) Move to one <char> before that appears in the line(T for backward motion)
+    7. f +`<char>`: (find) Move to the next `<char>` that appears in the line (F for backward motion)
+    8. t + `<char>`: (to) Move to one `<char>` before that appears in the line(T for backward motion)
 
 ### Vertical Motions
+
     1. j, k: Move up and down
     2. { and }(rare): Moves around through paragraphs
     3. Ctrl D and Ctrl u: Move half a page down and up
     4. GG, gg (rare): Move to last, first line
 
 ### Commands for Normal mode
+
     1.Delete/ Cut (d,c)
         1. d -> Delete selected part
         2. D -> Deletes rest of the line, from the cursor
@@ -74,6 +79,7 @@
     >> To intend to right
 
 ## 2. Command mode
+
     w: saves (writes)
     q: Quit
         :q! - Quit without saving
@@ -81,41 +87,47 @@
     line_no: To move to that line
 
 ## 3. Visual mode
+
 Selects the way through. We can move around using normal mode motion. Then the selected text can be deleted, copied, etc.
     v -> Visual mode
     V -> Visual line mode
     Ctlr + v -> Lets you access the visual block mode (may cause problems with paste)
 
 ## 4. Insert mode
+
 The normal typing experience.
 
 ---
+
 # 2. NVIM
+
 nvim is a popular text editor that is a modern, improved version of the classic vim editor. It stands for "Neovim" and is a fork of the original vim project, with the goal of providing a more extensible and maintainable codebase.
 
 ### Telescope
+
 Telescope is a powerful and highly customizable fuzzy finder plugin for Neovim (nvim). It provides a user-friendly interface for quickly searching and navigating through various types of content within your Neovim environment.
 
 ## LSP
+
 LSP stands for "Language Server Protocol", and it is a protocol that allows software development tools, such as code editors and IDEs, to communicate with language-specific servers to provide advanced code editing features.
 
 The main purpose of LSP is to enable a consistent and standardized way for code editors to interact with language-specific tools, such as compilers, linters, and code completion engines, to provide a rich and seamless coding experience. It includes code completion, syntax highlighting, refactoring, go-to definitions, etc.
 
 ## Mason
-The default installer in nvim.
 
+The default installer in nvim.
 
 # Commands
 
 `Space is the leader key.   `
-- Tutor in nvim is a good way to start with the commands
 
+- Tutor in nvim is a good way to start with the commands
 - Lua vim.opt: To change settings from nvim command
 - Lazy: To install new plugins and stuff
 - q: To quit overlapping windows
 
-
 # Shortcuts
+
 - Leader s h: Help
 - Leader s n: To search for a nvim related file
 - Leader /: Search for a word or similar word in a file
@@ -126,7 +138,8 @@ The default installer in nvim.
 - g r: Go to references
 - K over a word: Shows its documentation
 
-## Nvim(kickstart) specific vim motions 
+## Nvim(kickstart) specific vim motions
+
 - va)  - [V]isually select [A]round [)]paren
 - yinq - [Y]ank [I]nside [N]ext [']quote
 - ci'  - [C]hange [I]nside [']quote
