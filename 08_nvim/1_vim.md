@@ -37,7 +37,9 @@
     5. 0: Move to begining character
     6. #: Move to last place (skip)
     7. f +`<char>`: (find) Move to the next `<char>` that appears in the line (F for backward motion)
+       - After that you can use `,` and `;` to move forward and backward.
     8. t + `<char>`: (to) Move to one `<char>` before that appears in the line(T for backward motion)
+        - You can do like dt), to delete something till end of a bracket
 
 ### Vertical Motions
 
@@ -96,6 +98,12 @@ Selects the way through. We can move around using normal mode motion. Then the s
     v -> Visual mode
     V -> Visual line mode
     Ctlr + v -> Lets you access the visual block mode (may cause problems with paste)
+    
+There are also other cool stuff like
+    vi{ -> To select all the content inside {}
+    va{ -> To select all the content inside {} plus the braces
+
+Also when you are selcting some text, you can press `o` to switch sides of the selection.
 
 ## 4. Insert mode
 
@@ -108,19 +116,24 @@ Use:
 `Ctrl w` and then any movement key to move to that window
 `Ctrl w w`: To switch between two windows split in the screen
 `Ctrl w + Ctrl o`: Closes all the windows open, except the current one
----
 
 ## Vim registers
-There are registers in vim that stores the data that you yanks or deletes. The most recent data is stored in register `"`. The registers can be obtained by the command `:reg`. 
+Registers are just dictionaries that store text. They all start with a `"`.
+There are registers in vim that stores the data that you yanks or deletes.
+The most recent data is stored in register `""`. 
+The registers can be obtained by the command `:reg`. 
+Even macros are stored in registers.
 
-The data yanked will always be present in `"`. The most recent deleted/cut data will be present in `"`, and the subsequent ones will be stored as history in other registers.
+The data yanked will always be present in `"`. 
+The most recent deleted/cut data will be present in `"`.
+The subsequent ones will be stored as history in other registers.
 
-The `*` register is the one that stores the clipboard copy(same as the ctrl copy) form everywhere else. 
+The `*` register is the one that stores the clipboard copy(same as the ctrl copy). 
 
 Inorder to use them you can do:
 `"0p`: To paste the contents of reg 0
 `"*p`: To paste the contents of clipboard
-`"0p`: To paste the contents of reg 0
+`"bp`: To paste the contents of reg b
 
 ## Marks
 You can set marks across files, so that you can jump between them very fast.
@@ -128,3 +141,31 @@ Use `m capital_letter` to put a mark somewhere.
 Then use `' capital_letter` to go there, after you have navigated somewhere else.
 
 If you use small_letters, they are local maps and only work within a file.
+
+## Macros
+You can record a set of keystrokes and then replay them. 
+
+#### How to macro
+- Press `q` to start recording, then press any letter like `a` to record the macro to that letter. 
+- Now recording has started
+- Do what you want to do. Once it is over press `q` again.
+- The recording is complete.
+- Now press @ and the letter you pressed earlier (`@a`) to replay what happened earlier.
+
+#### Macro updates
+- Select something, then we can use ctrl A to increment the first number in the selected area.
+
+
+for (){
+    print(;ehkkk)
+    print(;ehkkk)
+    print(;ehkkk)
+    print(;ehkkk)
+    print(;ehkkk)
+    print(;ehkkk)
+    print(;ehkkk)
+    print(;ehkkk)
+    print(;ehkkk)
+    print(;ehkkk)
+    print(;ehkkk)
+}
