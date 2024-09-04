@@ -94,7 +94,8 @@
 
 ## 3. Visual mode
 
-Selects the way through. We can move around using normal mode motion. Then the selected text can be deleted, copied, etc.
+Selects the way through. We can move around using normal mode motion.
+Then the selected text can be deleted, copied, etc.
     v -> Visual mode
     V -> Visual line mode
     Ctlr + v -> Lets you access the visual block mode (may cause problems with paste)
