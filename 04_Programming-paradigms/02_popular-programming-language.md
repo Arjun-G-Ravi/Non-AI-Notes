@@ -1,14 +1,14 @@
 # Types of programming languages
 
 ### Declarative (focuses on what to accomplish, not how)
-* functional - uses mathematical functions to solve problems (e.g., Haskell)
-* dataflow - computations based on data dependencies (e.g., LabVIEW)
-* logic/ constraint-based - uses logical rules to express computations (e.g., Prolog, SQL)
+- functional - uses mathematical functions to solve problems (e.g., Haskell)
+- dataflow - computations based on data dependencies (e.g., LabVIEW)
+- logic/ constraint-based - uses logical rules to express computations (e.g., Prolog, SQL)
 
 ### Imperative (focuses on how to accomplish tasks)
-* von Neumann - based on sequential execution of instructions, widely used, basic means of computation is the modification of variables (e.g., C)
-* object-oriented - organizes code into objects with data and behavior (e.g., Java)
-* scripting - automates tasks and glues components together (e.g., Python, bash, lua, perl, php)
+- von Neumann - based on sequential execution of instructions, widely used, basic means of computation is the modification of variables (e.g., C)
+- object-oriented - organizes code into objects with data and behavior (e.g., Java)
+- scripting - automates tasks and glues components together (e.g., Python, bash, lua, perl, php)
 
 `The classification is not a thing that all agree on. Some languages can be classified in multiple categories. Some people think different - functional languages are imperative, etc.`
 
@@ -43,3 +43,14 @@
    - Easy to learn, readable syntax
    - Extensive library support
    - Popular in data science and web development
+
+7. Fortan
+   - First high-level programming language
+   - Specialized for scientific and numerical computations
+   - Still used in high-performance computing
+
+8. Pascal
+   - Designed for teaching programming
+   - compiled to p-code, which was interpreted by an interpreter
+   - Strong typing and structured programming
+   - Not widely used in industry
