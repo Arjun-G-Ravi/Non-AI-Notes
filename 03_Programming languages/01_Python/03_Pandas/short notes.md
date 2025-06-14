@@ -36,12 +36,16 @@
   - df['new_col'] = df.iloc[:,0: 10].sum(axis=1) # Create a new col, which is the sum of all the 10 columns
 - df.drop(columns = ['new_col'])
 - df.rename(columns={'Sex':'Gender','Name':'Full Name','last_name':'Surname','first_name':'Name'})
+- df['A'] = df['A'].astype(int) # change dtype to int
 
 # Manipulating rows
 
-### Basics
+### Dropping rows
 - df=df.drop(df.index[-1],axis=0) # Deletes last row
-- 
+- df_no_duplicates = df.drop_duplicates() # drop duplicate rows
+- df_no_duplicates = df.drop_duplicates(subset=['A']) # drop duplicates based on a column
+- df_clean = df.dropna() # drop rows with missing values
+
 # Sorting
 - df.sort_values(['col1', 'col2'], ascending=[1,0]) # Sorts by col1 in ascending manner. If col1 for multiple rows are the same, it will sort those columns by col2 in descending manner.
 
@@ -65,9 +69,11 @@ later bro.
 
 ### Using map()
 - df['col'] = df['col'].map({"male":'0',"female":"1"})
+- 
 
-### Using fillna()
+### Filling empty columns
 - df['col'].fillna(df['col'].mean(),inplace=True)
+- df['col'].fillna(0,inplace=True)
 
 ### Using regular Expressions
 - df.loc[df['col1'].str.contains('cow|goat',regex = True)] # Uses re module and selects all rows where cow or goat is present
@@ -86,6 +92,10 @@ later bro.
 - sum(df.PassengerId.duplicated())
 - df.loc[:,['Sex', 'Embarked']].drop_duplicates(subset=['col1', 'col2'])
 - duplicates_df = df[df.duplicated(keep=False)]
+
+# Change to pivot column
+- df_new = df.pivot(index=='col1', columns='col2', values='col3')
+- know that melt exists, and it does similar thing
 
 # Joining Tables
 ![Alt text](image-1.png)
