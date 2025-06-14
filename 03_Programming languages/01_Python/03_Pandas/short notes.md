@@ -31,8 +31,9 @@
 - df.to_csv('name', index=False) # Save as csv
 
 # Manipulating columns
-- df['new_col'] = df['col1'] + df['col2'] # Create a new column
-    - df['new_col'] = df.iloc[:,0: 10].sum(axis=1) # Create a new col, which is the sum of all the 10 columns
+- df['new_col'] = 0 # makes a new column and inits it with zeros
+  - df['new_col'] = df['col1'] + df['col2'] # Create a new column with sum of other two columns
+  - df['new_col'] = df.iloc[:,0: 10].sum(axis=1) # Create a new col, which is the sum of all the 10 columns
 - df.drop(columns = ['new_col'])
 - df.rename(columns={'Sex':'Gender','Name':'Full Name','last_name':'Surname','first_name':'Name'})
 
