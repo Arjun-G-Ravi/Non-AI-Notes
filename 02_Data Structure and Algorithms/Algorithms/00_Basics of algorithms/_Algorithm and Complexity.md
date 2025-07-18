@@ -9,7 +9,7 @@ The performance of an algorithm is measured from its execution time and memory r
 
 ![Alt text](image.png)
 
-Among these, the big O is the most important as it lets us know the upper bound or worst performance an algorithm can perform. 
+Among these, the `big O is the most important as it lets us know the upper bound or worst performance an algorithm can perform`. 
 
 ## Random Access Machine (RAM)
 Whenever we think of algorithm analysis, we intend to run the algorithm on a RAM(random-access machine). It is a simple theoretical machine where each process is executed sequentially. It only have basic instructions that a normal computer would have:

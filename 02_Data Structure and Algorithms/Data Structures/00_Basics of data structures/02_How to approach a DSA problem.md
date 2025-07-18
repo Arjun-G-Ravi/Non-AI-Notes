@@ -1,6 +1,8 @@
 # Basics of Data Structures
 
 ### HOW TO APPROACH A DSA PROBLEM:
+`Made with solving leetcode problems in mind`
+
     (1) Understand problem. Note the input data and output data’s properties.
     (2) Figure out the data structure required
             1. Array
@@ -22,4 +24,3 @@
     (4) Make algorithm, write it fully in shortest form. Check for side cases
     (5) Code it up
 
-`Made with solving leetcode problems in mind`
