@@ -11,7 +11,7 @@ Stack is a linear data structure that follows a particular order in which the op
 ### Implementation in python
 - We can use list as stack in python. We can use stack[-1] to seek the top element, append() to push and pop() to pop. But a problem with list is that it doesnot help us create static stack, with a specified number of elements. 
 - We can use collections.deque to implement static stack.
-
+![alt text](image-2.png)
 # Queue
 Queue is also a linear datastructure, but it follows LIFO principle. It has a front(removed) and a rear(inserted). 
 
@@ -19,6 +19,8 @@ Queue is also a linear datastructure, but it follows LIFO principle. It has a fr
 
 - Enqueue: Insert at one end
 - Dequeue: Pop from other end
+
+![alt text](image-3.png)
 
 #### Varients
 - Circular Queue
