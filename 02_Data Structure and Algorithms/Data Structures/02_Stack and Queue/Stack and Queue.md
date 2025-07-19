@@ -20,11 +20,6 @@ Queue is also a linear datastructure, but it follows LIFO principle. It has a fr
 - Enqueue: Insert at one end
 - Dequeue: Pop from other end
 
-
 #### Varients
 - Circular Queue
 - Double ended queue
-
-
-
-
