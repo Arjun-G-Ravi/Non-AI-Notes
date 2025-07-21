@@ -4,7 +4,7 @@ A heap is a specialized tree-based data structure that satisfies the heap proper
 `This ensures that for max heap, the root node is the greatest element in the tree. This allows O(1) access to the maximum element.`
 
 ### Properties of max heap
-- `Structural Property:` It should be an 'Almost Complete Binary Tree' (ACBT). This means that:
+- `Structural Property:` It should ALWAYS be an 'Almost Complete Binary Tree' (ACBT). This means that:
   - Left child should be filled before the right
   - Lower layers can be filled only after upper layers are filled
 - `Ordering Property:` The heap property is followed
@@ -24,3 +24,4 @@ A heap is a specialized tree-based data structure that satisfies the heap proper
 
 ### Note
 - Heaps form the canonically underlying data stucture for priority queues.
+- 

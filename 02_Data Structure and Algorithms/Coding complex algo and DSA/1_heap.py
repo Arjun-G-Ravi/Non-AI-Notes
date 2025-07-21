@@ -11,13 +11,14 @@ class Heap:
         self.len = len(self.arr)
 
     def get_top(self):
+        if self.arr == []:
+            return None 
         return self.arr[0] 
-    
 
     def insert(self, i):
         self.arr.append(i)
         curr_index = self.len # the added element will have a zero based index of self.len
-        while True:
+        while True: # Bubble up
             parent_index = (curr_index-1)//2
             if parent_index >= 0: # exists
                 if i > self.arr[parent_index]:
@@ -33,6 +34,11 @@ class Heap:
         self.len += 1
 
     def remove(self, element):
+        '''
+        Two ways to search - 
+            - linear search for O(n) lookup 
+            - maintaining a hash map for O(1) search during removal, at the cost of O(n) space plus map swap time
+        '''
         pass
 
     def poll(self):
