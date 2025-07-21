@@ -16,3 +16,6 @@ Properties of max heap
 - Create heap as heapq.heapify(list)
 - heappop() and heappush() to add and remove
 - heap[0] reveals min/max element
+
+# Note
+- Heaps form the canonically underlying data stucture for priority queues.
