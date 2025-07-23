@@ -39,7 +39,7 @@ class Heap:
             - linear search for O(n) lookup 
             - maintaining a hash map for O(1) search during removal, at the cost of O(n) space plus map swap time
         '''
-        pass
+        raise NotImplementedError
 
     def poll(self):
         '''removing the root node'''
@@ -52,7 +52,7 @@ class Heap:
         print(self.arr)
 
     def heapify(self):
-        pass
+        raise NotImplementedError
 
 
 if __name__ == "__main__":
