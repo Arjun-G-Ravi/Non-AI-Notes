@@ -7,6 +7,7 @@ A tree is a non-linear data structure where each node points to a number of node
 - Binary Tree: In a binary tree, each node has at most two children, which are referred to as the left child and the right child. Binary trees are widely used for various purposes, including binary search trees (BSTs) and expression trees.
 
 - Binary Search Tree (BST): A binary search tree is a binary tree with the property that the value of each node's left child is less than or equal to the node's value, and the value of each node's right child is greater than or equal to the node's value. BSTs are often used for efficient searching and sorting, as inorder traversal through BST gives sorted, unique elements. 
+![alt text](image-2.png)
 
 - B-Tree: A B-tree is a self-balancing tree structure that is commonly used in databases and file systems. It is designed to handle large amounts of data efficiently by maintaining a balance between depth and number of keys per node.
 
