@@ -34,3 +34,10 @@ We first traverse completely in one level, before moving to the one below it. It
 - Space complexity: O()
 
 To be filled up later...
+
+## Traversal methods 
+- Pre-order: Root, Left, Right
+- In-order: Left, Root, Right
+- Post-order: Left, Right, Root
+- Level-order: Visit nodes level by level, starting from the root. We use BFS for this.
+- 
