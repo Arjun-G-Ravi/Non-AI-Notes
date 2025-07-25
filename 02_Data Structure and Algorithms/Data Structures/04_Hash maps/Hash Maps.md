@@ -7,13 +7,16 @@ A `hash value`, also known as a hash code or hash digest, is a fixed-size string
 
 ![Alt text](image.png)
 
+## Hash functions
+These hash functions take a 'immutable' key and return an integer index. A good hash function should be deterministic, minimize collisions and distribute keys uniformly across the array.
+
 ## Complexity
 - Insertion/ Deletion: O(1)
 - Lookup by key[search]: O(1)  # This is average case. Collisions can reduce this
 
 `The reason why hashmaps are popular is because of the constant lookup time.`
 
-# Collisions
+# Hash Collisions
 When multiple keys point to the same index, the situation is called collision. 
 Some common ways to handle collision are:
 
@@ -21,4 +24,11 @@ Some common ways to handle collision are:
 
 ![Alt text](image-1.png)
 
-2. **Linear Probing**: Stores the value in the next available slot in the array. We are ‘linearly probing’ the array for an empty slot.
+1. **Open Addressing**: Stores the value in the another available slot in the array. You have to also ensure that infinite loops of checking dont occur during this process. They are of different types:
+   - **Linear Probing**: If a collision occurs, we check the next slot by a linear function P(x) = ax+b. A common choice is P(x) = x + 1, which checks the next slot sequentially.
+   - **Quadratic Probing**: If a collision occurs, we check the next slot by a quadratic function P(x) = ax^2 + bx + c
+   - **Double Hashing**: Uses a second hash function to determine the step size for probing.
+![alt text](image-3.png)
+### Load Factor
+The load factor is the ratio of the number of elements in the hash map to the size of the underlying array. It is a measure of how full the hash map is. A higher load factor can lead to more collisions and reduced performance. 
+![alt text](image-2.png)
