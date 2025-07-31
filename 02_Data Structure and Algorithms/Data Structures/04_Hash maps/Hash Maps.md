@@ -27,7 +27,8 @@ Some common ways to handle collision are:
 1. **Open Addressing**: Stores the value in the another available slot in the array. You have to also ensure that infinite loops of checking dont occur during this process. They are of different types:
    - **Linear Probing**: If a collision occurs, we check the next slot by a linear function P(x) = ax+b. A common choice is P(x) = x + 1, which checks the next slot sequentially.
    - **Quadratic Probing**: If a collision occurs, we check the next slot by a quadratic function P(x) = ax^2 + bx + c
-   - **Double Hashing**: Uses a second hash function to determine the step size for probing.
+   - **Double Hashing**: Uses a second hash function to determine the step size for probing. This secondary hash function is determined at runtime, and each collision leads to one multiple of the secondary hash function.
+
 ![alt text](image-3.png)
 ### Load Factor
 The load factor is the ratio of the number of elements in the hash map to the size of the underlying array. It is a measure of how full the hash map is. A higher load factor can lead to more collisions and reduced performance. 
